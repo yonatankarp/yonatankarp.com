@@ -37,10 +37,12 @@
 val schoolDescription = "College of Springfield"
 
 // location = "Springfield"
-val location = """[^ ]*\$""".toRegex().find(schoolDescription)?.value
+val location = """[^ ]*\$""".toRegex()
+    .find(schoolDescription)?.value
 
 // school = "College"
-val school = """^[\w]+""".toRegex().find(schoolDescription)?.value
+val school = """^[\w]+""".toRegex()
+    .find(schoolDescription)?.value
 ```
 
 ### Right
