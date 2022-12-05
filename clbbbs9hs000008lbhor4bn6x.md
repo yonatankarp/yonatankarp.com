@@ -1,4 +1,4 @@
-# Advent of Code 2022 - Day 1 - Kotlin Edition
+# Advent of Code 2022 - Day 4 - Kotlin Edition
 
 ## Part 1
 
