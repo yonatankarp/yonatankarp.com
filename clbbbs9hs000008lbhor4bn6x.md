@@ -108,7 +108,7 @@ fun numberOfFullyContainedElves(input: List<String> = readPuzzleInput(4)) =
 
 ### Solution
 
-The only change in the tasks from the previous solution is that we need to check if any of the numbers within 1 `IntRange` are included inside the other. To do so we will introduce new functionality.
+There is only 1 change that we need to make in this task. We need to check if any range includes at least 1 area from the other.
 
 ```kotlin
 fun IntRange.anyContainedIn(other: IntRange) =
