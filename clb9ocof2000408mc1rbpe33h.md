@@ -1,10 +1,8 @@
 # Advent of Code 2022 - Day 1 - Kotlin Edition
 
-## Day 1 - Calorie Counting
+## Part 1
 
-### Part 1
-
-#### Task
+### Task
 
 > Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
 > 
@@ -52,7 +50,7 @@
 > 
 > Find the Elf carrying the most Calories. **How many total Calories is that Elf carrying?**
 
-#### Solution
+### Solution
 
 We will start by implementing the function that takes a `List<String>` (our input file) and aggregate it into a `List<Int>` that represents the Calories each Elf is carrying.
 
@@ -100,7 +98,7 @@ The 🧝 carrying the most calories have: 69177
 
 ## Part 2
 
-#### Task
+### Task
 
 > By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually **run out of snacks**.
 > 
@@ -110,7 +108,7 @@ The 🧝 carrying the most calories have: 69177
 > 
 > Find the top three Elves carrying the most Calories. **How many Calories are those Elves carrying in total?**
 
-#### Solution
+### Solution
 
 *   We will re-use the `caloriesCount()` function from the previous step
     
