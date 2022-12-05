@@ -1,6 +1,6 @@
 # How to break your HashMap in less than a minute
 
-> **TL;DR:** Never use mutable objects inside a HashMap!
+> **TL;DR:** Never use mutable objects as the keys to your HashMap!
 
 After I wrote my article [**How does HashMap work in Java?**](https://medium.com/@yonatankarp/how-does-hashmap-work-in-java-368a239339d2) a few people suggested more topics `HashMap`. Thus, I decided to make a short series of articles out of it.
 
