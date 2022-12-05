@@ -1,10 +1,8 @@
 # Advent of Code 2022 - Day 2 - Kotlin Edition
 
-## Day 2 - Rock Paper Scissors
+## Part 1
 
-### Part 1
-
-#### Task
+### Task
 
 > The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant [Rock Paper Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) tournament is already in progress.
 > 
@@ -39,7 +37,7 @@
 > 
 > *What would your total score be if everything goes exactly according to your strategy guide?*
 
-#### Solution
+### Solution
 
 *   For each row in the file, we will create a pair of game choices (rock, paper, or scissors).
     
@@ -111,9 +109,9 @@ fun gameScore(input: List<String> = readPuzzleInput(2)) =
 
 That's it, we're done!
 
-### Part 2
+## Part 2
 
-#### Task
+### Task
 
 > The Elf finishes helping with the tent and sneaks back over to you. "Anyway, the second column says how the round needs to end: `X` means you need to lose, `Y` means you need to end the round in a draw, and `Z` means you need to win. Good luck!"
 > 
