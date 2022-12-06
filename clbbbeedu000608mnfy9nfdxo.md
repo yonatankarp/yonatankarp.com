@@ -1,6 +1,6 @@
 # Advent of Code 2022 - Day 3 - Kotlin Edition
 
-## Part One
+## Part 1
 
 ### Task
 
@@ -59,18 +59,29 @@
     
 
 ```kotlin
-fun calculatePriorities(input: List<String> = readPuzzleInput(3)): Int {
-    val priorities = 
-        (('a'..'z').zip(1..26) + ('A'..'Z').zip(27..52)).toMap()
-    return input
-        .map {
-            val middle = it.length / 2
-            it.substring(0, middle) to it.substring(middle)
-        }
-        .flatMap {
-            it.first.filter { c -> it.second.contains(c) }.toSet()
-        }
+private val priorities = (('a'..'z').zip(1..26) +   
+    ('A'..'Z').zip(27..52)).toMap()
+
+fun solvePart1(): Int =
+    input
+        .map { it.substring(0, it.length / 2) to it.substring(it.length / 2) }
+        .flatMap { it.first.filter { c -> it.second.contains(c) }.toSet() }
         .sumOf { priorities[it]!! }
+```
+
+Time to run the test cases:
+
+```kotlin
+@Test
+fun `Part 1 - Example`() {
+    val day03 = Day03(exampleInput)
+    assertEquals(157, day03.solvePart1())
+}
+
+@Test
+fun `Part 1 - Real Input`() {
+    val day03 = Day03(resourceAsList("2022/day03.txt"))
+    assertEquals(8153, day03.solvePart1())
 }
 ```
 
@@ -120,18 +131,29 @@ This solution will be almost the same as the one above with a few minor changes:
     
 
 ```kotlin
-fun calculateElvesPriorities(input: List<String> = readPuzzleInput(3)): Int {
-    val priorities = 
-      (('a'..'z').zip(1..26) + ('A'..'Z').zip(27..52)).toMap()
-    return input
+fun solvePart2(): Int =
+    input
         .chunked(3)
-        .flatMap {
-            it.first().filter { c ->
-                c in it[1] && c in it[2]
-            }.toSet()
-        }
+        .flatMap { it.first().filter { c -> c in it[1] && c in it[2] }.toSet() }
         .sumOf { priorities[it]!! }
+```
+
+And we're done, let's run the test cases of part 2:
+
+```kotlin
+Test
+fun `Part 2 - Example`() {
+    val day03 = Day03(exampleInput)
+    assertEquals(70, day03.solvePart2())
+}
+
+@Test
+fun `Part 2 - Real Input`() {
+    val day03 = Day03(resourceAsList("2022/day03.txt"))
+    assertEquals(2342, day03.solvePart2())
 }
 ```
 
-I hope you enjoyed it! See you on the next challenge!
+All of the code that was presented in the article, along with the utility classes that are used are available in [**my GitHub account.**](https://github.com/yonatankarp/advent-of-code)
+
+See you on the next challenge!
