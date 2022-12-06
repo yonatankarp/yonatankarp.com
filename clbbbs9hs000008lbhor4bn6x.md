@@ -72,17 +72,29 @@ fun toIntRange(range: String): IntRange {
     return start.toInt()..end.toInt()
 }
 
-fun numberOfFullyContainedElves(input: List<String> = readPuzzleInput(4)) =
-    input
-        .filter { it.isNotBlank() }
+fun solvePart1(): Int =
+    input.filter { it.isNotBlank() }
         .map {
             val (firstElf, secondElf) = it.split(",")
             toIntRange(firstElf) to toIntRange(secondElf)
         }
-        .count { 
-            it.first.containedIn(it.second) ||
-            it.second.containedIn(it.first)
-        }
+        .count { it.first.containedIn(it.second) || it.second.containedIn(it.first) }
+```
+
+That's it, and now for our test cases:
+
+```kotlin
+@Test
+fun `Part 1 - Example`() {
+    val day04 = Day04(exampleInput)
+    assertEquals(2, day04.solvePart1())
+}
+
+@Test
+fun `Part 1 - Real Input`() {
+    val day04 = Day04(resourceAsList("2022/day04.txt"))
+    assertEquals(556, day04.solvePart1())
+}
 ```
 
 ## Part 2
@@ -114,17 +126,31 @@ There is only 1 change that we need to make in this task. We need to check if an
 fun IntRange.anyContainedIn(other: IntRange) =
     this.any { other.contains(it) }
 
-fun numberOfOverlappingElves(input: List<String> = readPuzzleInput(4)) =
-    input
-        .filter { it.isNotBlank() }
+fun solvePart2(): Int =
+    input.filter { it.isNotBlank() }
         .map {
             val (firstElf, secondElf) = it.split(",")
             toIntRange(firstElf) to toIntRange(secondElf)
         }
-        .count {
-            it.first.anyContainedIn(it.second) || 
-            it.second.anyContainedIn(it.first)
-        }
+        .count { it.first.anyContainedIn(it.second) || it.second.anyContainedIn(it.first) }
 ```
 
-And we're done! See you on the next challange.
+That's it, the code is done! let's wrap it out with our test cases for part 2:
+
+```kotlin
+@Test
+fun `Part 2 - Example`() {
+    val day04 = Day04(exampleInput)
+    assertEquals(4, day04.solvePart2())
+}
+
+@Test
+fun `Part 2 - Real Input`() {
+    val day04 = Day04(resourceAsList("2022/day04.txt"))
+    assertEquals(876, day04.solvePart2())
+}
+```
+
+All of the code that was presented in the article, along with the utility classes that are used are available in [**my GitHub account.**](https://github.com/yonatankarp/advent-of-code)
+
+See you on the next challenge!
