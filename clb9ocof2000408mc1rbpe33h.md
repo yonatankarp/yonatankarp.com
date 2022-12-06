@@ -72,28 +72,25 @@ private fun caloriesCount(input: List<String>) =
         else elves[elves.lastIndex] = elves.last() + snack.toInt()
         elves
     }
-```
 
-Now let's find the maximum calories in the list:
-
-```kotlin
-// readPuzzleInput(1) is a method reading the day1 input file
-fun caloriesCountTopElf(input: List<String> = readPuzzleInput(1)) =
+fun solvePart1(): Int =
     caloriesCount(input).maxOf { it }
 ```
 
-Now we can run the code and test it:
+We can now run our test cases:
 
 ```kotlin
-fun main() {
-    println("The 🧝 carrying the most calories have: ${caloriesCountTopElf()}")
+@Test
+fun `Part 1 - Example`() {
+    val day01 = Day01(exampleInput)
+    assertEquals(24000, day01.solvePart1())
 }
-```
 
-The result of this execution would be:
-
-```plaintext
-The 🧝 carrying the most calories have: 69177
+@Test
+fun `Part 1 - Real Input`() {
+    val day01 = Day01(resourceAsList("2022/day01.txt"))
+    assertEquals(69177, day01.solvePart1())
+}
 ```
 
 ## Part 2
@@ -118,7 +115,7 @@ The 🧝 carrying the most calories have: 69177
     
 
 ```kotlin
-fun caloriesCountTopThreeElves(input: List<String> = readPuzzleInput(1)) =
+fun solvePart2(): Int =
     caloriesCount(input)
         .sorted()
         .takeLast(3)
@@ -128,17 +125,19 @@ fun caloriesCountTopThreeElves(input: List<String> = readPuzzleInput(1)) =
 We can now combine both solutions as follow:
 
 ```kotlin
-fun main() {
-    println("The 🧝 carrying the most calories have: ${caloriesCountTopElf()}")
-    println("The 3 top 🧝 carrying the most calories have: ${caloriesCountTopThreeElves()}")
+ @Test
+fun `Part 2 - Example`() {
+    val day01 = Day01(exampleInput)
+    assertEquals(45000, day01.solvePart2())
+}
+
+@Test
+fun `Part 2 - Real Input`() {
+    val day01 = Day01(resourceAsList("2022/day01.txt"))
+    assertEquals(207456, day01.solvePart2())
 }
 ```
 
-And our output would be:
-
-```plaintext
-The 🧝 carrying the most calories have: 69177
-The 3 top 🧝 carrying the most calories have: 207456
-```
+All of the code that was presented in the article, along with the utility classes that are used are available in [my GitHub account.](https://github.com/yonatankarp/advent-of-code)
 
 See you on the next challenge!
