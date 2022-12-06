@@ -72,7 +72,7 @@ fun toGameChoice(line: String): Pair<GameChoice, GameChoice> {
 Now, we will define the score per round based on our choice and our opponent's choice:
 
 ```kotlin
-private object Scores {
+companion object Scores {
     const val WIN = 6
     const val DRAW = 3
     const val LOOSE = 0
@@ -97,7 +97,7 @@ fun GameChoice.win(opponent: GameChoice): Boolean =
 Now let's take everything and combine it into a single function that will calculate the score of the game. it would iterate over the lines in the file, and for each line map it into game choices. Then, it will use the choices to calculate the score of the round. Finally, it would sum all the scores into the game's total score.
 
 ```kotlin
-fun gameScore(input: List<String> = readPuzzleInput(2)) =
+fun solvePart1() =
     input.sumOf {
         if (it.isBlank()) 0
         else {
@@ -107,7 +107,21 @@ fun gameScore(input: List<String> = readPuzzleInput(2)) =
     }
 ```
 
-That's it, we're done!
+That's it, we're done! Let's run our test cases:
+
+```kotlin
+@Test
+fun `Part 1 - Example`() {
+    val day02 = Day02(exampleInput)
+    assertEquals(15, day02.solvePart1())
+}
+
+@Test
+fun `Part 1 - Real Input`() {
+    val day02 = Day02(resourceAsList("2022/day02.txt"))
+    assertEquals(10994, day02.solvePart1())
+}
+```
 
 ## Part 2
 
@@ -169,7 +183,7 @@ fun GameChoice.wins() =
         SCISSORS -> PAPER
     }
 
-fun GameChoice.looseTo() =
+fun GameChoice.loseTo() =
     when(this) {
         ROCK -> PAPER
         PAPER -> SCISSORS
@@ -178,7 +192,7 @@ fun GameChoice.looseTo() =
 
 fun RoundStrategy.toGameChoice(opponent: GameChoice): GameChoice =
     when (this) {
-        WIN -> opponent.looseTo()
+        WIN -> opponent.loseTo()
         DRAW -> opponent
         LOOSE -> opponent.wins()
     }
@@ -196,4 +210,24 @@ fun toGameChoice(line: String): Pair<GameChoice, GameChoice> {
 }
 ```
 
-That's it, we're done and we can calculate our score in the game using
+That's it, we're done and we can calculate our score in the game using.
+
+And now for the test cases:
+
+```kotlin
+@Test
+fun `Part 2 - Example`() {
+    val day02 = Day02(exampleInput)
+    assertEquals(12, day02.solvePart2())
+}
+
+@Test
+fun `Part 2 - Real Input`() {
+    val day02 = Day02(resourceAsList("2022/day02.txt"))
+    assertEquals(12526, day02.solvePart2())
+}
+```
+
+All of the code that was presented in the article, along with the utility classes that are used are available in [**my GitHub account.**](https://github.com/yonatankarp/advent-of-code)
+
+See you on the next challenge!
