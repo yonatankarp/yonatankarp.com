@@ -112,7 +112,7 @@ fun `Part 1 - Real Input`() {
 
 ### Solution
 
-This solution here is fairly simple, we can change the window size from `4` to `14`. Lets refactor our previous solution to support that:
+This solution here is fairly simple, we can change the window size from `4` to `14`. Let's refactor our previous solution to support that:
 
 ```kotlin
 private fun solve(windowSize: Int) =
@@ -122,9 +122,14 @@ private fun solve(windowSize: Int) =
         .first { !it.value.hasDuplicates() }
         .index + windowSize
 
-fun solvePart1(): Int = solve(4)
+fun solvePart1(): Int = solve(PACKAGE_MARKER_WINDOW_SIZE)
 
-fun solvePart2(): Int = solve(14)
+fun solvePart2(): Int = solve(MESSAGE_MARKER_WINDOW_SIZE)
+
+companion object {
+    private const val PACKAGE_MARKER_WINDOW_SIZE = 4
+    private const val MESSAGE_MARKER_WINDOW_SIZE = 14
+}
 ```
 
 And we're done, let's look at the test cases:
