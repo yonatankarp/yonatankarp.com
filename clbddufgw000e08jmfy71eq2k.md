@@ -50,6 +50,23 @@
 *   Find the 1st window that does not have duplicates and return its index
     
 
+Let's start by implementing the `hasDuplicates()` functionality:
+
+```kotlin
+fun String.hasDuplicates(ignoreCases: Boolean = true): Boolean {
+    val string = if (ignoreCases) this.lowercase() else this
+    string.asSequence()
+        .groupingBy { it }
+        .aggregate { _, _: Int?, _, first ->
+            if (first) 1
+            else return true
+        }
+        .let { return false }
+}
+```
+
+With that, we can now implement our main task:
+
 ```kotlin
  fun solvePart1(): Int
      input
