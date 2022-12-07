@@ -1,10 +1,10 @@
 # How does HashMap work in Java?
 
-As an interviewer, I like to ask this question as it shows how much the candidate understands data structures, JVM internals, and generally the way of thinking when thrown into an unknown area.
+As an interviewer, I like to ask this question. I Like it as it shows how much the candidate understands data structures. If the candidate understands the JVM internals. And generally the way of thinking when thrown into an unknown area.
 
 So why am I sharing this information with you? I have seen many candidates that couldn’t answer this correctly (juniors, mid-levels, and seniors). Since I’ve been asking about it for a long time, I believe I should replace it and share the answer with the world.
 
-In this article, I would walk you through the HashMap question with a detailed explanation of each step.
+In this article, I would walk you through the HashMap question. I will include a detailed explanation for each of the steps.
 
 Let’s start!
 
@@ -12,9 +12,9 @@ Let’s start!
 
 ![](https://cdn-images-1.medium.com/max/1600/1*o-EXRh62Vv1wF6hGc8enkg.jpeg align="left")
 
-As we all know, in Java all objects inherit either directly or indirectly from the Object class which includes the equals() and hashCode() functions.
+As we all know, in Java all objects inherit either directly or indirectly from the Object class. That means that each object includes the `equals()` and `hashCode()` functions.
 
-If you would read the documentation of equals() you could notice the following:
+If you would read the documentation of `equals()` you could notice the following:
 
 > Note that it is generally necessary to override the `hashCode` method whenever this method is overridden, so as to maintain the general contract for the `hashCode` method, which states that equal objects must have equal hash codes.
 
@@ -26,7 +26,7 @@ It means that if we have two objects considered equal, they must have the same h
 
 ![](https://cdn-images-1.medium.com/max/1600/1*OigNoAIlGNKT7ZfyQ5L7UQ.jpeg align="left")
 
-As any 1st-year student of computer science would tell you, getting an element from a HashMap has a constant time of `O(1)`.
+Any 1st-year student of computer science will tell you, getting an element from a HashMap has a constant time of `O(1)`.
 
 That was easy! or is that so?
 
@@ -61,22 +61,22 @@ How would the new hash code function impact our performance if at all?
 
 To answer this question we must first dig into how exactly HashMap is working in Java.
 
-Whenever you want to add a new element to your map, the hash code of this key is calculated, and according to its value, a bucket is selected that will contain the value (in this case our object). In case of collision (2 or more objects with the same hash code), the key and the value would be stored as a pair using some sort of data structure (e.g. a linked list)
+When we add a new element to your map, the hash code of this key is calculated first. According to its value, a bucket is selected. That bucket will contain the value (in this case our object). In case of collision (2 or more objects with the same hash code), the key and the value stored as a pair using some sort of data structure (e.g. a linked list)
 
 ![](https://cdn-images-1.medium.com/max/1600/1*U5d_HNmHikJF_AkUA6n55Q.png align="center")
 
 Now let’s assume that we want to get an element from the map the following actions will happen:
 
-*   the hash code of the key will be calculated
+*   the hash code of the key is calculated using the `hashCode()` function.
     
-*   the HashMap will iterate over the linked list using the equals() function until it will find the correct pair of key & value
+*   the HashMap iterates over the linked list using the `equals()` function. It will finish when it will find the correct pair of key & value
     
-*   Once the correct key was found the value would be returned or null if no key was found.
+*   Once the correct key is found the value is returned or null if no key was found.
     
 
-Note that in general, the assumption is that the hash function is evenly distributed, which means that we expect a very small amount of elements in each bucket, and therefore the search for the correct key can be considered as a constant time.
+Note that in general, the assumption is that the hash function is evenly distributed. That means that we expect a very small amount of elements in each bucket. Thus the search for the correct key can be considered as a constant time.
 
-However, in our example, all of the keys are going to have the same hash code, and therefore end up in the same bucket. Hence, getting a value from the map will require (in the worst case) scanning the entire linked list and would take a linear time of `O(n)`.
+Yet, in our example, all the keys are going to have the same hash code, and thus end up in the same bucket. Hence, getting a value from the map will need (in the worst case) scanning the entire linked list. That would take a linear time of `O(n)`.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*8s8sB71hNyVPARiINfjO9A.png align="center")
 
@@ -86,7 +86,7 @@ However, in our example, all of the keys are going to have the same hash code, a
 
 Our problem now is that the bucket uses a linked list, a data structure that is unsorted. What if we would use a data structure that is sorted by nature?
 
-If we replace our bucket implementation with a balanced binary tree, we can ensure that each element in the bucket could be found with the worst-case complexity of `O(log(n))` which is much better than what we had before.
+We can replace our bucket implementation with a balanced binary tree. By doing so, we can ensure that each element in the bucket could be found with the worst-case complexity of `O(log(n))`. This is much better than what we had before.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*84NP4Y4RVJgPtYtOfJS93g.png align="center")
 
@@ -102,7 +102,7 @@ A HashSet is a set (an unordered collection of elements), where the same hash co
 
 ![](https://cdn-images-1.medium.com/max/1600/1*WxT39yTmAiuDFp4HHeUYVw.png align="center")
 
-We can easily implement a HashSet using the HashMap by using our value for the set as the key for the map, and null as the value. In fact, that’s again exactly the implementation Java chose.
+We can easily implement a `HashSet` using `HashMap`. We will do so by using our value for the set as the key for the map, and null as the value. In fact, that’s again exactly the implementation Java chose.
 
 ### Conclusion
 
@@ -112,7 +112,7 @@ As you can see, the question covers many areas:
     
 *   Understanding of Java internals
     
-*   Check how the candidate is thinking in case they do not remember the internals of Java (to be clear, nobody expects the Wikipedia answer to this question)
+*   Check how the candidate thinks in case they do not remember the internals of Java (to be clear, nobody expects the Wikipedia answer to this question)
     
 
 Moreover, the question could be extended to cover more topics such as concurrency for example (how would you implement distributed HashMap?).
