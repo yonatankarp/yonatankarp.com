@@ -4,24 +4,24 @@
 
 ## **Problems**
 
-*   Readability
+* Readability
     
-*   The Least surprise principle
+* The Least surprise principle
     
-*   [**Bijection**](https://maximilianocontieri.com/the-one-and-only-software-design-principle) Fault
+* [**Bijection**](https://maximilianocontieri.com/the-one-and-only-software-design-principle) Fault
     
-*   Static methods
+* Static methods
     
 
 ## **Solutions**
 
-*   Find a suitable name.
+* Find a suitable name.
     
-*   If the helper is a library, break all the services into different methods.
+* If the helper is a library, break all the services into different methods.
     
-*   Methods should always be fulfilled by objects. [**Static methods**](https://maximilianocontieri.com/code-smell-18-static-functions) are another code smell.
+* Methods should always be fulfilled by objects. [**Static methods**](https://yonatankarp.com/kotlin-smell-013-companion-object-functions) are another code smell.
     
-*   Avoid extracting the helpers to [**Anonymous Functions**](https://maximilianocontieri.com/code-smell-21-anonymous-functions-abusers).
+* Avoid extracting the helpers to [**Anonymous Functions**](https://yonatankarp.com/kotlin-code-smells-014-anonymous-functions-abusers).
     
 
 ## **Sample Code**
@@ -119,4 +119,4 @@ We must be aware of the damage these kinds of names are bringing us.
 
 ## Credits
 
-*   [Code Smell 22](https://maximilianocontieri.com/code-smell-22-helpers) - Helpers by @[Maxi Contieri](@mcsee)
+* [Code Smell 22](https://maximilianocontieri.com/code-smell-22-helpers) - Helpers by @[Maxi Contieri](@mcsee)
