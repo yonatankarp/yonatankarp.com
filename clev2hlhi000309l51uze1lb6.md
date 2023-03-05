@@ -71,6 +71,10 @@ Nothing is set in stone. What you originally appeared as a good match can be dis
 
 Applying practices from the engineering world to our real-life problems can be very beneficial. Many of our problems have already been solved in a different context, and we can learn from those solutions for our needs.
 
+### Want to connect?
+
+I’m happy to connect on [Linkedin](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Feel free to approach me!
+
 ## Credits
 
 * Photo by [Marc St](https://unsplash.com/@marcst84?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/LCtDPn_2aTE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
