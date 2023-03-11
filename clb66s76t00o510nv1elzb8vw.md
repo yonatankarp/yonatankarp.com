@@ -1,4 +1,13 @@
-# How does HashMap work in Java?
+---
+title: "How does HashMap work in Java?"
+seoTitle: "How does HashMap work in Java? | by Yonatan Karp-Rudin"
+datePublished: Fri Dec 02 2022 07:30:42 GMT+0000 (Coordinated Universal Time)
+cuid: clb66s76t00o510nv1elzb8vw
+slug: how-does-hashmap-work-in-java
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/5fNmWej4tAA/upload/v1669958321199/uhaH3y1A1.jpeg
+tags: jvm, interview, java, guide, interview-questions
+
+---
 
 As an interviewer, I like to ask this question. I Like it as it shows how much the candidate understands data structures. If the candidate understands the JVM internals. And generally the way of thinking when thrown into an unknown area.
 
