@@ -1,35 +1,45 @@
-# Kotlin Code Smells 010 - Null
+---
+title: "Kotlin Code Smells 10 - Null"
+seoTitle: "Kotlin Code Smells: Avoiding Null and Embracing NullObject Pattern"
+seoDescription: "Discover the drawbacks of using null in Kotlin programming and learn how to avoid them with the NullObject pattern. Improve code quality and prevent errors."
+datePublished: Thu Dec 15 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
+cuid: clbotng7803x9ybnv83nk0s2f
+slug: kotlin-code-smells-10-null
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670059688939/qyf3lGeJB.jpeg
+tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1, null-safety
 
-> ***TL;DR:*** Null does not exist in the real world. His creator regrets it, and programmers around the world suffer from it. Don't be a part of it.
+---
 
-Programmers use `null` for different flags. It can hint at an absence, an undefined value, an error, etc. Multiple semantics lead to coupling and errors.
+> **TL;DR:** Null does not exist in the real world. Its creator regrets it, and programmers worldwide suffer from it. Avoid being a part of it.
 
-# Problems
+Programmers often use `null` to represent various conditions such as absence, undefined values, or errors. However, this leads to coupling and errors due to multiple interpretations.
 
-*   Coupling among the callers and the senders.
+## Problems
+
+* Coupling between callers and senders.
     
-*   Mismatch among the callers and the senders.
+* Mismatch between callers and senders.
     
-*   `if`/`when` Polluting.
+* Pollution with `if`/`when` statements.
     
-*   Null is not polymorphic with real objects. Hence, *Null Pointer Exception*
+* Null is not polymorphic with real objects, resulting in Null Pointer Exceptions.
     
-*   Null does not exist in the real world. Thus, it violates [**Bijection Principle**](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
-    
-
-# Solutions
-
-*   Avoid using nullable types when possible.
-    
-*   Use the [**NullObject pattern**](https://en.wikipedia.org/wiki/Null_object_pattern) to avoid ifs.
-    
-
-# Exceptions
-
-*   APIs, Databases, and external systems where `null` does exist.
+* Null does not exist in the real world, violating the [Bijection Principle](https://maximilianocontieri.com/the-one-and-only-software-design-principle).
     
 
-# **Sample Code**
+## Solutions
+
+* Avoid using nullable types whenever possible.
+    
+* Use the [NullObject pattern](https://en.wikipedia.org/wiki/Null_object_pattern) to eliminate conditional statements.
+    
+
+## Exceptions
+
+* APIs, databases, and external systems where `null` does exist.
+    
+
+## Sample Code
 
 ### Wrong
 
@@ -92,7 +102,7 @@ class Cart(
     fun subtotal() =
         items
             .fold(0.0) { acc, next -> acc + next.price }
-    fun total() = discountCoupon.discount(subtotal());
+    fun total() = discountCoupon.discount(subtotal())
 }
 
 fun main() {
@@ -110,18 +120,24 @@ fun main() {
 }
 ```
 
-# Conclusion
+## Conclusion
 
-*   `null` is the billion-dollar mistake. Yet, most program languages support them and libraries suggest their usage. Always prefer not to use nullable types in Kotlin unless absolutely necessary, and use the NullObject pattern to represent the absence of a field if needed.
+* `null` is often considered a billion-dollar mistake. Despite that, many programming languages support its usage, and libraries even encourage it. In Kotlin, it's recommended to avoid nullable types unless absolutely necessary, and if needed, utilize the NullObject pattern to represent the absence of a field.
     
 
-# More info
+---
 
-*   [**Null: The Billion-Dollar Mistake**](https://maximilianocontieri.com/null-the-billion-dollar-mistake)
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
+## More info
+
+* [**Null: The Billion-Dollar Mistake**](https://maximilianocontieri.com/null-the-billion-dollar-mistake)
     
-*   [Null safety in Kotlin](https://kotlinlang.org/docs/null-safety.html)
+* [Null safety in Kotlin](https://kotlinlang.org/docs/null-safety.html)
     
 
-# Credits
+## Credits
 
-*   [Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null) by @[Maxi Contieri](@mcsee)
+* [Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null) by @[Maxi Contieri](@mcsee)
