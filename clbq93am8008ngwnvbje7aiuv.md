@@ -1,34 +1,44 @@
-# Kotlin Code Smell 011 - God Objects
+---
+title: "Kotlin Code Smell 11 - God Objects"
+seoTitle: "Avoid God Objects: Use the Single Responsibility Principle"
+seoDescription: "Learn how to avoid God Objects in object-oriented programming by following the Single Responsibility Principle. Improve code cohesion and maintainability."
+datePublished: Fri Dec 16 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
+cuid: clbq93am8008ngwnvbje7aiuv
+slug: kotlin-code-smell-11-god-objects
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670063425483/sM3lSX7i5.jpeg
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
-> ***TL;DR:*** *Don't take too many responsibilities. use the single responsibility principle*
+---
 
-# Problems
+> **TL;DR:** Avoid taking on excessive responsibilities. Use the single responsibility principle.
 
-*   Cohesion
+## Problems
+
+* Lack of cohesion
     
-*   Coupling
-    
-
-# Solutions
-
-*   Split responsibilities.
-    
-*   Follow the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
-    
-*   Follow [**The Boy Scout Rule.**](https://en.wikipedia.org/wiki/Single-responsibility_principle)
-    
-
-# Examples
-
-*   Libraries
+* Tight coupling
     
 
-# Exceptions
+## Solutions
 
-*   [**Facades**](https://en.wikipedia.org/wiki/Facade_pattern)
+* Split responsibilities.
+    
+* Follow the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
+    
+* Follow [**The Boy Scout Rule.**](https://en.wikipedia.org/wiki/Single-responsibility_principle)
     
 
-# Sample Code
+## Examples
+
+* Libraries
+    
+
+## Exceptions
+
+* [**Facades**](https://en.wikipedia.org/wiki/Facade_pattern)
+    
+
+## Sample Code
 
 ### Wrong
 
@@ -59,21 +69,27 @@ class Soldier {
 }
 ```
 
-# Conclusion
+## Conclusion
 
-In Object-Oriented Programming, we will distribute responsibilities among many objects.
+In Object-Oriented Programming, we distribute responsibilities among multiple objects.
 
-# More info
+---
 
-*   [God object - Wikipedia](https://en.wikipedia.org/wiki/God_object)
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
+## More info
+
+* [God object - Wikipedia](https://en.wikipedia.org/wiki/God_object)
     
-*   [The S.O.L.I.D principles - Wikipedia](https://en.wikipedia.org/wiki/SOLID)
+* [The S.O.L.I.D principles - Wikipedia](https://en.wikipedia.org/wiki/SOLID)
     
-*   [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
+* [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
     
-*   [Coupling](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+* [Coupling](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
     
 
-# Credits
+## Credits
 
-*   [Code Smell 14 - God Objects](https://maximilianocontieri.com/code-smell-14-god-objects) by @[Maxi Contieri](@mcsee)
+* [Code Smell 14 - God Objects](https://maximilianocontieri.com/code-smell-14-god-objects) by @[Maxi Contieri](@mcsee)
