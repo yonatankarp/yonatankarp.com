@@ -10,8 +10,6 @@ tags: gradle, kotlin, springboot, openapi, gateway-api
 
 ---
 
-# Building Your Domain Gateway With OpenAPI
-
 > **TL;DR:** This article will explain what a domain gateway is, how to build one, and why do you want it.
 
 ## What is a domain gateway?
