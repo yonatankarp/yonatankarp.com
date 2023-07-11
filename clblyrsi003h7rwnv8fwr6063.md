@@ -1,25 +1,35 @@
-# Kotlin Code Smell 009 - Subclassification for Code Reuse
+---
+title: "Kotlin Code Smell 9 - Subclassification for Code Reuse"
+seoTitle: "Kotlin Code Smell 9 - Subclassification for Code Reuse"
+seoDescription: "Learn why favoring composition over inheritance is crucial for code reuse. Refactor legacy systems for maintainability and reduced coupling."
+datePublished: Tue Dec 13 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
+cuid: clblyrsi003h7rwnv8fwr6063
+slug: kotlin-code-smell-9-subclassification-for-code-reuse
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670058516294/akzymQD_J.jpeg
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
-> ***TL;DR:*** *Always Favor composition over inheritance.*
+---
 
-# Problems
+> **TL;DR:** Always favor composition over inheritance.
 
-*   Coupling
+## Problems
+
+* Coupling
     
-*   Maintainability
+* Maintainability
     
 
-# Solutions
+## Solutions
 
-*   Composition
+* Composition
     
 
-# Exceptions
+## Exceptions
 
-*   If the hierarchy follows the principle `behaves like` then it is safe.
+* If the hierarchy follows the principle of "behaves like," then it is safe.
     
 
-# Sample Code
+## Sample Code
 
 ### Wrong
 
@@ -67,17 +77,23 @@ class Box(size: Int) {
 }
 ```
 
-# Conclusion
+## Conclusion
 
-In legacy systems is very common to have *Deep Hierarchies* and *method overriding*, we need to refactor them and subclass them by `essential` reasons and not `implementation` ones.
+In legacy systems, it is common to have deep hierarchies and method overriding. However, it is important to refactor them and subclass them for essential reasons rather than implementation reasons.
 
-# More info
+---
 
-*   [**Liskov Substitution**](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
+## More info
+
+* [Liskov Substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
     
-*   [Inheritance (IS-A) vs. Composition (HAS-A) Relationship](https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php)
+* [Inheritance (IS-A) vs. Composition (HAS-A) Relationship](https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php)
     
 
-# Credits
+## Credits
 
-*   [Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse) by @[Maxi Contieri](@mcsee)
+* [Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse) by @[Maxi Contieri](@mcsee)
