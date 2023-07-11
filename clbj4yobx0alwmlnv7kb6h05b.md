@@ -1,35 +1,45 @@
-# Kotlin Code Smell 008 - Too Many Arguments
+---
+title: "Kotlin Code Smell 8 - Too Many Arguments"
+seoTitle: "Kotlin Code Smell: Avoid Too Many Arguments"
+seoDescription: "Learn how to improve your code quality by reducing the number of arguments in Kotlin functions. Enhance maintainability and readability."
+datePublished: Sun Dec 11 2022 09:00:45 GMT+0000 (Coordinated Universal Time)
+cuid: clbj4yobx0alwmlnv7kb6h05b
+slug: kotlin-code-smell-8-too-many-arguments
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056643473/FcmfHdWvev.jpeg
+tags: functions, kotlin, clean-code, kotlin-beginner, code-smell-1
 
-> ***TL;DR:*** *Don't pass more than three arguments to your functions.*
+---
 
-# Problems
+> **TL;DR:** Avoid passing more than three arguments to your functions.
 
-*   Low maintainability
-    
-*   Low Reuse
-    
-*   Coupling
-    
-*   Readability
-    
+## Problems
 
-# Solutions
-
-*   Find cohesive relations among arguments
+* Low maintainability.
     
-*   Create a "context".
+* Low reusability.
     
-*   Consider using a [**Method Object**](https://wiki.c2.com/?MethodObject) Pattern.
+* Coupling.
     
-*   Avoid "basic" Types: strings, arrays, integers, etc, and think in terms of objects.
-    
-
-# Exceptions
-
-*   Operations in the real-world needing no cohesive collaborators.
+* Readability.
     
 
-# Sample Code
+## Solutions
+
+* Identify cohesive relationships among arguments.
+    
+* Create a "context" or related group.
+    
+* Consider using the [Method Object](https://wiki.c2.com/?MethodObject) Pattern.
+    
+* Avoid using "basic" types such as strings, arrays, and integers, and instead think in terms of objects.
+    
+
+## Exceptions
+
+* Operations in the real world that do not require cohesive collaborators.
+    
+
+## Sample Code
 
 ### Wrong
 
@@ -95,12 +105,18 @@ class Printer {
 }
 ```
 
-# Conclusion
+## Conclusion
 
-Relate arguments and group them. Always favor real-world mappings. Find in the real world how to group the arguments into cohesive objects.
+To improve code quality, identify and group related arguments. Aim for real-world mappings and cohesive objects.
 
-If a function gets too many arguments, some of them might be related to class construction. This is a design smell too.
+If a function requires too many arguments, some of them might be better suited for class construction. This is also a design issue.
 
-# Credits
+---
 
-*   [Code Smell 10 - Too Many Arguments](https://maximilianocontieri.com/code-smell-10-too-many-arguments) by @[Maxi Contieri](@mcsee)
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
+## Credits
+
+* [Code Smell 10 - Too Many Arguments](https://maximilianocontieri.com/code-smell-10-too-many-arguments) by [Maxi Contieri](https://twitter.com/mcsee)
