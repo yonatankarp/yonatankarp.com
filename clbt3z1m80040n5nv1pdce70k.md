@@ -1,37 +1,47 @@
-# Kotlin Smell 013 - Companion Object Functions
+---
+title: "Kotlin Smell 013 - Companion Object Functions"
+seoTitle: "Kotlin Smell 13: Companion Object Functions"
+seoDescription: "Discover the issues caused by companion object methods in Kotlin, their impact on coupling and testability, and recommended solutions with code examples."
+datePublished: Sun Dec 18 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
+cuid: clbt3z1m80040n5nv1pdce70k
+slug: kotlin-smell-013-companion-object-functions
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670070461814/oAFXoWZxX.jpeg
+tags: programming-blogs, testing, kotlin, clean-code, code-smell-1
 
-> ***TL;DR:*** The companion object functions are globally available, and cannot be replaced for testing.
+---
 
-# Problems
+> **TL;DR:** Companion object functions are globally available and cannot be replaced for testing.
 
-*   Coupling
-    
-*   Testability
-    
-*   Protocol Overloading
-    
-*   Cohesion
-    
+## Problems
 
-# Solutions
-
-*   A class [**Single Responsibility Principle**](https://en.wikipedia.org/wiki/Single-responsibility_principle) is to create an instance. Honor it when possible.
+* Coupling
     
-*   Delegate the method to the instance if possible.
+* Testability
     
-*   Create stateless objects. Don't call them **helpers**.
+* Protocol Overloading
     
-
-# Examples
-
-*   Static class initializers
-    
-*   Static class methods
-    
-*   Static attributes
+* Cohesion
     
 
-# Sample Code
+## Solutions
+
+* Honor the Single Responsibility Principle by creating an instance for a class whenever possible.
+    
+* Delegate the method to the instance, if feasible.
+    
+* Create stateless objects instead of referring to them as "helpers."
+    
+
+## Examples
+
+* Static class initializers
+    
+* Static class methods
+    
+* Static attributes
+    
+
+## Sample Code
 
 ### Wrong
 
@@ -67,21 +77,27 @@ fun main() {
 }
 ```
 
-# Conclusion
+## Conclusion
 
-Using the companion object method pollutes the class protocol with "library methods", which breaks cohesion and generates coupling. We should extract them with refactorings.
+Using companion object methods pollutes the class protocol with "library methods," which breaks cohesion and generates coupling. It is advisable to extract them through refactorings.
 
-We cannot manipulate the companion classes and use them polymorphically, so we can't mock them or plug them into our tests.
+We cannot manipulate companion classes and use them polymorphically, so we can't mock or test them effectively.
 
-Therefore, we have a global reference too difficult to decouple.
+As a result, we end up with a globally accessible reference that is challenging to decouple.
 
-# More info
+---
 
-*   [**Single Responsibility Principle**](https://en.wikipedia.org/wiki/Single-responsibility_principle)
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
+## More info
+
+* [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
     
-*   [Mocking in tests with mockk](https://mockk.io/)
+* [Mocking in tests with mockk](https://mockk.io/)
     
 
-# Credits
+## Credits
 
-*   [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by @[Maxi Contieri](@mcsee)
+* [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by Maxi Contieri (@mcsee)
