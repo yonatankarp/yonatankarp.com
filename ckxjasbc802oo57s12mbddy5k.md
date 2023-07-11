@@ -1,7 +1,7 @@
 ---
 title: "How to Write a Robust REST API with OpenAPI"
 seoTitle: "A Guide to Writing Robust REST APIs with OpenAPI | Learn How to Design"
-seoDescription: "Discover how to design and implement robust REST APIs using OpenAPI. Learn best practices, generate models, and ensure smooth integration between backend an"
+seoDescription: "Learn how to design & implement robust REST APIs using OpenAPI. Achieve seamless integration & follow best practices for backend-client communication."
 datePublished: Thu Dec 23 2021 18:27:52 GMT+0000 (Coordinated Universal Time)
 cuid: ckxjasbc802oo57s12mbddy5k
 slug: how-to-write-a-robust-rest-api-with-openapi
