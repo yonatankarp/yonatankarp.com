@@ -1,3 +1,15 @@
+---
+title: "Building Your Domain Gateway With OpenAPI"
+seoTitle: "Build a Domain Gateway: Aggregating Microservices with OpenAPI"
+seoDescription: "Learn how to build a Domain Gateway using OpenAPI to aggregate microservices, ensure API robustness, and improve communication between services."
+datePublished: Wed Dec 14 2022 07:30:42 GMT+0000 (Coordinated Universal Time)
+cuid: clbnc2fzz00doqenvhqwgc2yo
+slug: building-your-domain-gateway-with-openapi
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670595100693/5hdHlH6p1.jpeg
+tags: gradle, kotlin, springboot, openapi, gateway-api
+
+---
+
 # Building Your Domain Gateway With OpenAPI
 
 > **TL;DR:** This article will explain what a domain gateway is, how to build one, and why do you want it.
@@ -26,18 +38,18 @@ Now that we understand what a domain gateway is, here are a few Do's and Don'ts 
 
 ### Do's
 
-*   It should be simple. It should handle request proxy and/or request aggregations if needed.
+* It should be simple. It should handle request proxy and/or request aggregations if needed.
     
-*   It should maintain the API versions. It either forward the request to one or more APIs. Each of them can have a different version.
+* It should maintain the API versions. It either forward the request to one or more APIs. Each of them can have a different version.
     
-*   It should be lightweight and can scale up easily. If your domain gateway is not available, your entire domain is not available.
+* It should be lightweight and can scale up easily. If your domain gateway is not available, your entire domain is not available.
     
 
 ### Don'ts
 
-*   It should not handle any business logic whatsoever. For example, sending emails, generating files, etc.
+* It should not handle any business logic whatsoever. For example, sending emails, generating files, etc.
     
-*   It should not store any business logic or object models in the database. This service should be completely stateless and have no knowledge of business logic.
+* It should not store any business logic or object models in the database. This service should be completely stateless and have no knowledge of business logic.
     
 
 ## Ok, I'm convinced...
@@ -54,15 +66,15 @@ The problem introduced in my previous article is: how can I generate many specs 
 
 We will use the following tech stack:
 
-*   [Kotlin](https://kotlinlang.org/)
+* [Kotlin](https://kotlinlang.org/)
     
-*   [Spring Boot](https://spring.io/projects/spring-boot) - At the time of writing this article, SpringBoot 3 is still not supported by the OpenAPI generator. Thus we will use the latest Spring Boot 2
+* [Spring Boot](https://spring.io/projects/spring-boot) - At the time of writing this article, SpringBoot 3 is still not supported by the OpenAPI generator. Thus we will use the latest Spring Boot 2
     
-*   [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+* [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
     
-*   [Retrofit](https://square.github.io/retrofit/)
+* [Retrofit](https://square.github.io/retrofit/)
     
-*   [OpenAPI](https://www.openapis.org/)
+* [OpenAPI](https://www.openapis.org/)
     
 
 ### API Specs
@@ -181,9 +193,9 @@ components:
 
 The greeting API is a facade of the 2 services above. It should include 2 API endpoints:
 
-*   `/hello/{name}`
+* `/hello/{name}`
     
-*   `/goodbye/{name}`
+* `/goodbye/{name}`
     
 
 ```yaml
@@ -263,11 +275,11 @@ components:
 
 We will locate all the above specs in our `/resource/api` directory with the following names:
 
-*   `hello-api.yaml`
+* `hello-api.yaml`
     
-*   `goodbye-api.yaml`
+* `goodbye-api.yaml`
     
-*   `gateway-api.yaml`
+* `gateway-api.yaml`
     
 
 ### Generate multiple specs
@@ -373,13 +385,13 @@ You can see that we're still separating our APIs by package name in the generate
 
 The next steps are the most important parts. We will define some generic functions that will do the following:
 
-*   register a new task for each spec to generate the code.
+* register a new task for each spec to generate the code.
     
-*   add the generated code to the source set.
+* add the generated code to the source set.
     
-*   make the `clean` task finalized by the generation task of the spec.
+* make the `clean` task finalized by the generation task of the spec.
     
-*   make `compileKotlin` depends on the generation task of the spec.
+* make `compileKotlin` depends on the generation task of the spec.
     
 
 Let's start.
@@ -542,8 +554,14 @@ In this article, I've explained the benefits of aggregating your services into a
 
 All code examples in this article are available in my GitHub account at this repository: [https://github.com/yonatankarp/domain-gateway-demo](https://github.com/yonatankarp/domain-gateway-demo)
 
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
+
 ## More Information
 
-*   [API Versioning with Kotlin and Spring Boot](https://medium.com/towardsdev/api-versioning-with-kotlin-and-spring-boot-ef9e08214526) by Mariusz Sołtysiak. Amazing article by a colleague of mine about API versioning that is used in their domain gateway.
+* [API Versioning with Kotlin and Spring Boot](https://medium.com/towardsdev/api-versioning-with-kotlin-and-spring-boot-ef9e08214526) by Mariusz Sołtysiak. Amazing article by a colleague of mine about API versioning that is used in their domain gateway.
     
-*   [Java Design Patterns - API Gateway](https://java-design-patterns.com/patterns/api-gateway/)
+* [Java Design Patterns - API Gateway](https://java-design-patterns.com/patterns/api-gateway/)
