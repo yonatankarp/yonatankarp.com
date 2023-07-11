@@ -1,16 +1,26 @@
-# How to break your HashMap in less than a minute
+---
+title: "How to Break Your HashMap in Less Than a Minute"
+seoTitle: "Avoid HashMap Issues: Don't Use Mutable Objects"
+seoDescription: "Learn why using mutable objects such as HashMap keys can break your code. Discover the importance of immutability and how to avoid unexpected behaviors."
+datePublished: Mon Dec 05 2022 07:50:48 GMT+0000 (Coordinated Universal Time)
+cuid: clbahtm6c002y08ml85qn2m55
+slug: how-to-break-your-hashmap-in-less-than-a-minute
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/cGXdjyP6-NU/upload/v1669959698248/iCX6V2n1R.jpeg
+tags: programming-blogs, java, guide, hashmap
 
-> **TL;DR:** Never use mutable objects as the keys to your HashMap!
+---
 
-After I wrote my article [**How does HashMap work in Java?**](https://medium.com/@yonatankarp/how-does-hashmap-work-in-java-368a239339d2) a few people suggested more topics `HashMap`. Thus, I decided to make a short series of articles out of it.
+> **TL;DR:** Never use mutable objects as keys in your HashMap!
 
-In today’s article, we will talk about JVM HashMaps. We will show how you can break them if you’re not careful. But keep in mind, while we're talking about the JVM world, the same applies to most modern languages.
+After I wrote my article [**How does HashMap work in Java?**](https://yonatankarp.com/how-does-hashmap-work-in-java), a few people suggested more topics related to HashMap. As a result, I decided to create a short series of articles about it.
 
-In this article, I will write the implementation using Java. I will then explain the root cause of the problem, and how to solve the issues I created.
+In today's article, we will discuss JVM HashMaps and how they can be easily broken if not used carefully. It's important to note that while we'll be focusing on the JVM world, the same principles apply to most modern programming languages.
 
-# The How
+In this article, I will provide an implementation using Java and then explain the root cause of the problem. I will also offer solutions to address the issues I introduce.
 
-Consider the following simple class. It wraps an integer value inside an object and allows the developer to get or set the value of the class:
+## The How
+
+Let's consider the following simple class. It encapsulates an integer value within an object and provides methods to get or set the value:
 
 ```java
 public class IntWrapper {
@@ -30,8 +40,8 @@ public class IntWrapper {
 
     @Override
     public boolean equals(Object other) {
-        if (this == other)return true;
-        if (!(other instanceof IntWrapper))return false;
+        if (this == other) return true;
+        if (!(other instanceof IntWrapper)) return false;
         return value == ((IntWrapper) other).value;
     }
 
@@ -42,7 +52,7 @@ public class IntWrapper {
 }
 ```
 
-Now let’s use our class and add it to a `HashMap`:
+Now, let's use our class and add it to a `HashMap`:
 
 ```java
 Map<IntWrapper, String> map = new HashMap<>();
@@ -50,32 +60,32 @@ IntWrapper myInteger = new IntWrapper(1);
 map.put(myInteger, "");
 myInteger.setValue(2);
 
-if(map.containsKey(myInteger)) {
+if (map.containsKey(myInteger)) {
     System.out.println("Our int was found!");
 } else {
     System.out.println("Sorry, nobody is home :(");
 }
 ```
 
-What would be printed here? if your answer was `Sorry, nobody is home :(` you’re correct. But why?
+What would be printed here? If your answer was `Sorry, nobody is home :(`, you're correct. But why?
 
-# The Why
+## The Why
 
-The problem is that we are using a mutable class in HashMap, and mutating it after. As I mentioned in my previous article, adding a new key/value to a HashMap will calculate the key’s hash. it will then store them in a pair inside the relevant bucket:
+The problem lies in using a mutable class as the key in a HashMap and then modifying it afterward. As I mentioned in my previous article, when you add a new key/value pair to a HashMap, the key's hash is calculated, and the pair is stored in the relevant bucket:
 
-![](https://cdn-images-1.medium.com/max/1600/1*UVvdHtSHcnMofPVdogGKtg.png align="center")
+![](https://cdn-images-1.medium.com/max/1600/1*UVvdHtSHcnMofPVdogGKtg.png align="left")
 
-But in our case, we changed the value of the class. So when we calculate the hash code of the updated object, we will (most probably) end up in a different bucket. Hence, when the HashMap checks the bucket, it indeed does not include the required object!
+However, in our case, we changed the value of the class. So when we calculate the hash code of the updated object, it will likely end up in a different bucket. Consequently, when HashMap checks the bucket, it won't find the required object!
 
-![](https://cdn-images-1.medium.com/max/1600/1*-ehInn6beG7s3ry6JnqOBQ.png align="center")
+![](https://cdn-images-1.medium.com/max/1600/1*-ehInn6beG7s3ry6JnqOBQ.png align="left")
 
-# **Can we avoid this problem?**
+## Can we avoid this problem?
 
 ![](https://cdn-images-1.medium.com/max/1600/0*a_vh_4bR2vHyx220 align="left")
 
-Yes, we can! to avoid the problem we should use an immutable class instead of a mutable one. That means that once the class creates its state cannot change.
+Yes, we can! To avoid this issue, we should use an immutable class instead of a mutable one. This means that once the class creates its state, it cannot be changed.
 
-Let’s start with a simple plain old java implementation for the class:
+Let's start with a simple plain old Java implementation for the class:
 
 ```java
 public class IntWrapper {
@@ -103,37 +113,37 @@ public class IntWrapper {
 }
 ```
 
-As you can see in this implementation, the class value can be set only via the constructor. This guarantees that it will not change later on. By marking the field as final we ensure that it cannot change on runtime, even using [reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html). And thus our class is truly immutable.
+As you can see in this implementation, the value of the class can only be set via the constructor, ensuring that it won't change later on. By marking the field as `final`, we guarantee that it cannot be changed at runtime, even using [reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html). This makes our class truly immutable.
 
-# Can we do even better?
+## Can we do even better?
 
-The code works now. But is still very verbose, and as of Java 14, we have a new feature (that became official in Java 19) — Records!
+The code now works correctly. However, it is still quite verbose. Fortunately, starting from Java 14, we have a new language feature (which became official in Java 16) called **Records**.
 
 What are records?
 
 > JDK 14 introduces records, which are a new kind of type declaration. Like an `enum`, a record is a restricted form of a class. It’s ideal for "plain data carriers," classes that contain data not meant to be altered and only the most fundamental methods such as constructors and accessors.
 
-What does that mean? By defining a class as a record, we will get out-of-the-box the following methods implemented for us:
+What does that mean? By defining a class as a record, we automatically get the following methods implemented for us:
 
-*   Constructor that will assign all inputs to the class members
+* A constructor that assigns all inputs to the class members.
     
-*   Getters for all class members & a private final field associated with them
+* Getters for all class members, with associated private final fields.
     
-*   `toString()` implementation
+* An automatically generated `toString()` implementation.
     
-*   `hashCode()` & `equals()`
+* `hashCode()` and `equals()` methods.
     
 
-If you want to read more about records, and their usage, check [Oracle’s official documentation](https://docs.oracle.com/en/java/javase/14/language/records.html)
+If you want to learn more about records and their usage, you can check [Oracle's official documentation](https://docs.oracle.com/en/java/javase/14/language/records.html).
 
-So let’s try it:
+So let's try it out:
 
 ```java
 public record IntWrapper(int value) {
 }
 ```
 
-As you can see, our code is much simpler now, and if we will try to repeat our map change from before we will get an error:
+As you can see, our code is much simpler now. If we try to repeat the map change from before, we will get a compilation error:
 
 ```java
 Map<IntWrapper, String> map = new HashMap<>();
@@ -141,25 +151,31 @@ IntWrapper myInteger = new IntWrapper(1);
 map.put(myInteger, "I am a nice int value!");
 myInteger.setValue(2); // Compilation error!
 
-if(map.containsKey(myInteger)) {
+if (map.containsKey(myInteger)) {
     System.out.println("Our int was found!");
 } else {
-    System.out.println("Sorry, nobody home :(");
+    System.out.println("Sorry, nobody is home :(");
 }
 ```
 
-If you use an older version of Java, you can still achieve this functionality with [Project Lombok.](https://projectlombok.org/) By using annotation `@Value`. More details could is available [here](https://projectlombok.org/features/Value).
+If you are using an older version of Java, you can still achieve this functionality with [Project Lombok](https://projectlombok.org/) by using the `@Value` annotation. More details are available [here](https://projectlombok.org/features/Value).
 
 # Conclusion
 
 ![](https://cdn-images-1.medium.com/max/1600/0*J4M6sTFLBqyDRLw8 align="left")
 
-Whenever you’re using a HashMap (in Java or any other language), make sure you’re using immutable objects. Otherwise, it might lead to unexpected behaviors in your code during its execution.
+Whenever you use a HashMap (in Java or any other language), make sure you use immutable objects as keys. Otherwise, it might lead to unexpected behavior in your code during its execution.
+
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 # Credits
 
-*   Photo by [CHUTTERSNAP](https://unsplash.com/@chuttersnap?utm_source=Hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Hashnode&utm_medium=referral)
+* Photo by [CHUTTERSNAP](https://unsplash.com/@chuttersnap?utm_source=Hashnode&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Hashnode&utm_medium=referral)
     
-*   Photo by [Elisa Ventur](https://unsplash.com/@elisa_ventur?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+* Photo by [Elisa Ventur](https://unsplash.com/@elisa_ventur?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
     
-*   Photo by [Tetiana SHYSHKINA](https://unsplash.com/@shyshkina?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+* Photo by [Tetiana SHYSHKINA](https://unsplash.com/@shyshkina?utm_source=medium&utm_medium=referral) on \[Unsplash\](https
