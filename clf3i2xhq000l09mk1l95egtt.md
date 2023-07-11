@@ -1,10 +1,10 @@
 ---
-title: "Kotlin Code Smell 017 - Pattern Abusers"
+title: "Kotlin Code Smell 17 - Pattern Abusers"
 seoTitle: "Avoid Overusing Patterns: Kotlin Code Smell 17"
 seoDescription: "Prevent overusing patterns in Kotlin to enhance code readability. Choose real-world names and strategically apply patterns for optimal results."
 datePublished: Sat Mar 11 2023 05:02:29 GMT+0000 (Coordinated Universal Time)
 cuid: clf3i2xhq000l09mk1l95egtt
-slug: kotlin-code-smell-017-pattern-abusers
+slug: kotlin-code-smell-17-pattern-abusers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670955993196/RxaGcdqBJ.webp
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
