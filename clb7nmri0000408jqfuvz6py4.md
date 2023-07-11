@@ -1,38 +1,49 @@
-# Create your custom Spring Boot app banner
+---
+title: "Create a Custom Spring Boot App Banner"
+seoTitle: "Customize Spring Boot Banner: Personalize Easily"
+seoDescription: "Learn how to easily customize your Spring Boot app banner with custom text or images in just minutes. Personalize your app's look and feel!"
+datePublished: Sat Dec 03 2022 08:10:08 GMT+0000 (Coordinated Universal Time)
+cuid: clb7nmri0000408jqfuvz6py4
+slug: create-a-custom-spring-boot-app-banner
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/Dnkr_lmdKi8/upload/v1669959141692/4QitOw44k.jpeg
+tags: spring, guide, springboot, customization
 
-Today I would like to show you a feature of Spring that is not new, nor important, but it’s just fun!
+---
 
-Usually, when launching your Spring Boot app, you would see in the logs something like that:
+Today, I'd like to share a fun feature of Spring with you. It's not new or crucial, but it's definitely enjoyable!
 
-![](https://cdn-images-1.medium.com/max/1600/1*qhCPGhoCfVHDiV_8C2w-IQ.png align="left")
+Normally, when you launch your Spring Boot app, you see a standard banner in the logs like this:
 
-However, have you ever considered replacing the Spring banner in the logs with your custom banner? if so, follow this article!
+![Spring Boot Banner](https://cdn-images-1.medium.com/max/1600/1*qhCPGhoCfVHDiV_8C2w-IQ.png align="left")
 
-To start, let’s visit the website [https://patorjk.com/](https://patorjk.com/) which will help us build our custom text. You can enter the text you want to see in your log and select the font out of tons of possible fonts. For example:
+But have you ever thought about replacing that Spring banner with your own custom banner? If you have, then this article is for you!
 
-![](https://cdn-images-1.medium.com/max/1600/1*C4UCtmMxeYdyA3adBhwwEg.png align="left")
+To begin, let's visit [https://patorjk.com/](https://patorjk.com/), a website that helps us create custom text. You can enter the desired text for your log and choose from a variety of fonts. For example:
 
-You can also easily clock the **Test All** button to see all possible options
+![Custom Text](https://cdn-images-1.medium.com/max/1600/1*C4UCtmMxeYdyA3adBhwwEg.png align="left")
 
-Now, let’s copy our text, and put it inside the application under the `/resources/banner.txt` as follows:
+You can also click the **Test All** button to explore all the available options.
 
-![](https://cdn-images-1.medium.com/max/1600/1*e0zWvbSOc4-txfoe9I1Q5Q.png align="left")
+Now, let's copy our text and place it inside the application under `/resources/banner.txt`, as shown below:
 
-Now let’s launch our app again:
+![Copy Custom Text](https://cdn-images-1.medium.com/max/1600/1*e0zWvbSOc4-txfoe9I1Q5Q.png align="left")
 
-![](https://cdn-images-1.medium.com/max/1600/1*Nm-03wgAZnZGCV-Z2WBmFQ.png align="left")
+Next, let's relaunch our app:
 
-As you can see, our banner was indeed replaced! Great job! :)
+![Custom Banner](https://cdn-images-1.medium.com/max/1600/1*Nm-03wgAZnZGCV-Z2WBmFQ.png align="left")
 
-If you’re using Spring Boot 2, you can also convert images into [ASCII art](https://en.wikipedia.org/wiki/ASCII_art) — however, this functionality is deprecated and was removed in Spring Boot 3.0.0 which was just released this week.
+As you can see, our custom banner has been successfully replaced! Great job! :)
 
-To do so, follow the steps:
+If you're using Spring Boot 2, you can even convert images into [ASCII art](https://en.wikipedia.org/wiki/ASCII_art). However, please note that this functionality is deprecated and has been removed in Spring Boot `3.0.0`, which was released recently.
 
-*   Add your image to the resources directory. For this article we will use this logo:
+To convert images into ASCII art, follow these steps:
+
+* Add your image to the resources directory. For this article, we'll use the following logo:
     
-    ![](https://cdn-images-1.medium.com/max/1600/1*nF3paal9R_NCqIpeMEg_lA.png align="left")
-    
-*   Add to your `application.properties` or `application.yml`file the following configuration to locate your image:
+
+![Logo](https://cdn-images-1.medium.com/max/1600/1*nF3paal9R_NCqIpeMEg_lA.png align="left")
+
+* Add the following configuration to your [`application.properties`](http://application.properties) or `application.yml` file to specify the location of your image:
     
 
 ```yaml
@@ -40,18 +51,22 @@ spring:
   banner:
     image:
       location: sumup.png
-      height: 20 # can be used to alter your banner size
+      height: 20 # can be adjusted to resize your banner
 ```
 
-*   Ensure that you don’t have any `banner.txt` in your resource directory
+* Make sure there's no `banner.txt` file in your resource directory.
     
 
-Let’s run our app again…
+Let's run our app again...
 
-![](https://cdn-images-1.medium.com/max/1600/1*Se9si_zINQyzFsUTQTmvSg.png align="left")
+![Custom Logo](https://cdn-images-1.medium.com/max/1600/1*Se9si_zINQyzFsUTQTmvSg.png align="left")
 
-As you can see, our new logo appeared like magic :)
+As you can see, our new logo magically appears!
 
 ### Summary
 
-In this short article, I have shown you how you can customize your Spring banner using text, or even images (if you’re running on Spring boot `2.x.x`) in a couple of minutes.
+In this short article, I've shown you how to customize your Spring banner using text or even images (for Spring Boot `2.x.x`) in just a few minutes.
+
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
