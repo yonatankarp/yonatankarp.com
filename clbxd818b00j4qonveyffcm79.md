@@ -1,27 +1,37 @@
-# Kotlin Code Smell 015 - Helper Classes
+---
+title: "Kotlin Code Smell 15 - Helper Classes"
+seoTitle: "Avoid Code Smell: Refactor Helper Classes for Better Code Quality"
+seoDescription: "Learn how to improve code quality by refactoring helper classes. Discover why static methods and anonymous functions are code smells in Kotlin."
+datePublished: Wed Dec 21 2022 08:00:45 GMT+0000 (Coordinated Universal Time)
+cuid: clbxd818b00j4qonveyffcm79
+slug: kotlin-code-smell-15-helper-classes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670916375024/94ycSUHnD.jpeg
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
-> ***TL;DR:*** *Helpers don't help. They are a non-cohesive bunch of messy subroutines.*
+---
+
+> **TL;DR:** Helpers are non-cohesive and messy subroutines that don't actually help.
 
 ## **Problems**
 
-* Readability
+* Lack of readability
     
-* The Least surprise principle
+* Violation of the Least Surprise Principle
     
-* [**Bijection**](https://maximilianocontieri.com/the-one-and-only-software-design-principle) Fault
+* Issue with **Bijection**
     
-* Static methods
+* Usage of static methods
     
 
 ## **Solutions**
 
-* Find a suitable name.
+* Choose an appropriate name.
     
-* If the helper is a library, break all the services into different methods.
+* If the helper is a library, divide all the services into different methods.
     
-* Methods should always be fulfilled by objects. [**Static methods**](https://yonatankarp.com/kotlin-smell-013-companion-object-functions) are another code smell.
+* Methods should always be associated with objects. Avoid using **static methods**, as they are also considered a code smell.
     
-* Avoid extracting the helpers to [**Anonymous Functions**](https://yonatankarp.com/kotlin-code-smells-014-anonymous-functions-abusers).
+* Refrain from extracting helpers into **Anonymous Functions**.
     
 
 ## **Sample Code**
@@ -38,7 +48,7 @@ object UserHelper {
 }
 ```
 
-Notice *static* methods usage:
+Note the use of *static* methods:
 
 ```kotlin
 data class User(
@@ -84,7 +94,7 @@ fun main() {
 }
 ```
 
-Alternatively, we can make the former *Helper* stateless for reuse...
+Alternatively, the former *Helper* can be made stateless for reuse...
 
 ```kotlin
 class FullNameFormatter {
@@ -111,11 +121,17 @@ fun main() {
 
 ## **Conclusion**
 
-This is a well-established cultural name and a legacy habit from structured programming.
+The usage of helper classes is a well-established cultural practice and a legacy habit from structured programming.
 
-Most developers are reluctant to let old habits go.
+However, these names are causing harm and should be reconsidered.
 
-We must be aware of the damage these kinds of names are bringing us.
+It is essential for developers to let go of old habits and be aware of the negative impact these names can have.
+
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Credits
 
