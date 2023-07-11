@@ -1,37 +1,47 @@
-# Kotlin Code Smell 003 - String Abusers
+---
+title: "Kotlin Code Smell 3 - String Abusers"
+seoTitle: "Avoid String Abuse in Kotlin"
+seoDescription: "Improve code complexity, readability, and maintainability in Kotlin by using real objects instead of excessive string manipulation."
+datePublished: Fri Dec 02 2022 08:00:42 GMT+0000 (Coordinated Universal Time)
+cuid: clb67usah012a2knv0yjc0pfr
+slug: kotlin-code-smell-3-string-abusers
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/C5SUkYZT7nU/upload/v1669832838326/gSAr6Ry6C.jpeg
+tags: programming-blogs, kotlin, clean-code, strings, kotlin-beginner
 
-> ***TL;DR:*** *Use real abstractions and real objects instead of string accidental manipulation.*
+---
 
-# **Problems**
+> **TL;DR:** Use actual objects and abstractions instead of random string manipulation.
 
-*   Complexity
-    
-*   Readability
-    
-*   Maintainability
-    
-*   Lack of Abstractions
-    
+## Problems
 
-# **Solutions**
-
-*   Work with objects instead of strings.
+* Complexity
     
-*   Replace strings with data structures dealing with object relations.
+* Readability
     
-*   Find [**Bijection**](https://maximilianocontieri.com/the-one-and-only-software-design-principle) problems between real objects and the strings.
+* Maintainability
     
-
-# **Examples**
-
-*   Serializers
-    
-*   Parsers
+* Lack of Abstractions
     
 
-# **Sample Code**
+## Solutions
 
-### **Wrong**
+* Utilize objects instead of strings.
+    
+* Replace strings with data structures that handle object relations.
+    
+* Identify bijection problems between real objects and strings.
+    
+
+## Examples
+
+* Serializers
+    
+* Parsers
+    
+
+## Sample Code
+
+### Wrong
 
 ```kotlin
 val schoolDescription = "College of Springfield"
@@ -60,10 +70,12 @@ class Location(
 )
 ```
 
-# **Conclusion**
+## Conclusion
 
-Don't abuse strings. Favor real objects. Find absent protocol to distinguish them from strings.
+Avoid excessive reliance on strings. Prioritize actual objects. Establish clear protocols to differentiate them from strings.
 
-# **Credits**
+Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
 
-*   [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maxi Contieri](@mcsee)
+## Credits
+
+* [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maxi Contieri](@mcsee)
