@@ -1,10 +1,10 @@
 ---
-title: "Kotlin Smell 013 - Companion Object Functions"
+title: "Kotlin Smell 13 - Companion Object Functions"
 seoTitle: "Kotlin Smell 13: Companion Object Functions"
 seoDescription: "Discover the issues caused by companion object methods in Kotlin, their impact on coupling and testability, and recommended solutions with code examples."
 datePublished: Sun Dec 18 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
 cuid: clbt3z1m80040n5nv1pdce70k
-slug: kotlin-smell-013-companion-object-functions
+slug: kotlin-smell-13-companion-object-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670070461814/oAFXoWZxX.jpeg
 tags: programming-blogs, testing, kotlin, clean-code, code-smell-1
 
