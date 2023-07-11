@@ -67,3 +67,7 @@ As per Cassandra's documentation:
 > Each such view is a set of rows that corresponds to rows that are present in the underlying, or base, table specified in the SELECT statement. A materialized view cannot be directly updated, but updates to the base table will cause corresponding updates in the view.
 
 The absence of this feature proved to be a significant hurdle throughout our development process. To overcome it, we ended up creating an actual table to store the data and update the entries. However, as each row in Cassandra is internally immutable, updating rows becomes a more resource-intensive operation, negatively impacting performance.
+
+---
+
+I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
