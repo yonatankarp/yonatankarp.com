@@ -1,61 +1,69 @@
-# 4 reasons why Amazon-Keyspaces is the worst!
+---
+title: "4 Reasons Why Amazon Keyspaces is Problematic!"
+seoTitle: "4 Reasons Why Amazon Keyspaces Falls Short: Missing Features and Worka"
+seoDescription: "Explore the limitations of Amazon Keyspaces, a Cassandra-compatible database. Is it the right choice for your system?"
+datePublished: Thu Jan 13 2022 07:51:37 GMT+0000 (Coordinated Universal Time)
+cuid: ckycoay5z01uzp8s1dl7z918x
+slug: 4-reasons-why-amazon-keyspaces-is-problematic
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/3cFjeikAqCY/upload/v1640871546882/d9stnU3Iv.jpeg
+tags: cassandra, cloud, aws, databases
 
-About a year ago, my team and I received the task of building a resilient, robust, consistent, and fast system that will handle a big volume of requests in our system. After many considerations, we decided to use Cassandra as our database.
+---
 
-When we started to think about the productization of our system, we had three main options:
+Around a year ago, my team and I were tasked with building a high-performance system capable of handling a large volume of requests. After careful consideration, we chose Cassandra as our database.
 
-*   [**Self-hosted Cassandra**](https://cassandra.apache.org/_/index.html) - We decided against it, as we didn't want to maintain our own hardware.
+When it came to productizing our system, we explored three main options:
+
+* [**Self-hosted Cassandra**](https://cassandra.apache.org/_/index.html): We ruled this out due to the need for hardware maintenance.
     
-*   [**DataStax**](https://www.datastax.com/) - The "Confluence-Kafka" of Cassandra. A fully cloud-based implementation of Cassandra managed by the DataStax team.
+* [**DataStax**](https://www.datastax.com/): Dubbed the "Confluence-Kafka" of Cassandra, it offers a fully cloud-based implementation managed by the DataStax team.
     
-*   [**Amazon Keyspaces**](https://aws.amazon.com/keyspaces/) - Amazon's compatible implementation of Cassandra's CQL language.
-    
-
-Since our company uses AWS heavily, we decided to go with the last, as we already have the AWS support, we will get the best price, etc.
-
-Little did we know, Amazon Keyspaces supports about 40% of the features of Cassandra at the time I'm writing this article. If you want to the latest state of the supported features you can visit [this](https://docs.aws.amazon.com/keyspaces/latest/devguide/cassandra-apis.html) link.
-
-I would list the main features that my team and I have found the most relevant missing features, and the workarounds we did to resolve them (if possible)
-
-# UDT's (User Defined Types)
-
-Cassandra allows users to define their own data types. That is a great feature that allows you to create columns in the database with this specific type and make sure that your database contains only the required data. More importantly, it allows you to have models at the database level that are an exact reflection of your service level models.
-
-There are two alternatives for this issue:
-
-*   column name prefix of the model: Let's assume that we have the model `Person` with the properties `id` and `name`. We will create two columns in the database: `person_id` and `person_name`.
-    
-*   Using tuples to store the data in a single column: Alternatively, we can create a single column `person` of the type `tuple<int, string>`
+* [**Amazon Keyspaces**](https://aws.amazon.com/keyspaces/): Amazon's version of Cassandra's CQL language.
     
 
-As you can imagine, both solutions aren't perfect. While in the first case, you can easily understand the type of each field. It's harder to see the "big picture" of the model as it's split over multiple columns (and vise versa). In the end, we used both options based on the case. For example, imagine a case where you need to store a price in your database. A price is a group of an amount and a currency. In such a case it makes sense to store both of them as a tuple since they need to live together and have no meaning by themselves. On the other hand, if we think about our `person` example - it's much easier to understand each field independently from each other.
+Given our heavy use of AWS, we opted for Amazon Keyspaces, taking into account the existing AWS support and competitive pricing.
 
-# TTL (Time To Live)
+However, little did we know that Amazon Keyspaces only supports about 40% of the features offered by Cassandra at the time of writing this article. You can refer to [this](https://docs.aws.amazon.com/keyspaces/latest/devguide/cassandra-apis.html) link for an up-to-date overview of the supported features.
 
-Cassandra supports TTL for entry in the database. That means that the row will disappear from the database once it reaches the pre-defined TTL. In our case, we wanted to use this feature to store and maintain our requests idempotency keys. However, the lacking of this feature made us end up with endless rows that are useless often the first 12h they've been added in the database.
+Let's discuss the key missing features we encountered and the workarounds we implemented to address them.
 
-To store this issue, what we decided to do, is to store our keys outside of the database in a [Redis](https://redis.io/) cluster. An alternative option is to have a scheduled job that will clean the database, however, this will cause extra load on our database that is not needed.
+## 1\. UDT's (User Defined Types)
 
-Some good news, according to the AWS account manager, this feature should be available at the beginning of 2023! 🎉
+Cassandra allows users to define custom data types, enabling the creation of columns in the database that precisely match the required data. This feature ensures that the database models accurately reflect the service level models.
 
-# Syntax
+We discovered two alternatives to address this issue:
 
-While all of the features in Amazon Keyspaces are compatible with Cassandra, it another way around isn't true. While developing, we discovered that features such as `in`, `not equals`, and many more and just not yet supported by the database.
+* Model-specific column naming convention: For instance, assuming we have a `Person` model with `id` and `name` properties, we create two columns in the database: `person_id` and `person_name`.
+    
+* Using tuples to store data in a single column: Alternatively, we can create a single column `person` with the type `tuple<int, string>`.
+    
 
-Unfortunately, in many cases, we didn't find a proper replacement for this issue, and many times we've written queries that are sub-optimal just because of this restriction.
+Both solutions have drawbacks. The first option allows easy understanding of each field's type but makes it harder to visualize the overall model since it spans multiple columns. The second option provides a holistic view of the model but makes it challenging to understand each field in isolation. Consequently, we employed both approaches based on the specific use case. For example, when storing a price, consisting of an amount and a currency, it makes sense to use a tuple since they are inherently linked and lack individual meaning. However, for the `person` example, it is easier to comprehend each field independently.
 
-Moreover, we discovered that any data structure in Keyspaces has to be immutable (`frozen`) otherwise it cannot be created (unlike Cassandra). If we'll take our. example of the. `person` model from before, the `tuple` representation of it would have to be as follow:
+## 2\. TTL (Time To Live)
+
+Cassandra supports TTL, allowing rows to be automatically removed from the database after a predefined time. We planned to leverage this feature to store and maintain our idempotency keys for requests. However, the absence of this feature resulted in numerous useless rows that persisted in the database for at least 12 hours.
+
+To address this issue, we decided to store our keys outside the database in a [Redis](https://redis.io/) cluster. Another option would be to implement a scheduled job to clean the database, but this would introduce unnecessary additional load.
+
+On a positive note, our AWS account manager informed us that this feature is expected to be available in early 2023! 🎉
+
+## 3\. Syntax
+
+While all features in Amazon Keyspaces are compatible with Cassandra, the reverse is not true. During development, we discovered that certain features like `in` and `not equals` were not yet supported by the database.
+
+Unfortunately, we often couldn't find suitable replacements for these features, resulting in suboptimal queries. Additionally, we learned that all data structures in Keyspaces must be immutable (`frozen`), unlike Cassandra. For example, in the case of our `person` model, the `tuple` representation would need to be defined as follows in Keyspaces:
 
 ```kotlin
 frozen<tuple<int, string>>
 ```
 
-Eventually, to avoid breaking our clusters, we created Keyspaces for CI that its only purpose was to run our scripts and validate that they're working as expected (or at all in some cases).
+To avoid disrupting our clusters, we created a separate Keyspaces instance for Continuous Integration (CI) purposes. This allowed us to run scripts and validate their functionality, ensuring they worked as expected (or worked at all in some cases).
 
-# Materialized Views
+## 4\. Materialized Views
 
-From Cassandra's documentation:
+As per Cassandra's documentation:
 
 > Each such view is a set of rows that corresponds to rows that are present in the underlying, or base, table specified in the SELECT statement. A materialized view cannot be directly updated, but updates to the base table will cause corresponding updates in the view.
 
-This missing feature beat us again and again over our development process. In the end, the way we resolved it was to create an actual table that will store the data, and update the entries. However, as in Cassandra each row is immutable (internally) updating the rows is a much more expensive operation in terms of performance.
+The absence of this feature proved to be a significant hurdle throughout our development process. To overcome it, we ended up creating an actual table to store the data and update the entries. However, as each row in Cassandra is internally immutable, updating rows becomes a more resource-intensive operation, negatively impacting performance.
