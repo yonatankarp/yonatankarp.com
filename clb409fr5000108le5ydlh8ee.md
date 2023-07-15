@@ -69,4 +69,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 ## Credits
 
-* [Code Smell 02 - Constants and Magic Numbers](https://maximilianocontieri.com/code-smell-02-constants-and-magic-numbers) by @[Maxi Contieri](@mcsee)
+* [Code Smell 02 - Constants and Magic Numbers](https://maximilianocontieri.com/code-smell-02-constants-and-magic-numbers) by @[Maxi Contieri⭐⭐⭐](@mcsee)
