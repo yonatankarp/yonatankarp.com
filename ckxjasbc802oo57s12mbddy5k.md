@@ -10,8 +10,6 @@ tags: gradle, guide, kotlin, springboot, openapi
 
 ---
 
-# How to Write a Robust REST API with OpenAPI
-
 As a backend engineer, I have developed numerous REST APIs, and one recurring issue I faced was the lack of smooth integration between the backend and clients. Typos in URLs, inconsistent casing in JSON (camel case vs. snake case), passing values of the wrong type (e.g., string instead of an integer), and other similar mistakes have happened to us multiple times.
 
 ![Frustration](https://cdn.hashnode.com/res/hashnode/image/upload/v1639499982620/rh2TfEC53.png align="left")
