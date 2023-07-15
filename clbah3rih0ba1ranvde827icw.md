@@ -10,8 +10,6 @@ tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
 
 ---
 
-# Kotlin Code Smell 005 - Too Clever For Your Own Good
-
 > **TL;DR:** Don't pretend you are too smart. Clean code requires readability and simplicity.
 
 ## Problems
@@ -99,4 +97,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer) by @[Maxi Contieri](@mcsee)
+* [Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer) by @[Maxi Contieri⭐⭐⭐](@mcsee)
