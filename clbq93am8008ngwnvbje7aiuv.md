@@ -92,4 +92,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 14 - God Objects](https://maximilianocontieri.com/code-smell-14-god-objects) by @[Maxi Contieri](@mcsee)
+* [Code Smell 14 - God Objects](https://maximilianocontieri.com/code-smell-14-god-objects) by @[Maxi Contieri⭐⭐⭐](@mcsee)
