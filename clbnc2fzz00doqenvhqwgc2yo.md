@@ -10,55 +10,57 @@ tags: gradle, kotlin, springboot, openapi, gateway-api
 
 ---
 
-> **TL;DR:** This article will explain what a domain gateway is, how to build one, and why do you want it.
+# Building Your Domain Gateway With OpenAPI
 
-## What is a domain gateway?
+**TL;DR:** This article explains what a domain gateway is, how to build one, and why you would want it.
 
-A domain gateway is a private case of the `api gateway` pattern. The repository [java-design-patterns](https://github.com/iluwatar/java-design-patterns/tree/master/api-gateway) refers to the `gateway pattern` as:
+## What is a Domain Gateway?
+
+A domain gateway is a private case of the API gateway pattern. The repository [java-design-patterns](https://github.com/iluwatar/java-design-patterns/tree/master/api-gateway) defines the gateway pattern as follows:
 
 > With the Microservices pattern, a client may need data from multiple different microservices. If the client called each microservice directly, that could contribute to longer load times, since the client would have to make a network request for each microservice called. Moreover, having the client call each microservice directly ties the client to that microservice - if the internal implementations of the microservices change (for example, if two microservices are combined sometime in the future) or if the location (host and port) of a microservice changes, then every client that makes use of those microservices must be updated.
 > 
 > The intent of the API Gateway pattern is to alleviate some of these issues. In the API Gateway pattern, an additional entity (the API Gateway) is placed between the client and the microservices. The job of the API Gateway is to aggregate the calls to the microservices. Rather than the client calling each microservice individually, the client calls the API Gateway a single time. The API Gateway then calls each of the microservices that the client needs.
 
-So what is a domain gateway? A domain gateway, like an API gateway, is a facade for your clients. Moreover, it allows aggregate calls to the backend into a single call for the clients. Last but not least, it allows replacing services in the backend without any awareness of our clients.
+A domain gateway, like an API gateway, acts as a facade for clients. It allows aggregating calls to the backend into a single call for the clients. Additionally, it enables replacing backend services without impacting the clients.
 
-The following illustration can show a possible example of the domain gateway pattern:
+The following illustration shows a possible example of the domain gateway pattern:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670595692476/Kdg2FXLG_.png align="center")
 
-If you are more of a class diagram kind of person, maybe this illustration will make more sense to you:
+If you prefer a class diagram, this illustration might make more sense:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670668028317/TXL00rLLS.png align="center")
 
-Note that a domain gateway doesn't have to facade calls for the clients. It can proxy them if the API is simple enough.
+Note that a domain gateway doesn't have to facade calls for the clients; it can proxy them if the API is simple enough.
 
-Now that we understand what a domain gateway is, here are a few Do's and Don'ts for this pattern.
+Now that we understand what a domain gateway is, here are a few do's and don'ts for this pattern.
 
 ### Do's
 
-* It should be simple. It should handle request proxy and/or request aggregations if needed.
+* Keep it simple. It should handle request proxying and/or request aggregation if needed.
     
-* It should maintain the API versions. It either forward the request to one or more APIs. Each of them can have a different version.
+* Maintain API versions. It should forward the request to one or more APIs, each with potentially different versions.
     
-* It should be lightweight and can scale up easily. If your domain gateway is not available, your entire domain is not available.
+* Ensure it is lightweight and can scale easily. If your domain gateway is unavailable, your entire domain will be unavailable.
     
 
 ### Don'ts
 
-* It should not handle any business logic whatsoever. For example, sending emails, generating files, etc.
+* Handle any business logic. For example, tasks such as sending emails or generating files should not be performed by the domain gateway.
     
-* It should not store any business logic or object models in the database. This service should be completely stateless and have no knowledge of business logic.
+* Store any business logic or object models in the database. The domain gateway should be completely stateless and have no knowledge of business logic.
     
 
-## Ok, I'm convinced...
+## Ok, I'm Convinced...
 
-I hope that I convinced you by now that a domain gateway is useful. If you already read my article [**How to write robust REST API with OpenAPI**](https://yonatankarp.com/how-to-write-robust-rest-api-with-openapi) you probably know I'm a fan of OpenAPI specs for your service.
+I hope I have convinced you that a domain gateway is useful. If you have already read my article [**How to Write Robust REST API with OpenAPI**](https://yonatankarp.com/how-to-write-robust-rest-api-with-openapi), you probably know that I'm a fan of using OpenAPI specs for your service.
 
 The problem introduced in my previous article is: how can I generate many specs at once?
 
-## How do I build it?
+## How Do I Build It?
 
-![selective focus photography of mechanics tool lot](https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80 align="left")
+![Selective focus photography of mechanics tool lot](https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80 align="left")
 
 ### Tech Stack
 
@@ -66,7 +68,7 @@ We will use the following tech stack:
 
 * [Kotlin](https://kotlinlang.org/)
     
-* [Spring Boot](https://spring.io/projects/spring-boot) - At the time of writing this article, SpringBoot 3 is still not supported by the OpenAPI generator. Thus we will use the latest Spring Boot 2
+* [Spring Boot](https://spring.io/projects/spring-boot) - At the time of writing this article, Spring Boot 3 is not yet supported by the OpenAPI generator, so we will use the latest Spring Boot 2.
     
 * [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
     
@@ -77,11 +79,11 @@ We will use the following tech stack:
 
 ### API Specs
 
-For the sake of simplicity, let us assume that we have only 2 services in our domain. Each of them services a single endpoint that is unrelated to the other. The illustration below should show an example of how our client will integrate with our domain:
+For simplicity, let's assume that we have only two services in our domain. Each service serves a single endpoint that is unrelated to the other. The illustration below shows an example of how our client will integrate with our domain:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670595471439/58xR2RlDW.png align="center")
 
-If we look at the service structure of our domain it would look something like this:
+If we look at the service structure of our domain, it would look something like this:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670667943709/OpCJo0he5.png align="center")
 
@@ -89,7 +91,7 @@ Let's define our specs now.
 
 #### Hello Service
 
-Our `Hello` API will expose a single endpoint: `/hello/{name}`. This endpoint will answer the client with `Hello <NAME>` (e.g. `Hello Yonatan`).
+Our `Hello` API will expose a single endpoint: `/hello/{name}`. This endpoint will respond to the client with `Hello <NAME>` (e.g., `Hello Yonatan`).
 
 ```yaml
 openapi: 3.0.3
@@ -108,7 +110,7 @@ paths:
       operationId: hello
       summary: Returns hello + user name
       tags:
-        -  Hello
+        - Hello
       parameters:
         - in: path
           name: name
@@ -117,7 +119,8 @@ paths:
           required: true
       responses:
         "200":
-          description: Successfully returning hello + user name to the client.
+          description: |
+              Successfully returning hello + user name to the client.
           content:
             application/json:
               schema:
@@ -139,7 +142,7 @@ components:
 
 #### Goodbye Service
 
-Our `Goodbye` API is exactly like the `Hello` API. it will contain a single endpoint: `/goodbye/{name}`. This endpoint, just like `Hello` API would answer the client with `Goodbye <NAME>` (e.g. `Goodbye Yonatan`).
+Our `Goodbye` API is exactly like the `Hello` API. It contains a single endpoint: `/goodbye/{name}`. This endpoint, just like the `Hello` API, responds to the client with `Goodbye <NAME>` (e.g., `Goodbye Yonatan`).
 
 ```yaml
 openapi: 3.0.3
@@ -158,7 +161,7 @@ paths:
       operationId: goodbye
       summary: Returns goodbye + user name
       tags:
-        -  Goodbye
+        - Goodbye
       parameters:
         - in: path
           name: name
@@ -167,7 +170,8 @@ paths:
           required: true
       responses:
         "200":
-          description: Successfully returning goodbye + name to the client.
+          description: |
+              Successfully returning goodbye + name to the client.
           content:
             application/json:
               schema:
@@ -189,7 +193,7 @@ components:
 
 #### Greeting Service
 
-The greeting API is a facade of the 2 services above. It should include 2 API endpoints:
+The greeting API acts as a facade for the two services above. It includes two API endpoints:
 
 * `/hello/{name}`
     
@@ -222,7 +226,8 @@ paths:
           required: true
       responses:
         "200":
-          description: Successfully returning hello + user name to the client.
+          description: |
+              Successfully returning hello + user name to the client.
           content:
             application/json:
               schema:
@@ -242,7 +247,8 @@ paths:
           required: true
       responses:
         "200":
-          description: Successfully returning goodbye + name to the client.
+          description: |
+              Successfully returning goodbye + name to the client.
           content:
             application/json:
               schema:
@@ -280,16 +286,16 @@ We will locate all the above specs in our `/resource/api` directory with the fol
 * `gateway-api.yaml`
     
 
-### Generate multiple specs
+### Generating Multiple Specs
 
-We will reuse the same setup we used in the previous article. But we would like to amend it so we can generate an unlimited amount of specs. If you're missing an explanation on how to configure the OpenAPI Gradle plugin, please go and read my previous article.
+We will reuse the same setup we used in the previous article. However, we would like to amend it so that we can generate an unlimited number of specs. If you need an explanation on how to configure the OpenAPI Gradle plugin, please refer to my previous article.
 
-The 1st step in our journey is introducing a new class into our Gradle build script. This class would hold all the required information about the spec.
+The first step is to introduce a new class into our Gradle build script. This class will hold all the required information about the spec.
 
 ```kotlin
 /**
- * A class represents a specific spec to generate.
- */ 
+ * A class representing a specific spec to generate.
+ */
 data class ApiSpec(
     val name: String,
     val taskName: String,
@@ -304,11 +310,11 @@ data class ApiSpec(
 )
 ```
 
-Now, we will create a list of all the specs we would like to generate in our `build.gradle.kts`:
+Now, we will create a list of all the specs we want to generate in our `build.gradle.kts`:
 
 ```kotlin
 /**
- * List of all api specs to generate
+ * List of all API specs to generate.
  */
 val supportedApis = listOf(
     ApiSpec(
@@ -375,29 +381,29 @@ val supportedApis = listOf(
 )
 ```
 
-**Note:** If you noticed, all of our specs are generated into the same output directory. The reason for that is that OpenAPI generates some infrastructure classes that are used by the generated code. If we will not generate them in the same directory, the `sourceDir` will include duplications of classes in the same packages and the code will not compile.
+**Note:** If you noticed, all of our specs are generated into the same output directory. This is because OpenAPI generates some infrastructure classes that are used by the generated code. If we do not generate them in the same directory, the `sourceDir` will include duplications of classes in the same packages, and the code will not compile.
 
-You can see that we're still separating our APIs by package name in the generated code:
+You can see that we are still separating our APIs by package name in the generated code:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670669752006/tuuB0fh8d.png align="center")
 
-The next steps are the most important parts. We will define some generic functions that will do the following:
+The next step is defining some generic functions that will:
 
-* register a new task for each spec to generate the code.
+* Register a new task for each spec to generate the code.
     
-* add the generated code to the source set.
+* Add the generated code to the source set.
     
-* make the `clean` task finalized by the generation task of the spec.
+* Ensure that the `clean` task is finalized by the generation task of the spec.
     
-* make `compileKotlin` depends on the generation task of the spec.
+* Make `compileKotlin` depend on the generation task of the spec.
     
 
-Let's start.
+Let's get started.
 
 We will start by creating the tasks for each of our specs under the `openapi tools` group:
 
 ```kotlin
-// Iterate over the api list and register them as generator tasks
+// Iterate over the API list and register them as generator tasks
 supportedApis.forEach { api ->
     tasks.create(api.taskName, GenerateOpenApiTask::class) {
         group = "openapi tools"
@@ -409,12 +415,12 @@ supportedApis.forEach { api ->
         apiPackage.set(api.packageName)
         modelPackage.set(api.modelPackageName)
         configOptions.set(api.config)
-        api.templateDir?.let {this.templateDir.set(it)}
+        api.templateDir?.let { this.templateDir.set(it) }
     }
 }
 ```
 
-The next step is adding our generated code from the previous tasks into our `sourceSet`. We're using the 1st element in the list as all of our files are generated into the same output directory.
+The next step is adding our generated code from the previous tasks to our `sourceSet`. We are using the first element in the list since all of our files are generated into the same output directory.
 
 ```kotlin
 supportedApis.first().let {
@@ -429,9 +435,9 @@ supportedApis.first().let {
 }
 ```
 
-**Note:** we're including the `ApiClient.kt`, `OAuth.kt,` and `OAuthOkHttpClient.kt` as currently there is a bug in the generator. This bug doesn't allow generating Retrofit clients with Jackson as the serialization library. I have [opened a pull request](https://github.com/OpenAPITools/openapi-generator/pull/14239) for the fix on the OpenApi generator's repository. If the pull request was merged, you can remove the `exclude` part from your project.
+**Note:** We are including the `ApiClient.kt`, `OAuth.kt`, and `OAuthOkHttpClient.kt` as there is currently a bug in the generator that prevents us from generating Retrofit clients with Jackson as the serialization library. If the bug is fixed, you can remove the `exclude` part from your project.
 
-The last step would be to ensure `clean` tasks and `compileKotlin` are playing well without new tasks. We will create a new task called `cleanGeneratedCodeTask` that would simply delete all generated code whenever we run the `clean` task. Moreover, we want to ensure that before we build our code, all code generation tasks have been executed.
+The last step is to ensure that the `clean` task and `compileKotlin` work well with the new tasks. We will create a new task called `cleanGeneratedCodeTask` that will delete all generated code whenever the `clean` task is run. Additionally, we want to ensure that all code generation tasks have been executed before building our code.
 
 ```kotlin
 tasks {
@@ -460,7 +466,7 @@ As you can see, now all of our tasks are available for use in Gradle!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670608196771/om9SajUce.png align="center")
 
-The last thing we need to do is add some dependencies to our `build.gradle.kts` to ensure our code can be compiled.
+The last thing we need to do is add some dependencies to our `build.gradle.kts` to ensure that our code can be compiled.
 
 ```kotlin
 dependencies {
@@ -470,42 +476,37 @@ dependencies {
 }
 ```
 
-## Using our generated code
+## Using Our Generated Code
 
 ### Domain Gateway Controller
 
-The domain gateway controller implementation is very simple. It's a Spring `@RestController` that implements a given interface. Thus our code would look like that:
+The domain gateway controller implementation is very simple. It is a Spring `@RestController` that implements a given interface. Our code would look like this:
 
 ```kotlin
 @RestController
 class DomainGatewayController : GatewayApi {
 
-    override fun hello(
-        name: String
-    ): ResponseEntity<HelloResponse> = TODO()
+    override fun hello(name: String): ResponseEntity<HelloResponse> = TODO()
 
-    override fun goodbye(
-        name: String
-    ): ResponseEntity<GoodbyeResponse> = TODO()
+    override fun goodbye(name: String): ResponseEntity<GoodbyeResponse> = TODO()
 }
 ```
 
 ### Clients
 
-As mentioned above, currently, there is a bug in the OpenAPI generator. This bug prevents us from using the auto-generated client. Thus, we will have to define the Retrofit clients manually.
+As mentioned earlier, there is currently a bug in the OpenAPI generator that prevents us from using the auto-generated client. Therefore, we will have to define the Retrofit clients manually.
 
-we will start by defining our `OkHttp` client. Note that I'm setting the logger interceptor level to `BODY`. It's great for debugging, but **NEVER** use it on production. It will log all your request and response bodies. This may lead to the exposure of sensitive information in your logs. If you still want to log your request/response body. You need to build a custom interceptor.
+We will start by defining our `OkHttp` client. Note that I am setting the logger interceptor level to `BODY`. This is great for debugging, but **NEVER** use it in production as it will log all request and response bodies. This may expose sensitive information in your logs. If you still want to log your request/response body, you need to build a custom interceptor.
 
 ```kotlin
 private fun okHttpClient() =
     OkHttpClient
         .Builder()
-        .addInterceptor(HttpLoggingInterceptor()
-            .apply { level = BODY })
+        .addInterceptor(HttpLoggingInterceptor().apply { level = BODY })
         .build()
 ```
 
-The next step is to define the Jackson converter factory. The factory needs the `ObjectMapper` of Spring context. Do not create a new `ObjectMapper` for it! I spent about half of my day at work trying to debug this issue.
+The next step is to define the Jackson converter factory. The factory requires the `ObjectMapper` from the Spring context. Do not create a new `ObjectMapper` for it, as doing so may cause issues.
 
 ```kotlin
 @Bean
@@ -513,7 +514,7 @@ fun jacksonConverterFactory(objectMapper: ObjectMapper): JacksonConverterFactory
     JacksonConverterFactory.create(objectMapper)
 ```
 
-Next, we will define beans for our 2 API clients. Keep in mind that while we're using the convertor from above, we are injecting a generic `Factory`. We're doing so, to make it easier for ourselves to replace the library future.
+Next, we will define beans for our two API clients. Note that while we are using the converter from above, we are injecting a generic `Factory`. This makes it easier to replace the library in the future.
 
 ```kotlin
 @Bean
@@ -533,13 +534,13 @@ fun goodbyeApiClient(converterFactory: Factory): GoodbyeApi =
     Retrofit
         .Builder()
         .addConverterFactory(converterFactory)
-        .baseUrl("http://goodbyte-service:8789")
+        .baseUrl("http://goodbye-service:8789")
         .client(okHttpClient())
         .build()
         .create(GoodbyeApi::class.java)
 ```
 
-That's all, from this point forward we can use our client as follows:
+That's it! From this point forward, we can use our clients as follows:
 
 ```kotlin
 helloApi.hello("Yonatan")
@@ -548,18 +549,18 @@ goodbyeApi.goodbye("Yonatan")
 
 ## Conclusion
 
-In this article, I've explained the benefits of aggregating your services into a domain gateway. We used the power of OpenAPI to ensure the robustness of our API both publically (for our clients) and internally (between our services).
+In this article, I have explained the benefits of aggregating your services into a domain gateway. We have used the power of OpenAPI to ensure the robustness of our API, both publicly (for our clients) and internally (between our services).
 
-All code examples in this article are available in my GitHub account at this repository: [https://github.com/yonatankarp/domain-gateway-demo](https://github.com/yonatankarp/domain-gateway-demo)
+All code examples in this article are available in my GitHub repository: [https://github.com/yonatankarp/domain-gateway-demo](https://github.com/yonatankarp/domain-gateway-demo)
 
 ---
 
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
 
 ---
 
 ## More Information
 
-* [API Versioning with Kotlin and Spring Boot](https://medium.com/towardsdev/api-versioning-with-kotlin-and-spring-boot-ef9e08214526) by Mariusz Sołtysiak. Amazing article by a colleague of mine about API versioning that is used in their domain gateway.
+* [API Versioning with Kotlin and Spring Boot](https://medium.com/towardsdev/api-versioning-with-kotlin-and-spring-boot-ef9e08214526) by Mariusz Sołtysiak: An article by a colleague of mine about API versioning used in their domain gateway.
     
-* [Java Design Patterns - API Gateway](https://java-design-patterns.com/patterns/api-gateway/)
+* [Java Design Patterns - API Gateway](https://java-design-patterns.com/patterns/api-gateway/): An article on the API Gateway pattern from the Java Design Patterns website.
