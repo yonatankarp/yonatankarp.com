@@ -74,8 +74,12 @@ class Location(
 
 Avoid excessive reliance on strings. Prioritize actual objects. Establish clear protocols to differentiate them from strings.
 
+---
+
 Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Credits
 
-* [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maxi Contieri](@mcsee)
+* [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maxi Contieri⭐⭐⭐](@mcsee)
