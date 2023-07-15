@@ -10,8 +10,6 @@ tags: twitter, guide, kotlin, bots, kotlin-beginner
 
 ---
 
-# Build Your Own Twitter Bot with Kotlin
-
 I read an excellent article by [Martin Erlic](https://medium.com/u/f864d52751a7) called "[How To Make a Scary Russian Twitter Bot With Java](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)" and I wanted to update it using Kotlin.
 
 Unlike the original article, I will use Kotlin, a newer and more modern JVM-based language, and Gradle as the build system.
