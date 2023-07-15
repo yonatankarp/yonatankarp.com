@@ -93,4 +93,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 08 - Long Chains Of Collaborations](https://maximilianocontieri.com/code-smell-08-long-chains-of-collaborations) by @[Maxi Contieri](@mcsee)
+* [Code Smell 08 - Long Chains Of Collaborations](https://maximilianocontieri.com/code-smell-08-long-chains-of-collaborations) by @[Maxi Contieri⭐⭐⭐](@mcsee)
