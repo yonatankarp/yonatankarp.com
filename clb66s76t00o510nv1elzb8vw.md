@@ -84,11 +84,15 @@ Note that, in general, the assumption is that the hash function is evenly distri
 
 Yet, in our example, all the keys are going to have the same hash code and, thus, end up in the same bucket. Hence, getting a value from the map will need (in the worst case) scanning the entire linked list. That would take a linear time of `O(n)`.
 
+![](https://cdn-images-1.medium.com/max/1600/1*8s8sB71hNyVPARiINfjO9A.png align="left")
+
 ### Can we improve the search time?
 
 Our problem now is that the bucket uses a linked list, a data structure that is unsorted. What if we would use a data structure that is sorted by nature?
 
 We can replace our bucket implementation with a balanced binary tree. By doing so, we can ensure that each element in the bucket could be found with the worst-case complexity of `O(log(n))`. This is much better than what we had before.
+
+![](https://cdn-images-1.medium.com/max/1600/1*84NP4Y4RVJgPtYtOfJS93g.png align="left")
 
 In fact, since Java 8, the internal implementation of HashMap was changed exactly like that.
 
@@ -122,6 +126,8 @@ Moreover, the question could be extended to cover more topics such as concurrenc
 Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
 
 ---
+
+### Resources
 
 For more information, refer to the following resources:
 
