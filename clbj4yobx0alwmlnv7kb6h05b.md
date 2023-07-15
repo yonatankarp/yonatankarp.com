@@ -117,6 +117,11 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ---
 
+## More Info
+
+* [Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
+    
+
 ## Credits
 
-* [Code Smell 10 - Too Many Arguments](https://maximilianocontieri.com/code-smell-10-too-many-arguments) by [Maxi Contieri](https://twitter.com/mcsee)
+* [Code Smell 10 - Too Many Arguments](https://maximilianocontieri.com/code-smell-10-too-many-arguments) by @[Maxi Contieri⭐⭐⭐](@mcsee)
