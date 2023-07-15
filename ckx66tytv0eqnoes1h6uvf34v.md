@@ -27,7 +27,7 @@ The first step is to create a [Twitter Application](https://apps.twitter.com/) u
 
 ![get account keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1639485718928/iotlNGKrr.png align="left")
 
-2\. Change the token access from "Read only" to "Read and Write" in the dashboard.
+2\. Change the token access from `Read only` to `Read and Write` in the dashboard.
 
 ![change access to read & write](https://cdn.hashnode.com/res/hashnode/image/upload/v1639485720623/DJ_XtxBF4.png align="left")
 
@@ -39,7 +39,7 @@ The first step is to create a [Twitter Application](https://apps.twitter.com/) u
 
 ### Step 2 — Clone the Project Starter from GitHub
 
-To save you time setting up the project, I've created a starter version on GitHub that contains all the necessary setup. You can clone it from [https://github.com/yonatankarp/twitter-bot](https://github.com/yonatankarp/twitter-bot). You can use IntelliJ Community Edition or other tools like Visual Studio Code.
+To save you time setting up the project, I've created a starter version on GitHub that contains all the necessary setups. You can clone it from [https://github.com/yonatankarp/twitter-bot](https://github.com/yonatankarp/twitter-bot). You can use IntelliJ Community Edition or other tools like Visual Studio Code.
 
 ### Step 3 — Prepare Tweets and Configure Twitter4J
 
@@ -146,3 +146,7 @@ If everything is successful, you should see the following output in your debug t
 Congratulations! Your bot is now functional!
 
 The completed bot is available in the repository mentioned in Step 2, under the branch name `complete_bot` at [https://github.com/yonatankarp/twitter-bot/tree/complete\_bot](https://github.com/yonatankarp/twitter-bot/tree/complete_bot).
+
+---
+
+I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
