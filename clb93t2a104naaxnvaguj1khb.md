@@ -96,4 +96,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 # Credits
 
-* [Code Smell 05 - Comment Abusers](https://maximilianocontieri.com/code-smell-05-comment-abusers) by @[Maxi Contieri](@mcsee)
+* [Code Smell 05 - Comment Abusers](https://maximilianocontieri.com/code-smell-05-comment-abusers) by @[Maxi Contieri⭐⭐⭐](@mcsee)
