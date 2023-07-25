@@ -1,10 +1,10 @@
 ---
-title: "Code Smell 21 - Mocking Business"
+title: "Kotlin Code Smell 21 - Mocking Business"
 seoTitle: "Code Smell 21 - Mocking Business: Best Practices and Solutions"
 seoDescription: "Learn how to avoid code complexity and false security by mocking non-business entities. Find best practices and solutions for maintainable tests."
 datePublished: Mon Jul 24 2023 08:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clkglxzg3000o0ajq69x0dcm2
-slug: code-smell-21-mocking-business
+slug: kotlin-code-smell-21-mocking-business
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZLe2BnUZuKA/upload/c629759eea86662fe138045c0357ba87.jpeg
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
