@@ -1,5 +1,5 @@
 ---
-title: "Kotlin Code Smell 18 -Arrays Abusers"
+title: "Kotlin Code Smell 18 - Arrays Abusers"
 seoTitle: "Reifying Objects: Solving Common Software Problems"
 seoDescription: "Learn how reifying objects can solve common software problems such as coupling, information hiding, and code duplication. Improve your software design today"
 datePublished: Fri Jul 14 2023 08:00:39 GMT+0000 (Coordinated Universal Time)
