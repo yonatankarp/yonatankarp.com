@@ -100,4 +100,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 ## Credits
 
-* [Code Smell 03 - Functions Are Too Long](https://maximilianocontieri.com/code-smell-03-functions-are-too-long) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 03 - Functions Are Too Long](https://maximilianocontieri.com/code-smell-03-functions-are-too-long) by @[Maximiliano Contieri](@mcsee)

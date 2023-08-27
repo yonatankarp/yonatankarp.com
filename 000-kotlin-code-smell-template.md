@@ -55,4 +55,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-- [Code Smell XXX - YYY]() by @[Maxi Contieri](@mcsee)
+- [Code Smell XXX - YYY]() by @[Maximiliano Contieri](@mcsee)

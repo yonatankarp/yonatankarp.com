@@ -108,4 +108,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer) by @[Maximiliano Contieri](@mcsee)

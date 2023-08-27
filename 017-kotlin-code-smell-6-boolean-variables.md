@@ -88,4 +88,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 # Credits
 
-* [Code Smell 07 - Boolean Variables](https://maximilianocontieri.com/code-smell-07-boolean-variables) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 07 - Boolean Variables](https://maximilianocontieri.com/code-smell-07-boolean-variables) by @[Maximiliano Contieri](@mcsee)

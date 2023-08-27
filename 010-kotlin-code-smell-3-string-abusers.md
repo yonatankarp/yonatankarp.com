@@ -93,4 +93,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 ## Credits
 
-* [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 04 - String Abusers](https://maximilianocontieri.com/code-smell-04-string-abusers) by @[Maximiliano Contieri](@mcsee)
