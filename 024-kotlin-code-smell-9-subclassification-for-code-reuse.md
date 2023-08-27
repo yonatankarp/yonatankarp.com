@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 9 - Subclassification for Code Reuse"
+subtitle: ""
+slug: kotlin-code-smell-9-subclassification-for-code-reuse
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670058516294/akzymQD_J.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Code Smell 9 - Subclassification for Code Reuse"
 seoDescription: "Learn why favoring composition over inheritance is crucial for code reuse. Refactor legacy systems for maintainability and reduced coupling."
-datePublished: Tue Dec 13 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
-cuid: clblyrsi003h7rwnv8fwr6063
-slug: kotlin-code-smell-9-subclassification-for-code-reuse
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670058516294/akzymQD_J.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Always favor composition over inheritance.
