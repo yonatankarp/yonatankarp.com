@@ -49,6 +49,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 9 - Subclassification for Code Reuse](024-kotlin-code-smell-9-subclassification-for-code-reuse.md)
 - [Kotlin Code Smells 10 - Null](026-kotlin-code-smells-10-null.md)
 - [Kotlin Code Smell 11 - God Objects](027-kotlin-code-smell-11-god-objects.md)
+- [Kotlin Code Smell 12 - Ripple Effect](028-kotlin-code-smell-12-ripple-effect.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

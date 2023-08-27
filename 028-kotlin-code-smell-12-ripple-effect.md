@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 12 - Ripple Effect"
+subtitle: ""
+slug: kotlin-code-smell-12-ripple-effect
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: refactoring, programming-blogs, kotlin, clean-code, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670069003678/yc3eAr775.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Decoupling Legacy Systems: Addressing the Ripple Effect"
 seoDescription: "Learn how to decouple legacy systems to avoid the ripple effect. Covering strategies, refactoring, and interface dependencies for better system management."
-datePublished: Sat Dec 17 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbroj4zl0720gwnv2hcwgd77
-slug: kotlin-code-smell-12-ripple-effect
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670069003678/yc3eAr775.jpeg
-tags: refactoring, programming-blogs, kotlin, clean-code, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** If small changes have a significant impact, you need to decouple your system.
