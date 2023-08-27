@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 16 - Instance Type Checking for Polymorphism"
+subtitle: "Ditch the Type Checks: Let Your Code Dance to Polymorphism's Tune"
+slug: kotlin-code-smell-16-instance-type-checking-for-polymorphism
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670923029137/WWJE8X1D7.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Eliminating Type Checking: Improve Polymorphism and Code Quality"
 seoDescription: "Learn how to enhance code quality by replacing instance type checking with polymorphism. Eliminate coupling, improve flexibility, and simplify your codebase"
-datePublished: Fri Dec 23 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
-cuid: clc096b5f04ugrsnv9ti07t4x
-slug: kotlin-code-smell-16-instance-type-checking-for-polymorphism
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670923029137/WWJE8X1D7.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 > ***TL;DR:*** *Trust your collaborators. Don't check who they are. Ask them to do it instead.*
 

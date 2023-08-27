@@ -22,7 +22,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
  - [Build your own Twitter Bot with Kotlin](001-build-your-own-twitter-bot-with-kotlin)
  - [4 Reasons Why Amazon Keyspaces is Problematic!](003-4-reasons-why-amazon-keyspaces-is-problematic.md)
  - [ChatGPT will not replace engineers any time soon...](032-chatgpt-will-not-replace-engineers-any-time-soon.md)
- - 
+ - [Unleashing ChatGPT: The Art of AI Misdirection](037-unleashing-chatgpt-the-art-of-ai-misdirection.md)
+ - [Real-Life Problem Solving: Lessons from My Engineering Principles](038-real-life-problem-solving-lessons-from-my-engineering-principles.md)
 
 ### Spring Boot
 
@@ -54,7 +55,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 13 - Companion Object Functions](029-kotlin-code-smell-13-companion-object-functions.md)
 - [Kotlin Code Smells 14 - Anonymous Functions Abusers](031-kotlin-code-smells-14-anonymous-functions-abusers.md)
 - [Kotlin Code Smell 15 - Helper Classes](033-kotlin-code-smell-15-helper-classes.md)
-
+- [Kotlin Code Smell 16 - Instance Type Checking for Polymorphism](036-kotlin-code-smell-16-instance-type-checking-for-polymorphism.md)
+- [Kotlin Code Smell 17 - Pattern Abusers](039-kotlin-code-smell-17-pattern-abusers.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

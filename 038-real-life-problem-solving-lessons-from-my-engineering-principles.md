@@ -1,20 +1,32 @@
 ---
 title: "Real-Life Problem Solving: Lessons from My Engineering Principles"
+subtitle: "Applying Software Logic: A Developer's Guide to Navigating Real-World Adventures"
+slug: real-life-problem-solving-lessons-from-my-engineering-principles
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: engineering, software-engineering, vacation
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mG_rp41aYqM/upload/c005903413ae12d6b9077e52e6e2d85a.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Engineering Principles for Real-Life Problem Solving"
 seoDescription: "Discover how applying engineering principles to real-life situations can enhance problem-solving skills. Learn valuable lessons from my vacation experiences"
-datePublished: Sun Mar 05 2023 07:23:50 GMT+0000 (Coordinated Universal Time)
-cuid: clev2hlhi000309l51uze1lb6
-slug: real-life-problem-solving-lessons-from-my-engineering-principles
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mG_rp41aYqM/upload/c005903413ae12d6b9077e52e6e2d85a.jpeg
-tags: engineering, software-engineering, vacation
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 My employer announced a few months ago that any employee who works for three years or more is entitled to a sabbatical. This sabbatical is a fully paid one-month vacation of your choice. Since my wife and I had accumulated a significant number of vacation days, we decided to embark on a two-month trip to Asia—a destination we had long desired to visit. In this post, I will describe step by step how I applied methods from my day-to-day work as a software engineer to solve real-life problems.
 
 ## Principle 1: Eventually, Something Will Break in Production
 
-![Image](https://cdn.hashnode.com/res/hashnode/image/upload/v1677997914392/c18a7372-0e12-4dca-83a9-050981c9752f.jpeg align="left")
+![Eventually, something will break](https://cdn.hashnode.com/res/hashnode/image/upload/v1677997914392/c18a7372-0e12-4dca-83a9-050981c9752f.jpeg align="left")
 
 As the old saying goes, eventually, a production incident will occur. In our case, it happened sooner rather than later. Just a couple of hours after we landed in Thailand, we discovered a huge issue—both my wife's credit card and mine had expired on the day we arrived. This came as a big surprise to us since back home, credit card providers typically replace your card at least six months before its expiration date. However, living in Germany for almost four years taught us something new. Here, you need to request a new card from your bank if you want a replacement (lesson learned!). Fortunately, we had brought some cash with us for the vacation, so we were able to rely on that.
 
