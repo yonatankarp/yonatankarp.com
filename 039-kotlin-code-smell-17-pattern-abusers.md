@@ -102,4 +102,5 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 25 - Pattern Abusers](https://maximilianocontieri.com/code-smell-25-pattern-abusers) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 25 - Pattern Abusers](https://maximilianocontieri.com/code-smell-25-pattern-abusers) by @[Maximiliano Contieri](@mcsee)
+* 

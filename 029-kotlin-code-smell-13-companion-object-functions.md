@@ -111,4 +111,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by @[Maxi Contieri](@mcsee)
+* [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by @[Maximiliano Contieri](@mcsee)

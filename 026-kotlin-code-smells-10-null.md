@@ -151,4 +151,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null) by @[Maximiliano Contieri](@mcsee)

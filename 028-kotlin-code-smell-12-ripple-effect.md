@@ -105,4 +105,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 # Credits
 
-* [Code Smell 16 - Ripple Effect](https://maximilianocontieri.com/code-smell-16-ripple-effect) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 16 - Ripple Effect](https://maximilianocontieri.com/code-smell-16-ripple-effect) by @[Maximiliano Contieri](@mcsee)

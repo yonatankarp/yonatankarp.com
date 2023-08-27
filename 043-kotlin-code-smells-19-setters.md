@@ -163,4 +163,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 ## Credits
 
-* [Code Smell 28](https://maximilianocontieri.com/the-one-and-only-software-design-principle) - Setters by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 28](https://maximilianocontieri.com/the-one-and-only-software-design-principle) - Setters by @[Maximiliano Contieri](@mcsee)

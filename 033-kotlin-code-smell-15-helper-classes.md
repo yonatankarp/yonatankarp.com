@@ -146,4 +146,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 22](https://maximilianocontieri.com/code-smell-22-helpers) - Helpers by @[Maxi Contieri](@mcsee)
+* [Code Smell 22](https://maximilianocontieri.com/code-smell-22-helpers) - Helpers by @[Maximiliano Contieri](@mcsee)

@@ -110,4 +110,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 23 - Instance Type Checking](https://maximilianocontieri.com/code-smell-23-instance-type-checking) by @[Maxi Contieri](@mcsee)
+* [Code Smell 23 - Instance Type Checking](https://maximilianocontieri.com/code-smell-23-instance-type-checking) by @[Maximiliano Contieri](@mcsee)

@@ -121,4 +121,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 # Credits
 
-* [Code Smell 21 - Anonymous Functions Abusers](https://maximilianocontieri.com/code-smell-21-anonymous-functions-abusers) by @[Maxi Contieri](@mcsee)
+* [Code Smell 21 - Anonymous Functions Abusers](https://maximilianocontieri.com/code-smell-21-anonymous-functions-abusers) by @[Maximiliano Contieri](@mcsee)

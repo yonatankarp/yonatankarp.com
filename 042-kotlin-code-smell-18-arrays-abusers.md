@@ -139,4 +139,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 27 - Associative Arrays](https://maximilianocontieri.com/code-smell-27-associative-arrays) by @[Maxi Contieri](@mcsee)
+* [Code Smell 27 - Associative Arrays](https://maximilianocontieri.com/code-smell-27-associative-arrays) by @[Maximiliano Contieri](@mcsee)
