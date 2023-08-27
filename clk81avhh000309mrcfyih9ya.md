@@ -1,10 +1,10 @@
 ---
-title: "Kotlin Code Smells 19 - Setters"
+title: "Kotlin Code Smell 19 - Setters"
 seoTitle: "Avoid Mutability & Anemic Models: Solutions for Junior Programmers"
 seoDescription: "Learn why mutability and anemic models are bad practices for junior programmers. Explore effective solutions to improve code quality and maintainability."
 datePublished: Tue Jul 18 2023 08:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clk81avhh000309mrcfyih9ya
-slug: kotlin-code-smells-19-setters
+slug: kotlin-code-smell-19-setters
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671279616694/LhFnczXAn.jpeg
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
 
