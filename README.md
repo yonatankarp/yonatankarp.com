@@ -1,6 +1,7 @@
 # yonatankarp.com
 
-This is the source code for my personal blog, [yonatankarp.com](https://yonatankarp.com).
+This is the source code for my personal blog, [yonatankarp.com](https://yonatan
+karp.com).
 It contains all the articles I've written, and the images I've used in them.
 
 All the articles are written in Markdown, and the relevant images are in the
@@ -49,3 +50,5 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Advent of Code 2022 (Day 3) - Kotlin Edition](015-advent-of-code-2022-day-3-kotlin-edition.md)
 - [Advent of Code 2022 (Day 4) - Kotlin Edition](016-advent-of-code-2022-day-4-kotlin-edition.md)
 - [Advent of Code 2022 (Day 5) - Kotlin Edition](018-advent-of-code-2022-day-5-kotlin-edition.md)
+- [Advent of Code 2022 (Day 6) - Kotlin Edition](019-advent-of-code-2022-day-6-kotlin-edition.md)
+- [Advent of Code 2022 (Day 7) - Kotlin Edition](020-advent-of-code-2022-day-7-kotlin-edition.md)
