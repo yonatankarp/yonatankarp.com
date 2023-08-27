@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 7 - Long Chains Of Collaborations"
+subtitle: "Avoid Code Smell: Long Chains of Collaborations"
+slug: kotlin-code-smell-7-long-chains-of-collaborations
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056097460/SWqMSlqG9.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid Code Smell: Long Chains of Collaborations"
 seoDescription: "Learn how to prevent code coupling and encapsulation issues by eliminating long chains of collaborations in your Kotlin code."
-datePublished: Sat Dec 10 2022 08:45:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbhozgx302kfponv8nhq2xeh
-slug: kotlin-code-smell-7-long-chains-of-collaborations
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056097460/SWqMSlqG9.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR**: Long chains of collaborations generate coupling and ripple effect, where any change in the chain breaks the code.
