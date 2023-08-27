@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smells 14 - Anonymous Functions Abusers"
-seoTitle: "Avoid Anonymous Function Abuse: Improve Code Quality with Encapsulated"
-seoDescription: "Learn how to enhance code maintainability and reuse by encapsulating functions into objects. Avoid the pitfalls of anonymous function abuse in Kotlin."
-datePublished: Tue Dec 20 2022 08:00:45 GMT+0000 (Coordinated Universal Time)
-cuid: clbvxs6k206zop2nv9zm053om
+subtitle: "Closures in Check: Enhancing Code Maintainability"
 slug: kotlin-code-smells-14-anonymous-functions-abusers
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670074998894/lYlCt6Imq.jpeg
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, code-smell-1, anonymous-function
-
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670074998894/lYlCt6Imq.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
+seoTitle: "Avoid Anonymous Function Abuse: Improve Code Quality with Encapsulated"
+seoDescription: "Learn how to enhance code maintainability and reuse by encapsulating functions into objects. Avoid the pitfalls of anonymous function abuse in Kotlin." 
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Avoid excessive use of closures and functions. Encapsulate them within objects.
