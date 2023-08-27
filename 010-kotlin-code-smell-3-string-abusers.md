@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 3 - String Abusers"
-subtitle: ""
+subtitle: "Cut the Strings: Embrace Objects for Simpler, Readable, and Maintainable Code"
 slug: kotlin-code-smell-3-string-abusers
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, clean-code, strings, kotlin-beginner

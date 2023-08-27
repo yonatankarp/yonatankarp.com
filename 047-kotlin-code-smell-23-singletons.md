@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4CdIv6SZkck/up
 ignorePost: false
 seoTitle: "Kotlin Code Smell 23: Singletons - Harmful Design Pattern"
 seoDescription: "Discover the problems of singletons in Kotlin, from coupling to memory issues. Learn better solutions for improved software designץ"
-seriesSlug:
+seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
 saveAsDraft: false

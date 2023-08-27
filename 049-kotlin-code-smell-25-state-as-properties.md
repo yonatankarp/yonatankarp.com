@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 25 - State as Properties"
+subtitle: "Avoiding State Pitfalls"
+slug: kotlin-code-smell-25-state-as-properties
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/SP5odY8jGLA/upload/392baf1f709148ceaa78c12c4fc45bee.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Best Practices: Avoiding State as Properties Pitfalls"
 seoDescription: "Discover how to improve your Kotlin code quality by addressing the common issue of state as properties, learn the best practices, and avoid potential pitfal"
-datePublished: Fri Aug 04 2023 08:30:08 GMT+0000 (Coordinated Universal Time)
-cuid: clkwbscpj000909jyarzf23mi
-slug: kotlin-code-smell-25-state-as-properties
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/SP5odY8jGLA/upload/392baf1f709148ceaa78c12c4fc45bee.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 When an object changes its state, the best solution is to modify the attribute, right?
 

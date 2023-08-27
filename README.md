@@ -65,6 +65,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 21 - Mocking Business](045-kotlin-code-smell-21-mocking-business.md)
 - [Kotlin Code Smell 22 - Accidental Methods on Business Objects](046-kotlin-code-smell-22-accidental-methods-on-business-objects.md)
 - [Kotlin Code Smell 23 - Singletons](047-kotlin-code-smell-23-singletons.md)
+- [Kotlin Code Smell 24 - Tackling Too Many Attributes](048-kotlin-code-smell-24-tackling-too-many-attributes.md)
+- [Kotlin Code Smell 25 - State as Properties](049-kotlin-code-smell-25-state-as-properties.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

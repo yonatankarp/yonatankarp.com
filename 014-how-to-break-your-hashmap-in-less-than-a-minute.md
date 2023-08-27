@@ -78,7 +78,7 @@ if (map.containsKey(myInteger)) {
 }
 ```
 
-What would be printed here? If your answer was `Sorry, nobody is home :(`, you're correct. But why?
+What would be printed here? If your answer was `Sorry, nobody is home :(`, you're correct. But why?
 
 ## The Why
 
