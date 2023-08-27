@@ -24,6 +24,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
  - [ChatGPT will not replace engineers any time soon...](032-chatgpt-will-not-replace-engineers-any-time-soon.md)
  - [Unleashing ChatGPT: The Art of AI Misdirection](037-unleashing-chatgpt-the-art-of-ai-misdirection.md)
  - [Real-Life Problem Solving: Lessons from My Engineering Principles](038-real-life-problem-solving-lessons-from-my-engineering-principles.md)
+ - [Enhance Productivity with a Repository Template](041-enhance-productivity-with-a-repository-template.md)
 
 ### Spring Boot
 
@@ -58,6 +59,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 15 - Helper Classes](033-kotlin-code-smell-15-helper-classes.md)
 - [Kotlin Code Smell 16 - Instance Type Checking for Polymorphism](036-kotlin-code-smell-16-instance-type-checking-for-polymorphism.md)
 - [Kotlin Code Smell 17 - Pattern Abusers](039-kotlin-code-smell-17-pattern-abusers.md)
+- [Kotlin Code Smell 18 - Arrays Abusers](042-kotlin-code-smell-18-arrays-abusers.md)
+- [Kotlin Code Smell 19 - Setters](043-kotlin-code-smells-19-setters.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

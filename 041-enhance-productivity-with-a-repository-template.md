@@ -1,14 +1,26 @@
 ---
 title: "Enhance Productivity with a Repository Template"
+subtitle: "From Repetitive Boilerplate to Rapid Prototyping in a Snap!"
+slug: enhance-productivity-with-a-repository-template
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, github, project-management, ci-cd, software-development-tools
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/M2Kxb80gqcc/upload/35dc7cae9ebbacd3bcd2c3047cc867a8.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Revolutionize Your Workflow with GitHub Template Repositories"
 seoDescription: "Transform Your Workflow with GitHub Templates: Streamline project management, automate CI/CD, and boost productivity with versatile repositories"
-datePublished: Wed Jul 12 2023 10:21:55 GMT+0000 (Coordinated Universal Time)
-cuid: cljzkni4p000109l6777yd4x4
-slug: enhance-productivity-with-a-repository-template
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/M2Kxb80gqcc/upload/35dc7cae9ebbacd3bcd2c3047cc867a8.jpeg
-tags: programming-blogs, github, project-management, ci-cd, software-development-tools
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 A long time ago, a colleague of mine interviewed someone for a position at our company. He was impressed by the person's setup, which allowed them to quickly create projects. This setup included a database connection, REST controllers, and a fast starting process.
 
