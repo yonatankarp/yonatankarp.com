@@ -1,13 +1,24 @@
 ---
 title: "Build your own Twitter Bot with Kotlin"
+slug: build-your-own-twitter-bot-with-kotlin-b10b3e6659e7
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: twitter, guide, kotlin, bots, kotlin-beginner
+domain: https://yonatankarp.com
+subtitle: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1639603533753/qMyvtIuf6.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Build Your Own Twitter Bot with Kotlin | Step-by-Step Guide"
 seoDescription: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
-datePublished: Sat Dec 11 2021 18:32:59 GMT+0000 (Coordinated Universal Time)
-cuid: ckx66tytv0eqnoes1h6uvf34v
-slug: build-your-own-twitter-bot-with-kotlin-b10b3e6659e7
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1639603533753/qMyvtIuf6.jpeg
-tags: twitter, guide, kotlin, bots, kotlin-beginner
-
+seriesSlug:
+# Table of contents
+enableToc: false
+saveAsDraft: false
 ---
 
 I read an excellent article by [Martin Erlic](https://medium.com/u/f864d52751a7) called "[How To Make a Scary Russian Twitter Bot With Java](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)" and I wanted to update it using Kotlin.
