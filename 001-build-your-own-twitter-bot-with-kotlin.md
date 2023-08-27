@@ -1,10 +1,10 @@
 ---
 title: "Build your own Twitter Bot with Kotlin"
+subtitle: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
 slug: build-your-own-twitter-bot-with-kotlin
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: twitter, guide, kotlin, bots, kotlin-beginner
 domain: https://yonatankarp.com
-subtitle: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
 # Note: You must upload the image to Hashnode's CDN, before you can use it here.
 # - To upload, Login to Hashnode and go to https://hashnode.com/uploader
 #   Use the URL that is generated after the upload.
