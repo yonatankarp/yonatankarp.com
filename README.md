@@ -42,6 +42,6 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - 
 
 ### Advent of Code
-- [Advent of Code 2022 - Kotlin Edition - Day 1](007-advent-of-code-2022-kotlin-edition-day-1.md)
-- [Advent of Code 2022 - Kotlin Edition - Day 2](009-advent-of-code-2022-kotlin-edition-day-2.md)
+- [Advent of Code 2022 - Kotlin Edition - Day 1](007-advent-of-code-2022-day-1-kotlin-edition.md)
+- [Advent of Code 2022 - Kotlin Edition - Day 2](009-advent-of-code-2022-day-2-kotlin-edition.md)
 - 

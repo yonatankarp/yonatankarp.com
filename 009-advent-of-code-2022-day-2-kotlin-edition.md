@@ -1,7 +1,7 @@
 ---
-title: "Advent of Code 2022 - Kotlin Edition - Day 2"
+title: "Advent of Code 2022 (Day 2) - Kotlin Edition"
 subtitle: ""
-slug: advent-of-code-2022-kotlin-edition-day-2
+slug: advent-of-code-2022-day-2-kotlin-edition
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: adventofcode2022, kotlin 
 domain: https://yonatankarp.com
