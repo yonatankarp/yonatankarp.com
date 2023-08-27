@@ -39,6 +39,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 1 - Constants and Magic Numbers](005-kotlin-code-smell-1-constants-and-magic-numbers.md)
 - [Kotlin Code Smell 2 - Functions Are Too Long](006-kotlin-code-smell-2-functions-are-too-long.md)
 - [Kotlin Code Smell 3 - String Abusers](010-kotlin-code-smell-3-string-abusers.md)
+- [Kotlin Code Smell 4 - Comment Abusers](012-kotlin-code-smell-4-comment-abusers.md)
 - 
 
 ### Advent of Code

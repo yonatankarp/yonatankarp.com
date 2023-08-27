@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 4 - Comment Abusers"
+subtitle: ""
+slug: kotlin-code-smell-4-comment-abusers
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/zoCDWPuiRuA/upload/v1669836538952/BPgqADuAfO.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid Comment Overuse in Code: Code Smell 4"
 seoDescription: "Learn why excessive code comments can harm code quality and discover solutions to improve code maintainability and readability. Find examples and tips."
-datePublished: Sun Dec 04 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clb93t2a104naaxnvaguj1khb
-slug: kotlin-code-smell-4-comment-abusers
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/zoCDWPuiRuA/upload/v1669836538952/BPgqADuAfO.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > ***TL;DR:*** *Leave comments just for important design decisions. Don't explain the obvious!*
