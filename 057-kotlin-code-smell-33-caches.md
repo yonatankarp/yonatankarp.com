@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 33 - Caches"
+subtitle: ""
+slug: kotlin-code-smell-33-caches
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/gRujUd2CtTk/upload/e222cdbad8f7b3fb3b7d41e6e5083c29.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Enhance Your Kotlin Apps: A Guide to Smart Caching Solutions"
 seoDescription: "Uncover caching challenges and solutions, focusing on coupling, maintainability, and effective cache management techniques."
-datePublished: Fri Aug 25 2023 08:30:09 GMT+0000 (Coordinated Universal Time)
-cuid: cllqc18vi00030am81clndf5y
-slug: kotlin-code-smell-33-caches
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/gRujUd2CtTk/upload/e222cdbad8f7b3fb3b7d41e6e5083c29.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 > TL;DR - Caches discusses the problems with caching, such as coupling and maintainability, and proposes solutions like using an object mediator, testing invalidation scenarios, and modeling real-world cache metaphors. It concludes that caches should be functional, and intelligent, and domain objects shouldn't be cached.
 

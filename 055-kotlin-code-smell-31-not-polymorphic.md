@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 31 - Not Polymorphic"
+subtitle: "A Path to Clearer Code and Stronger Design"
+slug: kotlin-code-smell-31-not-polymorphic
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691137175613/31685090-0c41-47c5-915c-102997e11f33.avif
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Programming Guide: Clean Code with Polymorphic Solutions"
 seoDescription: "Improve Kotlin skills by avoiding code smell with polymorphism for cleaner, efficient code. Learn best practices and enhance your projects."
-datePublished: Mon Aug 21 2023 08:34:11 GMT+0000 (Coordinated Universal Time)
-cuid: cllkmf1hu001i08l6fwz26wfh
-slug: kotlin-code-smell-31-not-polymorphic
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691137175613/31685090-0c41-47c5-915c-102997e11f33.avif
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 ## Problems
