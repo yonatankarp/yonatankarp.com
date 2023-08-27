@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 26 - if-else/when statements"
+subtitle: "Code Evolution: Conquering Complexity with Patterns"
+slug: kotlin-code-smell-26-if-elsewhen-statements
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Zkx_DgMQink/upload/3ba7b97b2b1663ce268d1032152b7e74.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Best Practices: Avoiding Code Smells with if-else/when Statemen"
 seoDescription: "Refine Kotlin code by eliminating if-else/when code smells using design patterns for efficient, maintainable programming."
-datePublished: Tue Aug 08 2023 08:00:09 GMT+0000 (Coordinated Universal Time)
-cuid: cll20h6kn000i08jjhn7c9elm
-slug: kotlin-code-smell-26-if-elsewhen-statements
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Zkx_DgMQink/upload/3ba7b97b2b1663ce268d1032152b7e74.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 *First programming lesson: Control structures. Senior developer lesson: avoid them.*

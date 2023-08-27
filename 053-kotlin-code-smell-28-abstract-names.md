@@ -1,13 +1,24 @@
 ---
-title: "Kotlin Code Smell 29 - Taming the RegEx Beast for Cleaner Code"
+title: "Kotlin Code Smell 29 - Regular Expression Abusers"
+subtitle: "From Spaghetti Code to Readable Magic"
+slug: kotlin-code-smell-29-regular-expression-abusers
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Kl4LNdg6on4/upload/e2b025e94f4ae29d131bd6081cad013d.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Improve Your Kotlin Code: Tips for Effective RegEx Usage"
 seoDescription: "Optimize Kotlin code using regular expressions for cleaner, readable, maintainable code. Learn best practices and proper RegEx usage with examples."
-datePublished: Wed Aug 16 2023 08:00:09 GMT+0000 (Coordinated Universal Time)
-cuid: clldfzzzt000009l41q1o1p2p
-slug: kotlin-code-smell-29-taming-the-regex-beast-for-cleaner-code
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Kl4LNdg6on4/upload/e2b025e94f4ae29d131bd6081cad013d.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 *RegEx is a wonderful tool, we should use them carefully and not look smart.*

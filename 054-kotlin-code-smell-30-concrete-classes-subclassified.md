@@ -1,13 +1,24 @@
 ---
-title: "Kotlin Code Smell 30 - Avoiding Concrete Class Subclassification Pitfalls"
+title: "Kotlin Code Smell 30 - Concrete Classes Subclassified"
+subtitle: "Code Chaos to Composition Brilliance: A Transformation Tale"
+slug: kotlin-code-smell-30-concrete-classes-subclassified
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GqQ1Jnl0TWQ/upload/a140e90b91e3367277d3cda82a0c44e9.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Best Practices: Avoiding Concrete Class Subclassing Pitfalls"
 seoDescription: "Avoid concrete class subclassing pitfalls in Kotlin by mastering best practices, using composition, and understanding the Liskov Substitution Principle."
-datePublished: Fri Aug 18 2023 08:00:09 GMT+0000 (Coordinated Universal Time)
-cuid: cllgavp8l000q0am94ycwdbke
-slug: kotlin-code-smell-30-avoiding-concrete-class-subclassification-pitfalls
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GqQ1Jnl0TWQ/upload/a140e90b91e3367277d3cda82a0c44e9.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 ## Problem

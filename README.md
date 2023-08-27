@@ -67,6 +67,11 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 23 - Singletons](047-kotlin-code-smell-23-singletons.md)
 - [Kotlin Code Smell 24 - Tackling Too Many Attributes](048-kotlin-code-smell-24-tackling-too-many-attributes.md)
 - [Kotlin Code Smell 25 - State as Properties](049-kotlin-code-smell-25-state-as-properties.md)
+- [Kotlin Code Smell 26 - if-else/when statements](050-kotlin-code-smell-26-if-elsewhen-statements.md)
+- [Kotlin Code Smell 27 - Protected Attributes](051-kotlin-code-smell-27-protected-attributes.md)
+- [Kotlin Code Smell 28 - Abstract Names](052-kotlin-code-smell-28-abstract-names.md)
+- [Kotlin Code Smell 29 - Regular Expression Abusers](053-kotlin-code-smell-28-abstract-names.md)
+- [Kotlin Code Smell 30 - Concrete Classes Subclassified](054-kotlin-code-smell-30-concrete-classes-subclassified.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
