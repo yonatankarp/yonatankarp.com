@@ -20,6 +20,7 @@ seriesSlug: advent-of-code
 enableToc: true
 saveAsDraft: false
 ---
+
 ## Part 1
 
 ### Task
