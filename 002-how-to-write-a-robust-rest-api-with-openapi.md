@@ -1,13 +1,24 @@
 ---
 title: "How to Write a Robust REST API with OpenAPI"
+subtitle: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
+slug: how-to-write-a-robust-rest-api-with-openapi
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: gradle, guide, kotlin, springboot, openapi
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/qWwpHwip31M/upload/v1639559550032/L-pLzXJ3Q.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "A Guide to Writing Robust REST APIs with OpenAPI | Learn How to Design"
 seoDescription: "Learn how to design & implement robust REST APIs using OpenAPI. Achieve seamless integration & follow best practices for backend-client communication."
-datePublished: Thu Dec 23 2021 18:27:52 GMT+0000 (Coordinated Universal Time)
-cuid: ckxjasbc802oo57s12mbddy5k
-slug: how-to-write-a-robust-rest-api-with-openapi
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/qWwpHwip31M/upload/v1639559550032/L-pLzXJ3Q.jpeg
-tags: gradle, guide, kotlin, springboot, openapi
-
+seriesSlug: spring-boot
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 As a backend engineer, I have developed numerous REST APIs, and one recurring issue I faced was the lack of smooth integration between the backend and clients. Typos in URLs, inconsistent casing in JSON (camel case vs. snake case), passing values of the wrong type (e.g., string instead of an integer), and other similar mistakes have happened to us multiple times.
