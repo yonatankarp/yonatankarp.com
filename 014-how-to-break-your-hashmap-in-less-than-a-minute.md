@@ -1,13 +1,24 @@
 ---
 title: "How to Break Your HashMap in Less Than a Minute"
+subtitle: "Avoid HashMap Issues: Don't Use Mutable Objects"
+slug: how-to-break-your-hashmap-in-less-than-a-minute
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, java, guide, hashmap
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/cGXdjyP6-NU/upload/v1669959698248/iCX6V2n1R.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid HashMap Issues: Don't Use Mutable Objects"
 seoDescription: "Learn why using mutable objects such as HashMap keys can break your code. Discover the importance of immutability and how to avoid unexpected behaviors."
-datePublished: Mon Dec 05 2022 07:50:48 GMT+0000 (Coordinated Universal Time)
-cuid: clbahtm6c002y08ml85qn2m55
-slug: how-to-break-your-hashmap-in-less-than-a-minute
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/cGXdjyP6-NU/upload/v1669959698248/iCX6V2n1R.jpeg
-tags: programming-blogs, java, guide, hashmap
-
+seriesSlug: jvm
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Never use mutable objects as keys in your HashMap!

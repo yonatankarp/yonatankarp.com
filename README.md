@@ -32,7 +32,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 ### JVM
 
 - [How does HashMap work in Java?](008-how-does-hashmap-work-in-java.md)
-- 
+- [How to Break Your HashMap in Less Than a Minute](014-how-to-break-your-hashmap-in-less-than-a-minute.md)
 
 ### Kotlin Code Smells
 
