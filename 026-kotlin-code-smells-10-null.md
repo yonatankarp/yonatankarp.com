@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smells 10 - Null"
+subtitle: ""
+slug: kotlin-code-smells-10-null
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1, null-safety
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670059688939/qyf3lGeJB.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Code Smells: Avoiding Null and Embracing NullObject Pattern"
 seoDescription: "Discover the drawbacks of using null in Kotlin programming and learn how to avoid them with the NullObject pattern. Improve code quality and prevent errors."
-datePublished: Thu Dec 15 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbotng7803x9ybnv83nk0s2f
-slug: kotlin-code-smells-10-null
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670059688939/qyf3lGeJB.jpeg
-tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1, null-safety
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Null does not exist in the real world. Its creator regrets it, and programmers worldwide suffer from it. Avoid being a part of it.
