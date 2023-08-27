@@ -1,7 +1,7 @@
 ---
-title: "Kotlin Code Smells 14 - Anonymous Functions Abusers"
+title: "Kotlin Code Smell 14 - Anonymous Functions Abusers"
 subtitle: "Closures in Check: Enhancing Code Maintainability"
-slug: kotlin-code-smells-14-anonymous-functions-abusers
+slug: kotlin-code-smell-14-anonymous-functions-abusers
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, code-smell-1, anonymous-function
 domain: https://yonatankarp.com
