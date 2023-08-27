@@ -1,13 +1,24 @@
 ---
 title: "How does HashMap work in Java?"
+subtitle: "Learn how HashMap works in Java: A comprehensive guide for Java developers."
+slug: how-does-hashmap-work-in-java
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: jvm, interview, java, guide, interview-questions
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/5fNmWej4tAA/upload/v1669958321199/uhaH3y1A1.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "How does HashMap work in Java? | Guide to Java HashMap"
 seoDescription: "Learn how HashMap works in Java: equals(), hashCode(), retrieval complexity, and more. A comprehensive guide for Java developers."
-datePublished: Fri Dec 02 2022 07:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clb66s76t00o510nv1elzb8vw
-slug: how-does-hashmap-work-in-java
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/5fNmWej4tAA/upload/v1669958321199/uhaH3y1A1.jpeg
-tags: jvm, interview, java, guide, interview-questions
-
+seriesSlug: jvm
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 As an interviewer, I often ask the question about how HashMap works in Java. It helps me assess a candidate's understanding of data structures, JVM internals, and their problem-solving approach. I've encountered many candidates, including juniors, mid-levels, and seniors, who couldn't answer this question correctly. So, I decided to share the answer with everyone.
