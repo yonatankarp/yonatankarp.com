@@ -44,7 +44,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 6 - Boolean Variables](017-kotlin-code-smell-6-boolean-variables.md)
 
 ### Advent of Code
-- [Advent of Code 2022 - Kotlin Edition - Day 1](007-advent-of-code-2022-day-1-kotlin-edition.md)
-- [Advent of Code 2022 - Kotlin Edition - Day 2](009-advent-of-code-2022-day-2-kotlin-edition.md)
-- [Advent of Code 2022 - Kotlin Edition - Day 3](015-advent-of-code-2022-day-3-kotlin-edition.md)
-- [Advent of Code 2022 - Kotlin Edition - Day 4](016-advent-of-code-2022-day-4-kotlin-edition.md)
+- [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
+- [Advent of Code 2022 (Day 2) - Kotlin Edition](009-advent-of-code-2022-day-2-kotlin-edition.md)
+- [Advent of Code 2022 (Day 3) - Kotlin Edition](015-advent-of-code-2022-day-3-kotlin-edition.md)
+- [Advent of Code 2022 (Day 4) - Kotlin Edition](016-advent-of-code-2022-day-4-kotlin-edition.md)
+- [Advent of Code 2022 (Day 5) - Kotlin Edition](018-advent-of-code-2022-day-5-kotlin-edition.md)
