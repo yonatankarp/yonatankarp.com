@@ -78,6 +78,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 32 - Repeated Code](056-kotlin-code-smell-32-repeated-code.md)
 - [Kotlin Code Smell 33 - Caches](057-kotlin-code-smell-33-caches.md)
 - [Kotlin Code Smell 34 - Fragile Tests](058-kotlin-code-smell-34-fragile-tests.md)
+- [Kotlin Code Smell 35 - Explicit Iteration](058-kotlin-code-smell-35-explicit-iteration.md)
+- 
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
