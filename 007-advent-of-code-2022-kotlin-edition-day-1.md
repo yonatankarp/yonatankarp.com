@@ -3,7 +3,7 @@ title: "Advent of Code 2022 - Kotlin Edition - Day 1"
 subtitle: ""
 slug: advent-of-code-2022-kotlin-edition-day-1
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: adventofcode2022, kotlin, 
+tags: adventofcode2022, kotlin 
 domain: https://yonatankarp.com
 # Note: You must upload the image to Hashnode's CDN, before you can use it here.
 # - To upload, Login to Hashnode and go to https://hashnode.com/uploader
@@ -17,8 +17,8 @@ seoTitle: ""
 seoDescription: ""
 seriesSlug: advent-of-code
 # Table of contents
-enableToc: false
-saveAsDraft: true
+enableToc: true
+saveAsDraft: false
 ---
 
 ## Part 1

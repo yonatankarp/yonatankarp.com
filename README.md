@@ -14,7 +14,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
 ![logo](logo.jpeg)
 
-# Series
+## Blog Content
 
 ### General
 
@@ -26,6 +26,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
 - [How to Write a Robust REST API with OpenAPI](002-how-to-write-a-robust-rest-api-with-openapi.md)
 - [How to inject multiple implementations in the Spring Framework](004-how-to-inject-multiple-implementations-in-the-spring-framework.md)
+- [Create a Custom Spring Boot App Banner](011-create-a-custom-spring-boot-app-banner.md)
+- 
 
 ### JVM
 
@@ -36,7 +38,10 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
 - [Kotlin Code Smell 1 - Constants and Magic Numbers](005-kotlin-code-smell-1-constants-and-magic-numbers.md)
 - [Kotlin Code Smell 2 - Functions Are Too Long](006-kotlin-code-smell-2-functions-are-too-long.md)
+- [Kotlin Code Smell 3 - String Abusers](010-kotlin-code-smell-3-string-abusers.md)
 - 
 
 ### Advent of Code
 - [Advent of Code 2022 - Kotlin Edition - Day 1](007-advent-of-code-2022-kotlin-edition-day-1.md)
+- [Advent of Code 2022 - Kotlin Edition - Day 2](009-advent-of-code-2022-kotlin-edition-day-2.md)
+- 

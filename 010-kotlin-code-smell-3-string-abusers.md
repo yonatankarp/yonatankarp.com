@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 3 - String Abusers"
+subtitle: ""
+slug: kotlin-code-smell-3-string-abusers
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, strings, kotlin-beginner
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/C5SUkYZT7nU/upload/v1669832838326/gSAr6Ry6C.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid String Abuse in Kotlin"
 seoDescription: "Improve code complexity, readability, and maintainability in Kotlin by using real objects instead of excessive string manipulation."
-datePublished: Fri Dec 02 2022 08:00:42 GMT+0000 (Coordinated Universal Time)
-cuid: clb67usah012a2knv0yjc0pfr
-slug: kotlin-code-smell-3-string-abusers
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/C5SUkYZT7nU/upload/v1669832838326/gSAr6Ry6C.jpeg
-tags: programming-blogs, kotlin, clean-code, strings, kotlin-beginner
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Use actual objects and abstractions instead of random string manipulation.

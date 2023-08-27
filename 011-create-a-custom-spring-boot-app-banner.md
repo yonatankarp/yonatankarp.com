@@ -1,13 +1,24 @@
 ---
 title: "Create a Custom Spring Boot App Banner"
+subtitle: "Customize Spring Boot Banner: Personalize Easily"
+slug: create-a-custom-spring-boot-app-banner
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: spring, guide, springboot, customization
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/Dnkr_lmdKi8/upload/v1669959141692/4QitOw44k.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Customize Spring Boot Banner: Personalize Easily"
 seoDescription: "Learn how to easily customize your Spring Boot app banner with custom text or images in just minutes. Personalize your app's look and feel!"
-datePublished: Sat Dec 03 2022 08:10:08 GMT+0000 (Coordinated Universal Time)
-cuid: clb7nmri0000408jqfuvz6py4
-slug: create-a-custom-spring-boot-app-banner
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/Dnkr_lmdKi8/upload/v1669959141692/4QitOw44k.jpeg
-tags: spring, guide, springboot, customization
-
+seriesSlug: spring-boot
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 Today, I'd like to share a fun feature of Spring with you. It's not new or crucial, but it's definitely enjoyable!
