@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/76H1lEBFnqc/upload/v
 ignorePost: false
 seoTitle: "Avoid Boolean Variables: Use Polymorphic States"
 seoDescription: "Learn why using boolean variables as flags in code leads to issues and how to improve extensibility with polymorphic states."
-seriesSlug:
+seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
 saveAsDraft: false

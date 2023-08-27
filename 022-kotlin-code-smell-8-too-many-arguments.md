@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056643473/FcmfHdW
 ignorePost: false
 seoTitle: "Kotlin Code Smell: Avoid Too Many Arguments"
 seoDescription: "Learn how to improve your code quality by reducing the number of arguments in Kotlin functions. Enhance maintainability and readability."
-seriesSlug:
+seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
 saveAsDraft: false
