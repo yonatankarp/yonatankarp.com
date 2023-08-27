@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 11 - God Objects"
+subtitle: ""
+slug: kotlin-code-smell-11-god-objects
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670063425483/sM3lSX7i5.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid God Objects: Use the Single Responsibility Principle"
 seoDescription: "Learn how to avoid God Objects in object-oriented programming by following the Single Responsibility Principle. Improve code cohesion and maintainability."
-datePublished: Fri Dec 16 2022 08:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbq93am8008ngwnvbje7aiuv
-slug: kotlin-code-smell-11-god-objects
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670063425483/sM3lSX7i5.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Avoid taking on excessive responsibilities. Use the single responsibility principle.
