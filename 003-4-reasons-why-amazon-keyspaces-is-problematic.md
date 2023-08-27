@@ -1,13 +1,24 @@
 ---
 title: "4 Reasons Why Amazon Keyspaces is Problematic!"
+subtitle: ""
+slug: 4-reasons-why-amazon-keyspaces-is-problematic
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: cassandra, cloud, aws, databases
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/3cFjeikAqCY/upload/v1640871546882/d9stnU3Iv.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "4 Reasons Why Amazon Keyspaces Falls Short: Missing Features and Worka"
 seoDescription: "Explore the limitations of Amazon Keyspaces, a Cassandra-compatible database. Is it the right choice for your system?"
-datePublished: Thu Jan 13 2022 07:51:37 GMT+0000 (Coordinated Universal Time)
-cuid: ckycoay5z01uzp8s1dl7z918x
-slug: 4-reasons-why-amazon-keyspaces-is-problematic
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/3cFjeikAqCY/upload/v1640871546882/d9stnU3Iv.jpeg
-tags: cassandra, cloud, aws, databases
-
+seriesSlug: 
+# Table of contents
+enableToc: false
+saveAsDraft: false
 ---
 
 Around a year ago, my team and I were tasked with building a high-performance system capable of handling a large volume of requests. After careful consideration, we chose Cassandra as our database.
