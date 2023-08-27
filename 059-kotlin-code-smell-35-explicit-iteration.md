@@ -82,4 +82,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 53 - Explicit Iteration](https://maximilianocontieri.com/code-smell-53-explicit-iteration) by @[Maxi Contieri](@mcsee)
+* [Code Smell 53 - Explicit Iteration](https://maximilianocontieri.com/code-smell-53-explicit-iteration) by @[Maximiliano Contieri](@mcsee)

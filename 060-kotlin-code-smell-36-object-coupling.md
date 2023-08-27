@@ -90,4 +90,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 55 - Object Orgy](https://maximilianocontieri.com/code-smell-55-object-orgy) by @[Maxi Contieri](@mcsee)
+* [Code Smell 55 - Object Orgy](https://maximilianocontieri.com/code-smell-55-object-orgy) by @[Maximiliano Contieri](@mcsee)

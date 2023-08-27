@@ -119,4 +119,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 46 - Repeated Code](https://maximilianocontieri.com/code-smell-46-repeated-code) by @[Maxi Contieri](@mcsee)
+* [Code Smell 46 - Repeated Code](https://maximilianocontieri.com/code-smell-46-repeated-code) by @[Maximiliano Contieri](@mcsee)

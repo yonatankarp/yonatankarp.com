@@ -97,4 +97,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 43 - Concrete Classes Subclassified](https://maximilianocontieri.com/code-smell-43-concrete-classes-subclassified) by @[Maxi Contieri](@mcsee)
+* [Code Smell 43 - Concrete Classes Subclassified](https://maximilianocontieri.com/code-smell-43-concrete-classes-subclassified) by @[Maximiliano Contieri](@mcsee)

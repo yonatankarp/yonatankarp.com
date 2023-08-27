@@ -83,4 +83,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 45 - Not Polymorphic](https://maximilianocontieri.com/code-smell-45-not-polymorphic) by @[Maxi Contieri](@mcsee)
+* [Code Smell 45 - Not Polymorphic](https://maximilianocontieri.com/code-smell-45-not-polymorphic) by @[Maximiliano Contieri](@mcsee)

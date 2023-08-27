@@ -129,4 +129,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 49 - Caches](https://maximilianocontieri.com/code-smell-49-caches) by @[Maxi Contieri](@mcsee)
+* [Code Smell 49 - Caches](https://maximilianocontieri.com/code-smell-49-caches) by @[Maximiliano Contieri](@mcsee)

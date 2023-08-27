@@ -113,4 +113,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 51 - Fragile Tests](https://maximilianocontieri.com/code-smell-52-fragile-tests) by @[Maxi Contieri](@mcsee)
+* [Code Smell 51 - Fragile Tests](https://maximilianocontieri.com/code-smell-52-fragile-tests) by @[Maximiliano Contieri](@mcsee)
