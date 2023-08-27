@@ -44,6 +44,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 5 - Too Clever For Your Own Good](013-kotlin-code-smell-5-too-clever-for-your-own-good.md)
 - [Kotlin Code Smell 6 - Boolean Variables](017-kotlin-code-smell-6-boolean-variables.md)
 - [Kotlin Code Smell 7 - Long Chains Of Collaborations](021-kotlin-code-smell-7-long-chains-of-collaborations.md)
+- [Kotlin Code Smell 8 - Too Many Arguments](022-kotlin-code-smell-8-too-many-arguments.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

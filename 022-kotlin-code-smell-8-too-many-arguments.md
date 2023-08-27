@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 8 - Too Many Arguments"
+subtitle: ""
+slug: kotlin-code-smell-8-too-many-arguments
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: functions, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056643473/FcmfHdWvev.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Code Smell: Avoid Too Many Arguments"
 seoDescription: "Learn how to improve your code quality by reducing the number of arguments in Kotlin functions. Enhance maintainability and readability."
-datePublished: Sun Dec 11 2022 09:00:45 GMT+0000 (Coordinated Universal Time)
-cuid: clbj4yobx0alwmlnv7kb6h05b
-slug: kotlin-code-smell-8-too-many-arguments
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670056643473/FcmfHdWvev.jpeg
-tags: functions, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Avoid passing more than three arguments to your functions.
