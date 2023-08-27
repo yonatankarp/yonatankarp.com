@@ -1,6 +1,6 @@
 ---
 title: "Build your own Twitter Bot with Kotlin"
-slug: build-your-own-twitter-bot-with-kotlin-b10b3e6659e7
+slug: build-your-own-twitter-bot-with-kotlin
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: twitter, guide, kotlin, bots, kotlin-beginner
 domain: https://yonatankarp.com
