@@ -1,13 +1,24 @@
 ---
 title: "Building Your Domain Gateway With OpenAPI"
+subtitle: ""
+slug: building-your-domain-gateway-with-openapi
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: gradle, kotlin, springboot, openapi, gateway-api
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670595100693/5hdHlH6p1.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Build a Domain Gateway: Aggregating Microservices with OpenAPI"
 seoDescription: "Learn how to build a Domain Gateway using OpenAPI to aggregate microservices, ensure API robustness, and improve communication between services."
-datePublished: Wed Dec 14 2022 07:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbnc2fzz00doqenvhqwgc2yo
-slug: building-your-domain-gateway-with-openapi
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670595100693/5hdHlH6p1.jpeg
-tags: gradle, kotlin, springboot, openapi, gateway-api
-
+seriesSlug: jvm
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** This article explains what a domain gateway is, how to build one, and why you would want it.
