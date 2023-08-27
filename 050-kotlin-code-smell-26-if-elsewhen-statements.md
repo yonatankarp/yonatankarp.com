@@ -135,4 +135,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 36 - Switch/case/elseif/else/if statements](https://maximilianocontieri.com/code-smell-36-switchcaseelseifelseif-statements) by @[Maxi Contieri](@mcsee)
+* [Code Smell 36 - Switch/case/elseif/else/if statements](https://maximilianocontieri.com/code-smell-36-switchcaseelseifelseif-statements) by @[Maximiliano Contieri](@mcsee)

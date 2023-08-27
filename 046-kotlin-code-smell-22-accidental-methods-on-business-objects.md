@@ -140,4 +140,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 31 - Accidental Methods on Business Objects](https://maximilianocontieri.com/code-smell-31-accidental-methods-on-business-objects) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 31 - Accidental Methods on Business Objects](https://maximilianocontieri.com/code-smell-31-accidental-methods-on-business-objects) by @[Maximiliano Contieri](@mcsee)

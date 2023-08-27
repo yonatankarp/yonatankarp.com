@@ -115,4 +115,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 30 - Mocking Business](https://maximilianocontieri.com/code-smell-30-mocking-business) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 30 - Mocking Business](https://maximilianocontieri.com/code-smell-30-mocking-business) by @[Maximiliano Contieri](@mcsee)

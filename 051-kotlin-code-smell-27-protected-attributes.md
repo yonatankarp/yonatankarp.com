@@ -96,4 +96,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 37 - Protected Attributes](https://maximilianocontieri.com/code-smell-37-protected-attributes) by @[Maxi Contieri](@mcsee)
+* [Code Smell 37 - Protected Attributes](https://maximilianocontieri.com/code-smell-37-protected-attributes) by @[Maximiliano Contieri](@mcsee)

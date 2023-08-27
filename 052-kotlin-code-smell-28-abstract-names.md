@@ -104,4 +104,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 38 - Abstract Names](https://maximilianocontieri.com/code-smell-38-abstract-names) by @[Maxi Contieri](@mcsee)
+* [Code Smell 38 - Abstract Names](https://maximilianocontieri.com/code-smell-38-abstract-names) by @[Maximiliano Contieri](@mcsee)

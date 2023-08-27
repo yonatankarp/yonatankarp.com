@@ -103,4 +103,4 @@ Stay updated with my latest thoughts and ideas by registering for my [newsletter
 
 ## Credits
 
-* [Code Smell 35 - State as Properties](https://maximilianocontieri.com/code-smell-35-state-as-properties) by @[Maxi Contieri](@mcsee)
+* [Code Smell 35 - State as Properties](https://maximilianocontieri.com/code-smell-35-state-as-properties) by @[Maximiliano Contieri](@mcsee)

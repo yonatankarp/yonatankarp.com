@@ -133,4 +133,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 29 - Settings/Configs](https://maximilianocontieri.com/code-smell-29-settingsconfigs) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 29 - Settings/Configs](https://maximilianocontieri.com/code-smell-29-settingsconfigs) by @[Maximiliano Contieri](@mcsee)

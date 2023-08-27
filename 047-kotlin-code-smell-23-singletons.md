@@ -133,4 +133,4 @@ I hope you enjoyed this journey and learned something new. If you want to stay u
 
 ## Credits
 
-* [Code Smell 32 - Singletons](https://maximilianocontieri.com/code-smell-32-singletons) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 32 - Singletons](https://maximilianocontieri.com/code-smell-32-singletons) by @[Maximiliano Contieri](@mcsee)
