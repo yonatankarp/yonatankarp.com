@@ -50,6 +50,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smells 10 - Null](026-kotlin-code-smells-10-null.md)
 - [Kotlin Code Smell 11 - God Objects](027-kotlin-code-smell-11-god-objects.md)
 - [Kotlin Code Smell 12 - Ripple Effect](028-kotlin-code-smell-12-ripple-effect.md)
+- [Kotlin Code Smell 13 - Companion Object Functions](029-kotlin-smell-13-companion-object-functions.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

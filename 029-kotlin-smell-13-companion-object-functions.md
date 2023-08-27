@@ -1,13 +1,24 @@
 ---
-title: "Kotlin Smell 13 - Companion Object Functions"
-seoTitle: "Kotlin Smell 13: Companion Object Functions"
-seoDescription: "Discover the issues caused by companion object methods in Kotlin, their impact on coupling and testability, and recommended solutions with code examples."
-datePublished: Sun Dec 18 2022 08:30:44 GMT+0000 (Coordinated Universal Time)
-cuid: clbt3z1m80040n5nv1pdce70k
-slug: kotlin-smell-13-companion-object-functions
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670070461814/oAFXoWZxX.jpeg
+title: "Kotlin Code Smell 13 - Companion Object Functions"
+subtitle: ""
+slug: kotlin-code-smell-13-companion-object-functions
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, testing, kotlin, clean-code, code-smell-1
-
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670070461814/oAFXoWZxX.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
+seoTitle: "Kotlin Code Smell 13: Companion Object Functions"
+seoDescription: "Discover the issues caused by companion object methods in Kotlin, their impact on coupling and testability, and recommended solutions with code examples."
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Companion object functions are globally available and cannot be replaced for testing.
@@ -100,4 +111,4 @@ Stay updated with my latest thoughts and ideas by registering for my [**newslett
 
 ## Credits
 
-* [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by @[Maxi Contieri⭐⭐⭐](@mcsee)
+* [Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions) by @[Maxi Contieri](@mcsee)
