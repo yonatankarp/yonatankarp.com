@@ -21,8 +21,6 @@ enableToc: true
 saveAsDraft: false
 ---
 
-# Advent of Code 2022 - Kotlin Edition - Day 2
-
 ## Part 1
 
 ### Task

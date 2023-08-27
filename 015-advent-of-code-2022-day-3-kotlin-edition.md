@@ -1,4 +1,25 @@
-# Advent of Code 2022 - Day 3 - Kotlin Edition
+---
+title: "Advent of Code 2022 (Day 3) - Kotlin Edition"
+subtitle: ""
+slug: advent-of-code-2022-day-3-kotlin-edition
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: adventofcode2022, kotlin 
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: 
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: true
+seoTitle: ""
+seoDescription: ""
+seriesSlug: advent-of-code
+# Table of contents
+enableToc: true
+saveAsDraft: false
+---
 
 ## Part 1
 
