@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 5 - Too Clever For Your Own Good"
+subtitle: ""
+slug: kotlin-code-smell-5-too-clever-for-your-own-good
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/4Ennrbj1svk/upload/v1669912664560/pKnEMFCe19.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Clean Code: Avoid Being Too Clever"
 seoDescription: "Learn why being too clever in your code can hinder readability and maintainability. Discover the benefits of clean code practices for better development."
-datePublished: Mon Dec 05 2022 07:30:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbah3rih0ba1ranvde827icw
-slug: kotlin-code-smell-5-too-clever-for-your-own-good
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/4Ennrbj1svk/upload/v1669912664560/pKnEMFCe19.jpeg
-tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Don't pretend you are too smart. Clean code requires readability and simplicity.
