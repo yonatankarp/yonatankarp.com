@@ -10,6 +10,7 @@ tags: programming-blogs, kotlin, code-smell-1, anonymous-function
 
 ---
 
+
 > **TL;DR:** Avoid excessive use of closures and functions. Encapsulate them within objects.
 
 ## **Problems**
