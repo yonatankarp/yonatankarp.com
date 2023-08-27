@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 6 - Boolean Variables"
+subtitle: ""
+slug: kotlin-code-smell-6-boolean-variables
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/76H1lEBFnqc/upload/v1669914752587/o85ecKiUs.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid Boolean Variables: Use Polymorphic States"
 seoDescription: "Learn why using boolean variables as flags in code leads to issues and how to improve extensibility with polymorphic states."
-datePublished: Tue Dec 06 2022 08:00:42 GMT+0000 (Coordinated Universal Time)
-cuid: clbbxm7az05ahycnvfnjr4fgm
-slug: kotlin-code-smell-6-boolean-variables
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/76H1lEBFnqc/upload/v1669914752587/o85ecKiUs.jpeg
-tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > ***TL;DR:*** Avoid using boolean variables, as they lead to the use of if statements. Instead, create polymorphic states.

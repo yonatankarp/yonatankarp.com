@@ -41,6 +41,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 3 - String Abusers](010-kotlin-code-smell-3-string-abusers.md)
 - [Kotlin Code Smell 4 - Comment Abusers](012-kotlin-code-smell-4-comment-abusers.md)
 - [Kotlin Code Smell 5 - Too Clever For Your Own Good](013-kotlin-code-smell-5-too-clever-for-your-own-good.md)
+- [Kotlin Code Smell 6 - Boolean Variables](017-kotlin-code-smell-6-boolean-variables.md)
 
 ### Advent of Code
 - [Advent of Code 2022 - Kotlin Edition - Day 1](007-advent-of-code-2022-day-1-kotlin-edition.md)
