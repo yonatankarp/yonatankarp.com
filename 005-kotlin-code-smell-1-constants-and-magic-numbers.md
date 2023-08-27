@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 1 - Constants and Magic Numbers"
+subtitle: ""
+slug: kotlin-code-smell-1-constants-and-magic-numbers
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/0V7_N62zZcU/upload/v1669794404946/-lX9JMj_h.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid Constants and Magic Numbers in Kotlin Code"
 seoDescription: "Learn why using constants and magic numbers in Kotlin code can lead to issues. Find solutions to improve code quality and maintainability."
-datePublished: Wed Nov 30 2022 18:52:36 GMT+0000 (Coordinated Universal Time)
-cuid: clb409fr5000108le5ydlh8ee
-slug: kotlin-code-smell-001-constants-and-magic-numbers
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/0V7_N62zZcU/upload/v1669794404946/-lX9JMj_h.jpeg
-tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Avoid using magic numbers without explanation. Their source is unknown, and we fear changing them.
