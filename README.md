@@ -33,6 +33,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Create a Custom Spring Boot App Banner](011-create-a-custom-spring-boot-app-banner.md)
 - [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](060-observability-in-action-part-1.md)
 - [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-2.md)
+- [Observability in Action Part 3: Enhancing Your Codebase with OpenTelemetry](062-observability-in-action-part-3.md)
 
 ### JVM
 
