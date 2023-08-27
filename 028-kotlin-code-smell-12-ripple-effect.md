@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 12 - Ripple Effect"
-subtitle: ""
+subtitle: "When Ripples Become Waves: The Importance of Decoupling"
 slug: kotlin-code-smell-12-ripple-effect
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: refactoring, programming-blogs, kotlin, clean-code, code-smell-1

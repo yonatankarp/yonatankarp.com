@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 7 - Long Chains Of Collaborations"
-subtitle: "Avoid Code Smell: Long Chains of Collaborations"
+subtitle: "Decoupling Collaborations: Ensuring Code Stability through Reduced Chains and Better Encapsulation"
 slug: kotlin-code-smell-7-long-chains-of-collaborations
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1

@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 9 - Subclassification for Code Reuse"
-subtitle: ""
+subtitle: "Crafting Flexible Code: The Power of Composition Over Inheritance"
 slug: kotlin-code-smell-9-subclassification-for-code-reuse
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1

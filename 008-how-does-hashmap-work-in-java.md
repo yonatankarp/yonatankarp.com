@@ -1,6 +1,6 @@
 ---
 title: "How does HashMap work in Java?"
-subtitle: "Learn how HashMap works in Java: A comprehensive guide for Java developers."
+subtitle: "Delving Deep into Java HashMaps: A Comprehensive Guide"
 slug: how-does-hashmap-work-in-java
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: jvm, interview, java, guide, interview-questions

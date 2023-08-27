@@ -1,6 +1,6 @@
 ---
 title: "How to Write a Robust REST API with OpenAPI"
-subtitle: "Learn how to create a Twitter bot using Kotlin. Follow this step-by-step guide to build your own bot and automate your tweets. No coding experience required"
+subtitle: "Building REST API with OpenAPI, SpringBoot and Kotlin"
 slug: how-to-write-a-robust-rest-api-with-openapi
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: gradle, guide, kotlin, springboot, openapi

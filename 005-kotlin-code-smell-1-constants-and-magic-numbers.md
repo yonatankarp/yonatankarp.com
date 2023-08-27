@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 1 - Constants and Magic Numbers"
-subtitle: ""
+subtitle: "A method makes calculations with many numbers without describing their semantics"
 slug: kotlin-code-smell-1-constants-and-magic-numbers
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1

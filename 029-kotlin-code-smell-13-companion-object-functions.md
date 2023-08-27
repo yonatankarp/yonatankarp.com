@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 13 - Companion Object Functions"
-subtitle: ""
+subtitle: "Yet another global access coupled with laziness that cannot be mocked."
 slug: kotlin-code-smell-13-companion-object-functions
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, testing, kotlin, clean-code, code-smell-1

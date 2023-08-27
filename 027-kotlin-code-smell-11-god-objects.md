@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 11 - God Objects"
-subtitle: ""
+subtitle: "Juggling Many Hats: The Perils of a God Object"
 slug: kotlin-code-smell-11-god-objects
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1

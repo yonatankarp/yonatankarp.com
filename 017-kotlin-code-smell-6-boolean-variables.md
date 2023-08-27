@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 6 - Boolean Variables"
-subtitle: ""
+subtitle: "Rethinking Booleans: Embrace Polymorphism for Cleaner, Extendable Code"
 slug: kotlin-code-smell-6-boolean-variables
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1

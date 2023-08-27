@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smells 10 - Null"
-subtitle: ""
+subtitle: "Embracing Existence: Say No to Null"
 slug: kotlin-code-smells-10-null
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1, null-safety

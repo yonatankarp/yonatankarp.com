@@ -1,6 +1,6 @@
 ---
 title: "How to inject multiple implementations in the Spring Framework"
-subtitle: ""
+subtitle: "Simplifying Code with Dependency Injection: The Spring Magic"
 slug: how-to-inject-multiple-implementations-in-the-spring-framework
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: guide, kotlin, springboot, kotlin-beginner, solid-principles

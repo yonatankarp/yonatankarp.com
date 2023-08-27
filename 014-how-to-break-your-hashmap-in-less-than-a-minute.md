@@ -1,6 +1,6 @@
 ---
 title: "How to Break Your HashMap in Less Than a Minute"
-subtitle: "Avoid HashMap Issues: Don't Use Mutable Objects"
+subtitle: "Mutable Keys in HashMaps: An Accident Waiting to Happen"
 slug: how-to-break-your-hashmap-in-less-than-a-minute
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, java, guide, hashmap

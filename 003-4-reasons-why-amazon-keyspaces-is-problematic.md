@@ -1,6 +1,6 @@
 ---
 title: "4 Reasons Why Amazon Keyspaces is Problematic!"
-subtitle: ""
+subtitle: "How we workaround keyspaces missing features"
 slug: 4-reasons-why-amazon-keyspaces-is-problematic
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: cassandra, cloud, aws, databases

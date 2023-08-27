@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 8 - Too Many Arguments"
-subtitle: ""
+subtitle: "Optimizing Function Design: The Art of Grouping and Simplifying Arguments"
 slug: kotlin-code-smell-8-too-many-arguments
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: functions, kotlin, clean-code, kotlin-beginner, code-smell-1

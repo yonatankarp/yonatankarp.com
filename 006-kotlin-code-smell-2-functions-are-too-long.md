@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 2 - Functions Are Too Long"
-subtitle: ""
+subtitle: "Humans get bored beyond line 10..."
 slug: kotlin-code-smell-2-functions-are-too-long
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: functions, kotlin, clean-code, kotlin-beginner, programming-tips

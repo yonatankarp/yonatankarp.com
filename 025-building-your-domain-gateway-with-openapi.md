@@ -1,6 +1,6 @@
 ---
 title: "Building Your Domain Gateway With OpenAPI"
-subtitle: ""
+subtitle: "How to generate multiple OpenAPI specs in your project"
 slug: building-your-domain-gateway-with-openapi
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: gradle, kotlin, springboot, openapi, gateway-api

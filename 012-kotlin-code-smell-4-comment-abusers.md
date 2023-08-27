@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 4 - Comment Abusers"
-subtitle: ""
+subtitle: "Comments are coupled with implementation and hardly maintained."
 slug: kotlin-code-smell-4-comment-abusers
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1

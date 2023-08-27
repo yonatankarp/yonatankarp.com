@@ -1,6 +1,6 @@
 ---
 title: "Kotlin Code Smell 5 - Too Clever For Your Own Good"
-subtitle: ""
+subtitle: "Clarity Over Cleverness: The Importance of Writing Understandable Code"
 slug: kotlin-code-smell-5-too-clever-for-your-own-good
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming-blogs, kotlin, kotlin-beginner, code-smell-1
