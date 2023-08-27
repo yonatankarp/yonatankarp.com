@@ -1,13 +1,24 @@
 ---
-title: "Interview Questions - Concurrency & Parallelism"
+title: "[Interview Questions] Concurrency vs. Parallelism: Decoding the Simultaneous Illusion"
+subtitle: "Diving Deep: Unraveling the Mysteries of Concurrency and Parallelism"
+slug: interview-questions-concurrency-parallelism
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, concurrency, interview-questions
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/plwud_FPvwU/upload/2df40269d7d8c739c429926c49301241.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Concurrency vs. Parallelism: Key Differences in Programming"
 seoDescription: "Understand the distinctions between concurrency and parallelism, their relation, and how they impact programming. Learn more in this informative post."
-datePublished: Mon Mar 13 2023 15:00:39 GMT+0000 (Coordinated Universal Time)
-cuid: clf6ybvjg0218e4nv7tpeg1c0
-slug: interview-questions-concurrency-parallelism
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/plwud_FPvwU/upload/2df40269d7d8c739c429926c49301241.jpeg
-tags: programming-blogs, concurrency, interview-questions
-
+seriesSlug: jvm
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > TL;DR - What are the differences between concurrent and parallel programming?

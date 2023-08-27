@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670955993196/RxaGcdq
 ignorePost: false
 seoTitle: "Avoid Overusing Patterns: Kotlin Code Smell 17"
 seoDescription: "Prevent overusing patterns in Kotlin to enhance code readability. Choose real-world names and strategically apply patterns for optimal results."
-seriesSlug:
+seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
 saveAsDraft: false

@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670923029137/WWJE8X1
 ignorePost: false
 seoTitle: "Eliminating Type Checking: Improve Polymorphism and Code Quality"
 seoDescription: "Learn how to enhance code quality by replacing instance type checking with polymorphism. Eliminate coupling, improve flexibility, and simplify your codebase"
-seriesSlug:
+seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
 saveAsDraft: false

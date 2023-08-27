@@ -37,6 +37,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [How does HashMap work in Java?](008-how-does-hashmap-work-in-java.md)
 - [How to Break Your HashMap in Less Than a Minute](014-how-to-break-your-hashmap-in-less-than-a-minute.md)
 - [Building Your Domain Gateway With OpenAPI](025-building-your-domain-gateway-with-openapi.md)
+- [[Interview Questions] Concurrency vs. Parallelism: Decoding the Simultaneous Illusion](040-interview-questions-concurrency-parallelism.md)
 
 ### Kotlin Code Smells
 
