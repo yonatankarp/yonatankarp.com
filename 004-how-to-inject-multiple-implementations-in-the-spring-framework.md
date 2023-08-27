@@ -1,13 +1,24 @@
 ---
 title: "How to inject multiple implementations in the Spring Framework"
+subtitle: ""
+slug: how-to-inject-multiple-implementations-in-the-spring-framework
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: guide, kotlin, springboot, kotlin-beginner, solid-principles
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/MfnX4XtGnvU/upload/v1644563552394/x8pQZB0mQ.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Inject Multiple Implementations in Spring Framework: Simplify Code and"
 seoDescription: "Learn how to inject multiple implementations in Spring Framework, supporting multiple languages and simplifying your code for improved scalability."
-datePublished: Fri Feb 11 2022 07:11:41 GMT+0000 (Coordinated Universal Time)
-cuid: ckzi2napx03uyt1s1f3o5chsm
-slug: how-to-inject-multiple-implementations-in-the-spring-framework
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/MfnX4XtGnvU/upload/v1644563552394/x8pQZB0mQ.jpeg
-tags: guide, kotlin, springboot, kotlin-beginner, solid-principles
-
+seriesSlug: spring-boot
+# Table of contents
+enableToc: false
+saveAsDraft: false
 ---
 
 Recently, I had a discussion with one of my colleagues during a code review. We talked about a hidden gem in Spring (as well as other frameworks like Micronaut) that could simplify our code.
