@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 23 - Singletons"
+subtitle: "One Too Many: The Slippery Slope of Singleton Patterns"
+slug: kotlin-code-smell-23-singletons
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4CdIv6SZkck/upload/02fa10cef1c8aea07fab21dab0baa64f.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Kotlin Code Smell 23: Singletons - Harmful Design Pattern"
 seoDescription: "Discover the problems of singletons in Kotlin, from coupling to memory issues. Learn better solutions for improved software designץ"
-datePublished: Fri Jul 28 2023 08:00:09 GMT+0000 (Coordinated Universal Time)
-cuid: clkmamtcn000709l0cmjccmrm
-slug: kotlin-code-smell-23-singletons
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/4CdIv6SZkck/upload/02fa10cef1c8aea07fab21dab0baa64f.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 ## Problem
 

@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 22 - Accidental Methods on Business Objects"
+subtitle: "Bloated Cars & Code: When Your Objects Carry Too Much Junk in the Trunk"
+slug: kotlin-code-smell-22-accidental-methods-on-business-objects
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/XTZHvQ9MUKI/upload/8f397712cf318923e98a36e9d5fde76b.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Clean Code: Avoiding Accidental Methods on Business Objects"
 seoDescription: "Learn how to improve code quality by separating unrelated concerns from business objects. Prevent coupling and maintain readability."
-datePublished: Wed Jul 26 2023 08:00:09 GMT+0000 (Coordinated Universal Time)
-cuid: clkjfr402000v09kx01iagibx
-slug: kotlin-code-smell-22-accidental-methods-on-business-objects
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/XTZHvQ9MUKI/upload/8f397712cf318923e98a36e9d5fde76b.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 Adding code for persistence, serialization, displaying, importing, and exporting to an object can lead to bloating its protocol and create unnecessary coupling.
 

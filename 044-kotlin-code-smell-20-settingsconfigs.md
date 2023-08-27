@@ -1,14 +1,26 @@
 ---
 title: "Kotlin Code Smell 20 - Settings/Configs"
+subtitle: "Settings Spaghetti: When Configurations Go Wild..."
+slug: kotlin-code-smell-20-settingsconfigs
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/REZp_5-2wzA/upload/68a1cba84b003c37b553a9dfd0a20256.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Optimizing Software Behavior: Polymorphic Objects Avoiding Duplication"
 seoDescription: "Improve software behavior with polymorphic objects. Learn how to avoid duplicated code and enhance testability for clean, declarative systems."
-datePublished: Sat Jul 22 2023 07:47:05 GMT+0000 (Coordinated Universal Time)
-cuid: clkdpiwqq000909l31wme6y5m
-slug: kotlin-code-smell-20-settingsconfigs
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/REZp_5-2wzA/upload/68a1cba84b003c37b553a9dfd0a20256.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
+
 
 ## Problem
 

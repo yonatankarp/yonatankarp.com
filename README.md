@@ -61,6 +61,10 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 17 - Pattern Abusers](039-kotlin-code-smell-17-pattern-abusers.md)
 - [Kotlin Code Smell 18 - Arrays Abusers](042-kotlin-code-smell-18-arrays-abusers.md)
 - [Kotlin Code Smell 19 - Setters](043-kotlin-code-smells-19-setters.md)
+- [Kotlin Code Smell 20 - Settings/Configs](044-kotlin-code-smell-20-settingsconfigs.md)
+- [Kotlin Code Smell 21 - Mocking Business](045-kotlin-code-smell-21-mocking-business.md)
+- [Kotlin Code Smell 22 - Accidental Methods on Business Objects](046-kotlin-code-smell-22-accidental-methods-on-business-objects.md)
+- [Kotlin Code Smell 23 - Singletons](047-kotlin-code-smell-23-singletons.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)

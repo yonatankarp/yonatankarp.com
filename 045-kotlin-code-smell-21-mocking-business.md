@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 21 - Mocking Business"
+subtitle: "Mockumentary: When Your Test Takes Acting Too Far"
+slug: kotlin-code-smell-21-mocking-business
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZLe2BnUZuKA/upload/c629759eea86662fe138045c0357ba87.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Code Smell 21 - Mocking Business: Best Practices and Solutions"
 seoDescription: "Learn how to avoid code complexity and false security by mocking non-business entities. Find best practices and solutions for maintainable tests."
-datePublished: Mon Jul 24 2023 08:30:09 GMT+0000 (Coordinated Universal Time)
-cuid: clkglxzg3000o0ajq69x0dcm2
-slug: kotlin-code-smell-21-mocking-business
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZLe2BnUZuKA/upload/c629759eea86662fe138045c0357ba87.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 ## Problem
