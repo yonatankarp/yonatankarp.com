@@ -31,7 +31,8 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [How to Write a Robust REST API with OpenAPI](002-how-to-write-a-robust-rest-api-with-openapi.md)
 - [How to inject multiple implementations in the Spring Framework](004-how-to-inject-multiple-implementations-in-the-spring-framework.md)
 - [Create a Custom Spring Boot App Banner](011-create-a-custom-spring-boot-app-banner.md)
-- 
+- [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](060-observability-in-action-part-1.md)
+- [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-2.md)
 
 ### JVM
 
