@@ -1,13 +1,24 @@
 ---
 title: "Kotlin Code Smell 15 - Helper Classes"
+subtitle: "Goodbye Helpers, Hello Clean Code!"
+slug: kotlin-code-smell-15-helper-classes
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670916375024/94ycSUHnD.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "Avoid Code Smell: Refactor Helper Classes for Better Code Quality"
 seoDescription: "Learn how to improve code quality by refactoring helper classes. Discover why static methods and anonymous functions are code smells in Kotlin."
-datePublished: Wed Dec 21 2022 08:00:45 GMT+0000 (Coordinated Universal Time)
-cuid: clbxd818b00j4qonveyffcm79
-slug: kotlin-code-smell-15-helper-classes
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670916375024/94ycSUHnD.jpeg
-tags: programming-blogs, kotlin, clean-code, kotlin-beginner, code-smell-1
-
+seriesSlug: kotlin-code-smells
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Helpers are non-cohesive and messy subroutines that don't actually help.

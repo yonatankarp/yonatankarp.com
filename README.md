@@ -21,6 +21,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
  - [Build your own Twitter Bot with Kotlin](001-build-your-own-twitter-bot-with-kotlin)
  - [4 Reasons Why Amazon Keyspaces is Problematic!](003-4-reasons-why-amazon-keyspaces-is-problematic.md)
+ - [ChatGPT will not replace engineers any time soon...](032-chatgpt-will-not-replace-engineers-any-time-soon.md)
  - 
 
 ### Spring Boot
@@ -52,6 +53,9 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 12 - Ripple Effect](028-kotlin-code-smell-12-ripple-effect.md)
 - [Kotlin Code Smell 13 - Companion Object Functions](029-kotlin-code-smell-13-companion-object-functions.md)
 - [Kotlin Code Smells 14 - Anonymous Functions Abusers](031-kotlin-code-smells-14-anonymous-functions-abusers.md)
+- [Kotlin Code Smell 15 - Helper Classes](033-kotlin-code-smell-15-helper-classes.md)
+
+
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
 - [Advent of Code 2022 (Day 2) - Kotlin Edition](009-advent-of-code-2022-day-2-kotlin-edition.md)
@@ -62,3 +66,5 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Advent of Code 2022 (Day 7) - Kotlin Edition](020-advent-of-code-2022-day-7-kotlin-edition.md)
 - [Advent of Code 2022 (Day 8) - Kotlin Edition](023-advent-of-code-2022-day-8-kotlin-edition.md)
 - [Advent of Code 2022 (Day 9) - Kotlin Edition](030-advent-of-code-2022-day-9-kotlin-edition.md)
+- [Advent of Code 2022 (Day 10) - Kotlin Edition](034-advent-of-code-2022-day-10-kotlin-edition.md)
+- [Advent of Code 2022 (Day 11) - Kotlin Edition](035-advent-of-code-2022-day-11-kotlin-edition.md)

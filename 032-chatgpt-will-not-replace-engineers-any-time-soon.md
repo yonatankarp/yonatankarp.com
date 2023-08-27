@@ -1,13 +1,24 @@
 ---
 title: "ChatGPT will not replace engineers any time soon..."
+subtitle: "Decoding ChatGPT's Code Generation: Brilliance, Bugs, and Beyond"
+slug: chatgpt-will-not-replace-engineers-any-time-soon
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+tags: ai, programming-blogs, kotlin, chatgpt
+domain: https://yonatankarp.com
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+#   Use the URL that is generated after the upload.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671606370056/KIcOnI_Q1.jpeg
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# - It's useful when you want to keep the post in your repo but don't
+#   want it to be picked up by Hashnode.
+ignorePost: false
 seoTitle: "ChatGPT vs. Engineers: Can ChatGPT Replace Software Developers?"
 seoDescription: "Explore the capabilities of ChatGPT in coding tasks. Discover its limitations and why it won't replace software engineers anytime soon."
-datePublished: Wed Dec 21 2022 07:06:30 GMT+0000 (Coordinated Universal Time)
-cuid: clbxba9g8000808mngfai67xb
-slug: chatgpt-will-not-replace-engineers-any-time-soon
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671606370056/KIcOnI_Q1.jpeg
-tags: ai, programming-blogs, kotlin, chatgpt
-
+seriesSlug:
+# Table of contents
+enableToc: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** ChatGPT generates terrible buggy code faster than the average software developer.
