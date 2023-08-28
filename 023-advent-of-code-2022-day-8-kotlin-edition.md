@@ -331,3 +331,5 @@ See you on the next challenge!
 *   The code of this post is available [here](https://github.com/yonatankarp/advent-of-code/commit/5e24d301f1b7a1c312b92a083371b550c76398f5).
     
 *   [AoC](https://github.com/nibarius/aoc) by Niklas Barsk
+
+%%[contact-me]

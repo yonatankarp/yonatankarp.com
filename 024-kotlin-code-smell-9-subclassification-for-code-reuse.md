@@ -92,11 +92,7 @@ class Box(size: Int) {
 
 In legacy systems, it is common to have deep hierarchies and method overriding. However, it is important to refactor them and subclass them for essential reasons rather than implementation reasons.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## More info
 

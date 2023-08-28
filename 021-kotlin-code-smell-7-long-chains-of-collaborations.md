@@ -91,11 +91,7 @@ fun main() {
 
 Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols. This way, not only will you protect your code from breaking in the future, but you will also maintain good encapsulation of your class.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## More Info
 

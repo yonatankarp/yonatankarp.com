@@ -562,11 +562,7 @@ In this article, I have explained the benefits of aggregating your services into
 
 All code examples in this article are available in my GitHub repository: [https://github.com/yonatankarp/domain-gateway-demo](https://github.com/yonatankarp/domain-gateway-demo)
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## More Information
 
