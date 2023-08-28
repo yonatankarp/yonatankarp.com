@@ -275,7 +275,11 @@ Enhancing your codebase with OpenTelemetry allows you to monitor your service an
 
 In the next article, we will show how to correctly instrument a Spring filter for our service.
 
-%%[contact-me]
+---
+
+I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Acknowledgments
 
