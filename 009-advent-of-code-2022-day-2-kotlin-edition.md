@@ -294,5 +294,3 @@ class GameResultCalculator {
 ```
 
 That's it, we're done! I hope that you enjoyed it as much as I did!
-
-%%[contact-me]
