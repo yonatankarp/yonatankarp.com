@@ -75,6 +75,4 @@ So, what did we learn? Nothing is set in stone. What initially seemed like a goo
 
 Applying practices from the engineering world to real-life problems can yield significant benefits. Many of our problems have already been solved in different contexts, and we can learn from those solutions to address our own needs.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+%%[contact-me]

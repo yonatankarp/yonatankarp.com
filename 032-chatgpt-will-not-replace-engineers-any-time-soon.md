@@ -383,11 +383,7 @@ private fun Int.getCycleSignal(cycle: Int, register: Int): Int =
 
 While ChatGPT seems to work nicely for human interactions, it works poorly when generating code from requirements. It can be used as inspiration for your code, but as you have seen, at some point, I just started debugging someone else's code, and the code became very messy. That's why I don't believe that ChatGPT will replace us any time soon. We're safe. For now.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## More Information:
 

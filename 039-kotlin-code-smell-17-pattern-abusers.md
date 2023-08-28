@@ -94,13 +94,8 @@ class Portfolio {
 
 Choose when to apply a pattern solution. You are not being [smarter](https://yonatankarp.com/kotlin-code-smell-005-too-clever-for-your-own-good) by using too many patterns. You are smart if you choose the right opportunity to use the patterns.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## Credits
 
 * [Code Smell 25 - Pattern Abusers](https://maximilianocontieri.com/code-smell-25-pattern-abusers) by @[Maximiliano Contieri](@mcsee)
-* 
