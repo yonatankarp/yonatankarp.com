@@ -18,7 +18,7 @@ seoDescription: "Improve your Kotlin testing practices by identifying and resolv
 seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Steer clear of non-deterministic tests..

@@ -74,6 +74,7 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 31 - Not Polymorphic](055-kotlin-code-smell-31-not-polymorphic.md)
 - [Kotlin Code Smell 32 - Repeated Code](056-kotlin-code-smell-32-repeated-code.md)
 - [Kotlin Code Smell 33 - Caches](057-kotlin-code-smell-33-caches.md)
+- [Kotlin Code Smell 34 - Fragile Tests](058-kotlin-code-smell-34-fragile-tests.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
@@ -90,7 +91,6 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
 ### Drafts
 
-- [Kotlin Code Smell 34 - Fragile Tests](058-kotlin-code-smell-34-fragile-tests.md)
 - [Kotlin Code Smell 35 - Explicit Iteration](059-kotlin-code-smell-35-explicit-iteration.md)
 - [Kotlin Code Smell 36 - Object Coupling](060-kotlin-code-smell-36-object-coupling.md)
 - [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-1.md)
