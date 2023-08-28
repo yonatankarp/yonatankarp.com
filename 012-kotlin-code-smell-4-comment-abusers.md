@@ -84,15 +84,11 @@ class ChatBotConnectionSequenceGenerator(
 }
 ```
 
+%%[contact-me]
+
 # Conclusion
 
 Leave comments just for important design decisions. Don't comment on a method with a bad name, rename it. Code changes over time, while documentation rarely does, which causes your code to end up with outdated documentation at best, or wrong documentation at worst.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 # More info
 

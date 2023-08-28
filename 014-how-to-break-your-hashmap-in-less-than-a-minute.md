@@ -171,12 +171,10 @@ if (map.containsKey(myInteger)) {
 
 If you are using an older version of Java, you can still achieve this functionality with [Project Lombok](https://projectlombok.org/) by using the `@Value` annotation. More details are available [here](https://projectlombok.org/features/Value).
 
+%%[contact-me]
+
 # Conclusion
 
 ![](https://cdn-images-1.medium.com/max/1600/0*J4M6sTFLBqyDRLw8 align="left")
 
 Whenever you use a HashMap (in Java or any other language), make sure you use immutable objects as keys. Otherwise, it might lead to unexpected behavior in your code during its execution.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
