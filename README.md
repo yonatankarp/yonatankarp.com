@@ -31,9 +31,6 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [How to Write a Robust REST API with OpenAPI](002-how-to-write-a-robust-rest-api-with-openapi.md)
 - [How to inject multiple implementations in the Spring Framework](004-how-to-inject-multiple-implementations-in-the-spring-framework.md)
 - [Create a Custom Spring Boot App Banner](011-create-a-custom-spring-boot-app-banner.md)
-- [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-1.md)
-- [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](062-observability-in-action-part-2.md)
-- [Observability in Action Part 3: Enhancing Your Codebase with OpenTelemetry](063-observability-in-action-part-3.md)
 
 ### JVM
 
@@ -77,9 +74,6 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Kotlin Code Smell 31 - Not Polymorphic](055-kotlin-code-smell-31-not-polymorphic.md)
 - [Kotlin Code Smell 32 - Repeated Code](056-kotlin-code-smell-32-repeated-code.md)
 - [Kotlin Code Smell 33 - Caches](057-kotlin-code-smell-33-caches.md)
-- [Kotlin Code Smell 34 - Fragile Tests](058-kotlin-code-smell-34-fragile-tests.md)
-- [Kotlin Code Smell 35 - Explicit Iteration](059-kotlin-code-smell-35-explicit-iteration.md)
-- [Kotlin Code Smell 36 - Object Coupling](060-kotlin-code-smell-36-object-coupling.md)
 
 ### Advent of Code
 - [Advent of Code 2022 (Day 1) - Kotlin Edition](007-advent-of-code-2022-day-1-kotlin-edition.md)
@@ -93,3 +87,12 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [Advent of Code 2022 (Day 9) - Kotlin Edition](030-advent-of-code-2022-day-9-kotlin-edition.md)
 - [Advent of Code 2022 (Day 10) - Kotlin Edition](034-advent-of-code-2022-day-10-kotlin-edition.md)
 - [Advent of Code 2022 (Day 11) - Kotlin Edition](035-advent-of-code-2022-day-11-kotlin-edition.md)
+
+### Drafts
+
+- [Kotlin Code Smell 34 - Fragile Tests](058-kotlin-code-smell-34-fragile-tests.md)
+- [Kotlin Code Smell 35 - Explicit Iteration](059-kotlin-code-smell-35-explicit-iteration.md)
+- [Kotlin Code Smell 36 - Object Coupling](060-kotlin-code-smell-36-object-coupling.md)
+- [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-1.md)
+- [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](062-observability-in-action-part-2.md)
+- [Observability in Action Part 3: Enhancing Your Codebase with OpenTelemetry](063-observability-in-action-part-3.md)
