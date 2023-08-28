@@ -556,17 +556,13 @@ helloApi.hello("Yonatan")
 goodbyeApi.goodbye("Yonatan")
 ```
 
+%%[contact-me]
+
 ## Conclusion
 
 In this article, I have explained the benefits of aggregating your services into a domain gateway. We have used the power of OpenAPI to ensure the robustness of our API, both publicly (for our clients) and internally (between our services).
 
 All code examples in this article are available in my GitHub repository: [https://github.com/yonatankarp/domain-gateway-demo](https://github.com/yonatankarp/domain-gateway-demo)
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## More Information
 

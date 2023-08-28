@@ -88,6 +88,8 @@ fun main() {
 }
 ```
 
+%%[contact-me]
+
 ## Conclusion
 
 Using companion object methods pollutes the class protocol with "library methods," which breaks cohesion and generates coupling. It is advisable to extract them through refactorings.
@@ -95,12 +97,6 @@ Using companion object methods pollutes the class protocol with "library methods
 We cannot manipulate companion classes and use them polymorphically, so we can't mock or test them effectively.
 
 As a result, we end up with a globally accessible reference that is challenging to decouple.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## More info
 
