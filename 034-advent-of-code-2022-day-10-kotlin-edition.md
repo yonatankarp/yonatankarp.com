@@ -559,5 +559,3 @@ See you on the next challenge!
 ## Links
 
 *   The code of this post is available [here](https://github.com/yonatankarp/advent-of-code/commit/b70ad017c77cc9907d849de604aa57fdabdf1401).
-
-%%[contact-me]

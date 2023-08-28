@@ -1040,5 +1040,3 @@ See you on the next challenge!
 ## Links
 
 *   The code of this post is available [here](https://github.com/yonatankarp/advent-of-code/commit/7fddacb65553d920d33a505a615050f4e1f94563).
-
-%%[contact-me]

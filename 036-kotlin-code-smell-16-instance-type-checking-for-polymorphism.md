@@ -102,7 +102,11 @@ fun main() {
 
 Testing for a class type [**couples**](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem) objects with [**accidental decisions**](https://maximilianocontieri.com/no-silver-bullet) and violates [**bijection**](https://maximilianocontieri.com/the-one-and-only-software-design-principle) since no such control exists in the real world. It is a code smell that indicates our models are not good enough.
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Credits
 

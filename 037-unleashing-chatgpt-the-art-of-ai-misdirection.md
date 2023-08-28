@@ -65,4 +65,6 @@ At this point, I informed ChatGPT that I believed its answer was incorrect, and 
 
 As I previously mentioned, ChatGPT is an incredible tool that can be immensely helpful. However, **PLEASE** refrain from accepting its outputs as factual information. It can be easily manipulated to suit your preferences. Never rely solely on ChatGPT's responses as absolute facts.
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!

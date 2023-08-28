@@ -138,7 +138,11 @@ However, these names are causing harm and should be reconsidered.
 
 It is essential for developers to let go of old habits and be aware of the negative impact these names can have.
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Credits
 
