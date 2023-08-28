@@ -100,7 +100,11 @@ fun primeFactors(numberToFactor: Int): ArrayList<Int> {
 
 Developers who are too clever for their own good write cryptic code to brag. Smart developers write clean code. Clear beats clever!
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## Credits
 

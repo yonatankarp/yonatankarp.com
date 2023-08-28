@@ -75,7 +75,11 @@ fun processBatch(
 
 Exercise caution when using booleans. Flags make code maintenance and extension challenging. Gain a better understanding of the domain and consider migrating to the [**state design pattern**](https://en.wikipedia.org/wiki/State_pattern). Utilize polymorphism instead of if statements or when expressions (pattern matching).
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 # More Info
 
