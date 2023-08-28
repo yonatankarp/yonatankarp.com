@@ -396,15 +396,11 @@ networks:
     name: cat-fact-service-network
 ```
 
+%%[contact-me]
+
 ## Conclusion
 
 In this part of the Observability in Action series, we demonstrated how to build a Spring-based service that returns cat facts, saves them to a database, and sends them back to the caller. We covered loading facts into a request context, storing and reading facts, Dockerizing the project, and setting up docker-compose for easy deployment. Stay tuned for the upcoming parts of the series, where we will explore instrumenting the service, integrating OpenTelemetry Collector, and more.
-
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Acknowledgments
 

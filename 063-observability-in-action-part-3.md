@@ -269,17 +269,13 @@ Activate the entire configuration using `docker-compose`:
 $ docker compose up
 ```
 
+%%[contact-me]
+
 ## Conclusion
 
 Enhancing your codebase with OpenTelemetry allows you to monitor your service and gain valuable insights into its behavior. By integrating [HoneyComb.io](http://HoneyComb.io), the OpenTelemetry SDK, and the agent, you can effectively set up observability for your service while also benefiting from HoneyComb's powerful analysis tools. This process involves updating the bootRun task, Dockerfile, and docker-compose.yml file, as well as setting up [HoneyComb.io](http://HoneyComb.io) for tracing.
 
 In the next article, we will show how to correctly instrument a Spring filter for our service.
-
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Acknowledgments
 
