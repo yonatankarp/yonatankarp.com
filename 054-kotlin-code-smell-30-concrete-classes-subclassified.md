@@ -89,11 +89,7 @@ After subclassing, the parent class should be abstract.
 
 Java made this mistake, and they're regretting it until now. Let's do better than Java 😁
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## Credits
 

@@ -121,11 +121,7 @@ class Inbox(private val books: Cache<Book> = mutableMapOf()) {
 
 Caches should be functional and intelligent, allowing for effective management of invalidation. General-purpose caches are best suited for low-level objects like operating systems, files, and streams, while domain objects should not be cached.
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## Credits
 

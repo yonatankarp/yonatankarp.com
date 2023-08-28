@@ -105,11 +105,7 @@ Fragile tests often indicate system coupling and manifest as non-deterministic o
 
 Addressing and resolving these erratic tests can drain considerable developer time and energy.
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## Credits
 
