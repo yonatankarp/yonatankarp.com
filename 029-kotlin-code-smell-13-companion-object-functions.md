@@ -96,7 +96,11 @@ We cannot manipulate companion classes and use them polymorphically, so we can't
 
 As a result, we end up with a globally accessible reference that is challenging to decouple.
 
-%%[contact-me]
+---
+
+Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+
+---
 
 ## More info
 

@@ -328,5 +328,3 @@ fun `Part 2 - Real Input`() {
 All of the code that was presented in the article, along with the utility classes that are used are available in [**my GitHub account.**](https://github.com/yonatankarp/advent-of-code)
 
 See you on the next challenge!
-
-%%[contact-me]
