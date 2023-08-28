@@ -109,15 +109,11 @@ fun main() {
 }
 ```
 
+%%[contact-me]
+
 # Conclusion
 
 Humans read code, and while software can handle anonymous functions, maintainability suffers when multiple closures are used. By extracting functionality into objects, we can improve code reuse and maintainability.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 # Credits
 

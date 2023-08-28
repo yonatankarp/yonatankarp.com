@@ -71,10 +71,8 @@ When initially planning our trip, we intended to spend one month in Thailand and
 
 So, what did we learn? Nothing is set in stone. What initially seemed like a good fit could turn out to be a poor match. Always be open to changes based on the user's needs. We could have stubbornly stuck to our original plan, reasoning that everything was already set. However, by modifying our plan, we crafted a vacation that was better suited to our preferences.
 
+%%[contact-me]
+
 ## Conclusion
 
 Applying practices from the engineering world to real-life problems can yield significant benefits. Many of our problems have already been solved in different contexts, and we can learn from those solutions to address our own needs.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!

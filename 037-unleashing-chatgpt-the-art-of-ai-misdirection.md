@@ -61,10 +61,8 @@ At this point, I informed ChatGPT that I believed its answer was incorrect, and 
 > 
 > This worst-case time complexity arises when the array is sorted in descending order, necessitating a complete pass over the array during each of the n iterations of the outer loop. On each iteration, it performs n-1 comparisons, resulting in a total of n *(n-1)* (n-2) *...* 1 comparisons, which equals n!.
 
+%%[contact-me]
+
 ## Conclusion
 
 As I previously mentioned, ChatGPT is an incredible tool that can be immensely helpful. However, **PLEASE** refrain from accepting its outputs as factual information. It can be easily manipulated to suit your preferences. Never rely solely on ChatGPT's responses as absolute facts.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
