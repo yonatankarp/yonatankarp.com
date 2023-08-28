@@ -69,6 +69,4 @@ while (true) {
 
 Concurrency and parallelism are related but distinct concepts. Concurrency is the ability to perform many tasks concurrently or at the same time. Parallelism is the ability to execute many tasks simultaneously using different processors or cores. In other words, parallelism is a special case of concurrency where many tasks are running at the same time. Moreover, concurrency can be achieved with 1 CPU or even a single thread.
 
----
-
-I hope you enjoyed it and learned something new. If you want to keep up with my latest thoughts and ideas, you can subscribe to my [newsletter](https://yonatankarp.com/newsletter). You can also find me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
+%%[contact-me]

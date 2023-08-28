@@ -125,11 +125,7 @@ In this way, our code will be more declarative, clean, and testable. It is not a
 
 > A system with 300 Boolean configurations has more test combinations (2 ^ 300) than the number of atoms in the universe (10 ^ 80).
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
+%%[contact-me]
 
 ## Credits
 
