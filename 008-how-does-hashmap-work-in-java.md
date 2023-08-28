@@ -119,6 +119,8 @@ A HashSet is a set (an unordered collection of elements), where the same hash co
 
 We can easily implement a `HashSet` using `HashMap`. We will do so by using our value for the set as the key for the map and null as the value. In fact, that’s again exactly the implementation Java chose.
 
+%%[contact-me]
+
 ### Conclusion
 
 As you can see, the question covers many areas:
@@ -128,15 +130,8 @@ As you can see, the question covers many areas:
 * Understanding of Java internals
     
 * Checking how the candidate thinks in case they do not remember the internals of Java (to be clear, nobody expects the Wikipedia answer to this question)
-    
 
 Moreover, the question could be extended to cover more topics such as concurrency, for example (how would you implement distributed HashMap?).
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ### Resources
 

@@ -83,15 +83,11 @@ class ChessBoard() {
 }
 ```
 
+%%[contact-me]
+
 ## Conclusion
 
 Extract long methods into smaller pieces. Break down complex algorithms into parts. This approach allows for easier unit testing and improves readability while ensuring the correct level of abstraction in your method.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## More info
 

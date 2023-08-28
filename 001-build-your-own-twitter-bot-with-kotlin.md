@@ -156,6 +156,7 @@ If everything is successful, you should see the following output in your debug t
 
 Congratulations! Your bot is now functional!
 
+%%[contact-me]
+
 The completed bot is available in the repository mentioned in Step 2, under the branch name `complete_bot` at [https://github.com/yonatankarp/twitter-bot/tree/complete\_bot](https://github.com/yonatankarp/twitter-bot/tree/complete_bot).
 
-%%[contact-me]
