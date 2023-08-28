@@ -85,7 +85,8 @@ val confirmedOrder = pendingOrder.copy(state = OrderStateConfirmed)
 * Over Design
     
 * Performance issues (if a serious benchmark supports it).
-    
+
+%%[contact-me]    
 
 ## Conclusion
 
@@ -94,12 +95,6 @@ This technique is elegant but can lead to overdesign. For example, changing a vi
 We should be aware and very cautious as with any other smell.
 
 These are hints and not rigid rules.
-
----
-
-Stay updated with my latest thoughts and ideas by registering for my [newsletter](https://yonatankarp.com/newsletter). Connect with me on [LinkedIn](https://www.linkedin.com/in/yonatankarp/) or [Twitter](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Credits
 

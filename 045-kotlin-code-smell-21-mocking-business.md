@@ -99,7 +99,8 @@ class PaymentTest {
 ## Exceptions
 
 * Mocking accidental problems (serialization, databases, APIs) is a very good habit to avoid coupling.
-    
+
+%%[contact-me]    
 
 ## Conclusion
 
@@ -107,11 +108,6 @@ Mocks, like other test doubles, are valuable tools. Using them judiciously is an
 
 Imagine a play in which each actor, instead of rehearsing with other actors, had to interact with 25 scriptwriters. The actors would never rehearse together. How would the result of the play be?
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Credits
 

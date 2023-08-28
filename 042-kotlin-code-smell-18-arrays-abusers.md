@@ -123,6 +123,8 @@ val coordinates = GeographicCoordinate(
 
 Many people suffer from **primitive obsession** and believe this is over-design. Designing software is about making decisions and comparing trade-offs. The performance argument is not valid nowadays since modern virtual machines can efficiently deal with small short-lived objects.
 
+%%[contact-me]
+
 ## **Conclusion**
 
 When creating objects, we must not think of them as *data*. This is a common misconception.
@@ -131,11 +133,6 @@ We should stay loyal to our [**Bijection**](https://maximilianocontieri.com/the-
 
 Most associative arrays have cohesion and represent real-world entities, and we must treat them as first-class objects.
 
----
-
-Stay updated with my latest thoughts and ideas by registering for my [**newsletter**](https://yonatankarp.com/newsletter). Connect with me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Credits
 
