@@ -68,17 +68,14 @@ Should the problem domain necessitate elements being mapped to natural numbers l
 
 Always strive to draw parallels with real-world scenarios.
 
+%%[contact-me]
+
 ## Conclusion
 
 Many developers overlook this kind of code smell, dismissing it as a minor detail.
 
 Yet, it's the accumulation of such declarative nuances that truly elevates code quality.
 
----
-
-I hope you enjoyed this journey and learned something new. If you want to stay updated with my latest thoughts and ideas, feel free to register for my [**newsletter**](https://yonatankarp.com/newsletter). You can also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or [**Twitter**](https://twitter.com/yonatan_karp). Let's stay connected and keep the conversation going!
-
----
 
 ## Credits
 
