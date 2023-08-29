@@ -31,12 +31,12 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 - [How to Write a Robust REST API with OpenAPI](002-how-to-write-a-robust-rest-api-with-openapi.md)
 - [How to inject multiple implementations in the Spring Framework](004-how-to-inject-multiple-implementations-in-the-spring-framework.md)
 - [Create a Custom Spring Boot App Banner](011-create-a-custom-spring-boot-app-banner.md)
+- [Building Your Domain Gateway With OpenAPI](025-building-your-domain-gateway-with-openapi.md)
 
 ### JVM
 
 - [How does HashMap work in Java?](008-how-does-hashmap-work-in-java.md)
 - [How to Break Your HashMap in Less Than a Minute](014-how-to-break-your-hashmap-in-less-than-a-minute.md)
-- [Building Your Domain Gateway With OpenAPI](025-building-your-domain-gateway-with-openapi.md)
 - [[Interview Questions] Concurrency vs. Parallelism: Decoding the Simultaneous Illusion](040-interview-questions-concurrency-parallelism.md)
 
 ### Kotlin Code Smells

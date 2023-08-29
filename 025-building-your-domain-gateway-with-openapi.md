@@ -15,7 +15,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670595100693/5hdHlH6
 ignorePost: false
 seoTitle: "Build a Domain Gateway: Aggregating Microservices with OpenAPI"
 seoDescription: "Learn how to build a Domain Gateway using OpenAPI to aggregate microservices, ensure API robustness, and improve communication between services."
-seriesSlug: jvm
+seriesSlug: spring-boot
 # Table of contents
 enableToc: true
 saveAsDraft: false
