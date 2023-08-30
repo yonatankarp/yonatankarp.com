@@ -18,7 +18,7 @@ seoDescription: "Boost your Kotlin coding skills by eliminating explicit iterati
 seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > ***TL;DR:*** Avoid index-based iteration. Embrace higher-order collection functions.
