@@ -18,7 +18,7 @@ seoDescription: "Boost Kotlin code quality by avoiding object coupling, respecti
 seriesSlug: kotlin-code-smells
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Respect object boundaries: avoid coupling to data and prioritize interfaces and behavior.
