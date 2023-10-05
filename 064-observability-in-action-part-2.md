@@ -18,7 +18,7 @@ seoDescription: "Elevate your codebase with OpenTelemetry. Create a Spring servi
 seriesSlug: spring-boot
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Enhancing your codebase with OpenTelemetry involves building a service that returns cat facts, saves them to a database, and sends them back to the caller. This is demonstrated using a Spring-based service, loading facts into a request context, storing and reading facts, Dockerizing the project, and setting up docker-compose for easy deployment.
