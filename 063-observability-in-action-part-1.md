@@ -18,7 +18,7 @@ seoDescription: "Boost Kotlin code with OpenTelemetry for observability. Learn t
 seriesSlug: spring-boot
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** In this article, you'll learn how to build a client library for fetching cat facts from an API using Kotlin. The library can handle multiple concurrent API calls and return unique facts. OpenTelemetry and service instrumentation will be covered in later parts of this series to enhance observability.
