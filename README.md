@@ -95,6 +95,6 @@ also find me on [**LinkedIn**](https://www.linkedin.com/in/yonatankarp/) or
 
 
 
-- [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](061-observability-in-action-part-1.md)
-- [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](062-observability-in-action-part-2.md)
-- [Observability in Action Part 3: Enhancing Your Codebase with OpenTelemetry](063-observability-in-action-part-3.md)
+- [Observability in Action Part 1: Enhancing Your Codebase with OpenTelemetry](063-observability-in-action-part-1.md)
+- [Observability in Action Part 2: Enhancing Your Codebase with OpenTelemetry](064-observability-in-action-part-2.md)
+- [Observability in Action Part 3: Enhancing Your Codebase with OpenTelemetry](065-observability-in-action-part-3.md)
