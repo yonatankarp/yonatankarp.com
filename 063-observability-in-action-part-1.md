@@ -33,15 +33,13 @@ To wrap up, we'll integrate an OpenTelemetry collector into our service. This wi
 
 ### Series Outline
 
-* Part 1 - Build Client Library ⬅ You are here
+* [Part 1 - Build Client Library](https://yonatankarp.com/observability-in-action-part-1-enhancing-your-codebase-with-opentelemetry) ⬅ You are here
 
-* Part 2 - Build the Service
+* [Part 2 - Build the Service](https://yonatankarp.com/observability-in-action-part-2-enhancing-your-codebase-with-opentelemetry)
 
 * Part 3 - Instrument the Service
 
-* Part 4 - Instrument a Spring Filter
-
-* Part 5 - Integrate the OpenTelemetry Collector
+* Part 4 - Integrate the OpenTelemetry Collector
 
 
 All code examples for this series are available on GitHub:

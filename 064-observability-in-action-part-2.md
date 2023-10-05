@@ -27,15 +27,13 @@ Welcome to my series on Observability in Action. In this series, I explore vario
 
 ### Series Outline
 
-* Part 1 - Build Client Library
+* [Part 1 - Build Client Library](https://yonatankarp.com/observability-in-action-part-1-enhancing-your-codebase-with-opentelemetry)
 
-* Part 2 - Build the Service ⬅ You are here
+* [Part 2 - Build the Service](https://yonatankarp.com/observability-in-action-part-2-enhancing-your-codebase-with-opentelemetry) ⬅ You are here
 
 * Part 3 - Instrument the Service
 
-* Part 4 - Instrument a Spring Filter
-
-* Part 5 - Integrate the OpenTelemetry Collector
+* Part 4 - Integrate the OpenTelemetry Collector
 
 
 All code examples for this series are available on GitHub:
