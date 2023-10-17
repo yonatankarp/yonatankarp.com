@@ -18,7 +18,7 @@ seoDescription: "Improve codebase performance with OpenTelemetry and Honeycomb.i
 seriesSlug: spring-boot
 # Table of contents
 enableToc: true
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 > **TL;DR:** Enhancing your codebase with OpenTelemetry involves setting up [HoneyComb.io](http://HoneyComb.io), integrating the OpenTelemetry SDK and agent, modifying the bootRun task, running the service locally, updating the Dockerfile, and modifying the docker-compose.yml file. This allows you to monitor your service and gain insights into its behavior.
