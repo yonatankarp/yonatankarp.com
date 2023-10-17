@@ -37,7 +37,7 @@ To wrap up, we'll integrate an OpenTelemetry collector into our service. This wi
 
 * [Part 2 - Build the Service](https://yonatankarp.com/observability-in-action-part-2-enhancing-your-codebase-with-opentelemetry)
 
-* Part 3 - Instrument the Service
+* [Part 3 - Instrument the Service](https://yonatankarp.com/observability-in-action-part-3-enhancing-your-codebase-with-opentelemetry)
 
 * Part 4 - Integrate the OpenTelemetry Collector
 
